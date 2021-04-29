@@ -8,7 +8,7 @@
         While I can understand that there could be an infinite number of other stocks and names in the market – this website, and project, primarily revolves SPY (S&P500 ETF), and observations in tracking its general/daily movements.
         <br><br>
         Other Notes: <br>
-        • This website was built with the premise of executing expriements in PAPER TRADING. <br>
+        • This website was built with the premise of executing experiments in PAPER TRADING. <br>
         • The numbers and figures seen on this platform are wholly fictional and not real.<br>
         • I am no where near any kind of financial expert, and again, built this website to further mine own education and learnings into greater financial literacy. <br>
         • While this website was built for engaging in my own personal interests, its content and findings are open and made for all levels and ages. <br><br>

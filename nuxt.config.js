@@ -12,7 +12,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: "stylesheet", type: "text/css", href: "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" }
+      { rel: "stylesheet", type: "text/css", href: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" }
+    ],
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js' },
+      { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js' },
+      { src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js' },
     ]
   },
 
@@ -24,6 +29,10 @@ export default {
   plugins: [
   ],
 
+
+  script: [
+    // { src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js' },
+  ],
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -31,11 +40,6 @@ export default {
   buildModules: [
   ],
 
-  script: [
-    { src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js' },
-    { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js' },
-    { src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js' }
-  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

@@ -4,7 +4,30 @@
      <div class="row">
        <div class="col-md-12">
         Mostly bios on Youtubers, and other internet personalities related to trading. <br><br>
-        Youtubers, Tik-tok'ers, Kramer, Pres. Biden, Cathie Wood, Jerome Powell, Chamath Palihapitiya, Jim Cramer, Warren Buffett
+        
+        Humbled Trader <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+        
+        Warrior Trading <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+
+        President Biden <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+
+        Cathie Wood <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+
+        Jim Kramer <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+
+        Jerome Powell <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+
+        Chamath Palihapitiya <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+
+        Warren Buffett <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
        </div>
      </div>
    </div>
