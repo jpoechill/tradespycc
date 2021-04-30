@@ -4,6 +4,7 @@
      <div class="row">
        <div class="col-md-12">
 
+
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
@@ -14,11 +15,6 @@
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
          Stocks, with calls and puts options. No limit on # of trades. Hyper aggro. Go big or bust. <br><br>
-         <!-- Buy 100 SPY 400C 5/21 <br>
-         Buy 100 SPY 400C 5/21 <br>
-         Buy 100 SPY 400C 5/21 <br><br> -->
-
-
          Holdings: 0 Shares. Cash: $100,000.00 <br>
          No. of resets: 0 <br><br>
          Goals: <br>
@@ -31,27 +27,6 @@
       </div>
     </div>
   </div>
-  <!-- <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        ACCOUNT 2 – AGGRO 2 ($100,000/$100,000)
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-         Stocks and calls options. 3-5 trades/month, max. <br><br>
-         Buy 100 SPY 400C 5/21 <br>
-         Buy 100 SPY 400C 5/21 <br>
-         Buy 100 SPY 400C 5/21 <br>
-         Buy 100 SPY 400C 5/21 <br>
-         Buy 100 SPY 400C 5/21 <br><br>
-         No. of resets: 0 <br><br>
-         Notes: <br>
-         This is the control group used as a reference point for other accounts that may be tolerable of more risk. The only instances I would hope to make a trade in this account is during cases of imminent disaster, and world catastrophe.
-         <br>
-      </div>
-    </div>
-  </div> -->
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -63,7 +38,7 @@
          Full stocks, along with 3x leverage ETFs. 3-5 trades/month.<br><br>
          Buy 180 shares SPY at $418.60, on 042921. <br><br>
          Holdings: 180 Shares $418.60 ($75,348). Cash: $24,652.00 <br>
-         No. of resets: NA <br><br>
+         No. of resets: 0 <br><br>
          Goals: <br>
          With moderate effort, comfortably beat the average yearly returns for SPY of +13.25%/year.<br><br>
          Notes: <br>
@@ -83,7 +58,7 @@
          Full stocks. Hyper conservative. Control group. Avg. trades: 3-5/year, max.<br><br>
          Buy 238 shares SPY at $418.60, on 042921. <br><br>
          Holdings: 233 Shares @ $418.60 ($99,626.80) Cash: $373.20 <br>
-         No. of resets: 0 <br><br>
+         No. of resets: NA <br><br>
          Goals: <br>
          With minimal effort, comfortably mirror the average yearly returns for SPY of +13.25%/year.<br><br>
          Notes: <br>
@@ -92,27 +67,7 @@
       </div>
     </div>
   </div>
-  <!-- <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFive">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        ACCOUNT 5 – SAFE 2 ($100,000/$100,000)
-      </button>
-    </h2>
-    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-         Full stocks only. Hyper conservative. Control group. Avg. trades: 3-5/year, max.<br><br>
-         Holdings: 0 Shares Cash: $100,000.00 <br>
-         No. of resets: 0 <br><br>
-         Notes: <br>
-         Hoping to buy in here when I think the market will hit its next low point, or major correction. 
-         <br><br>
-         When SPY hits near its 60 day SMA again, I am setting an alert to buy in for this account.
-         <br><br>
-      </div>
-    </div>
-  </div> -->
 </div>
-
 
        </div>
      </div>
@@ -145,7 +100,7 @@ export default {
 
     axios.get('https://cloud.iexapis.com/stable/stock/' + 'SPY' + '/quote?token=pk_d8826aae332a4b1287b1d4399e2f860b')
         .then(function (response) { 
-            self.spyCurr = response.data.high
+            self.spyCurr = response.data.iexRealtimePrice
           })
         .catch(function (error) {
           console.log(error);

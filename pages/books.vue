@@ -30,11 +30,11 @@
         E-books:<br>
         <hr class="my-1">
         <strong>Price-Forecasting Models for iShares Core S&P 500 ETF IVV Stock (Top 100 ETFs By Assets)</strong> <a href="">Link to source.</a><br>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, amet sapiente debitis asperiores maxime fugit nesciunt blanditiis alias! Voluptatem, provident?<br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, amet sapiente debitis asperiores maxime fugit nesciunt blanditiis alias! Voluptatem, provident?<br><br>
         <strong>87% Win Trading S&P 500: Foolproof strategy to profit from the stock market</strong> <a href="">Link to source.</a><br>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, amet sapiente debitis asperiores maxime fugit nesciunt blanditiis alias! Voluptatem, provident?<br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, amet sapiente debitis asperiores maxime fugit nesciunt blanditiis alias! Voluptatem, provident?<br><br>
         <strong>S&P 500 Playbook: The only trends you need to know to make serious money on the stock market</strong> <a href="">Link to source.</a><br>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, amet sapiente debitis asperiores maxime fugit nesciunt blanditiis alias! Voluptatem, provident?<br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, amet sapiente debitis asperiores maxime fugit nesciunt blanditiis alias! Voluptatem, provident?<br><br>
         <strong>S&P 500 Earnings, Valuation, and the Pandemic: A Primer for Investors (Predicting the Markets Topical Study Book 4)</strong> <a href="">Link to source.</a><br>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, amet sapiente debitis asperiores maxime fugit nesciunt blanditiis alias! Voluptatem, provident?
         

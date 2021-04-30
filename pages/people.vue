@@ -8,25 +8,25 @@
         Personalities, Youtubers:<br>
         <hr class="my-1">
         Humbled Trader <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
         Warrior Trading <br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
 
         Investors, Finance Specialists:<br>
         <hr class="my-1">
         Cathie Wood <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
         Jim Kramer <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
         Chamath Palihapitiya <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
         Warren Buffett <br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
 
         World Figures:<br>
         <hr class="my-1">
         President Biden <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
         Jerome Powell <br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br>
 
