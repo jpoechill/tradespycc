@@ -1,6 +1,6 @@
 <template>
   <div>
-   <div class="container mt-5 mb-4">
+   <div class="container mt-4 mb-4">
      <div class="row">
        <div class="col-md-12">
         This is a website built with intents to learn more about the stock market by focusing on a single security – in this case, SPY. <br><br>
