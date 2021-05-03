@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="css-selector" style="position: absolute; width: 12px; height: 12px; left: 0; right: 0;">
+    <div class="css-selector" style="position: fixed; width: 12px; height: 12px; left: 0; right: 0;">
 
     </div>
     <div class="container pt-4">
       <div class="row">
         <div class="col-md-12 text-center">
           <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link> <br>
-          <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">OTHER RESOURCES (MISC)</nuxt-link>
+          <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/articles">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">OTHER RESOURCES (MISC)</nuxt-link>
         </div>
       </div>
     </div>
@@ -17,8 +17,8 @@
     <div class="container mt-2 mb-2">
       <div class="row">
         <div class="col-md-12 text-center mt-4 mb-4">
-          SPY: {{ spyCurr }} | Unique View Count: 000<br><br>
-          <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">OTHER RESOURCES (MISC)</nuxt-link>
+          SPY: ${{ spyCurr }} | Unique View Count: 000<br><br>
+          <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/articles">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">OTHER RESOURCES (MISC)</nuxt-link>
           <br>
           This website was built solely, and strictly for educational purposes. © 2021
         </div>

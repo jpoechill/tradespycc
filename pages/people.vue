@@ -7,28 +7,28 @@
 
         Personalities, Youtubers:<br>
         <hr class="my-1">
-        Humbled Trader <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
-        Warrior Trading <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+        <strong>Humbled Trader</strong> (<a href="https://www.youtube.com/channel/UCcIvNGMBSQWwo1v3n-ZRBCw">YT Channel</a>)<br>
+        Humbled Trader is a Youtube personality that streams on a regular basis. Her trade videos are quirky and educational. <br><br>
+        <strong>Warrior Trading</strong> (<a href="https://www.youtube.com/channel/UCBayuhgYpKNbhJxfExYkPfA">YT Channel</a>)<br>
+        Cameron live-streams on a regular basis and runs his own learning platform. His streams cover his specialized strategy of scalping momentum trades every morning, of which the success of such can be seen throughout.<br><br>
 
         Investors, Finance Specialists:<br>
         <hr class="my-1">
-        Cathie Wood <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
-        Jim Kramer <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+        Cathie Wood (<a href="https://ark-invest.com">ARK Invest Website</a>)<br>
+        Cathie Wood runs ARK Invest, which ran with extraordinary returns in 2020. <br><br>
+        Jim Kramer (<a href="https://www.cnbc.com/mad-money/">CNBC's Mad Money</a>)<br>
+        Jim Kramer is a former hedge-fund'er and TV personality. <br><br>
         Chamath Palihapitiya <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+        Finance person. <br><br>
         Warren Buffett <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+        Investor. <br><br>
 
         World Figures:<br>
         <hr class="my-1">
         President Biden <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br><br>
+        POTUS. <br><br>
         Jerome Powell <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quos. <br>
+        Chairman of the Federal Reserve. <br>
 
        </div>
      </div>

@@ -6,7 +6,8 @@
         Collected strategies gathered from different sources, along with my own (in due time). <br><br>
         SPY Strategies:<br>
         <hr class="my-1">
-        To be filled. <br><br>
+        Rainmaker, short summary. <br><br>
+        Heikin Ashi Charts strategy.
        </div>
      </div>
    </div>

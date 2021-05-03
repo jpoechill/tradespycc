@@ -6,7 +6,14 @@
         Articles found around the web and otherwise that are not particular to a single book, or website. <br><br>
         SPY Articles:<br>
         <hr class="my-1">
-        To be filled. <br><br>
+        How I Day Trade the SPY, by Spicer Matthews <a href="https://options.cafe/blog/how-i-day-trade-the-spy">Link to article.</a><br>
+        This short article is short, but quite in depth. 
+        <br><br>
+        Crypto Articles:<br>
+        <hr class="my-1">
+        Coinbase vs. Robinhood <a href="https://www.investopedia.com/coinbase-vs-robinhood-5176293">Link to article.</a><br>
+        An article comparing Coinbase and Robinhood for trading crypto. In this case, Robinhood wins the argument for the more simple-minded trader, while Coinbase takes it for any "Pro" level individual looking for more features and coin varieties.
+        <br>
        </div>
      </div>
    </div>
@@ -19,3 +26,4 @@ export default {}
 
 <style>
 </style>
+ 
