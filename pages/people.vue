@@ -7,6 +7,8 @@
 
         Personalities, Youtubers:<br>
         <hr class="my-1">
+        <strong>Chris Sain</strong> (<a href="">YT Channel</a>)<br>
+        Regular updates throughout the week. Tickers names are usually insightful, but after time gets repeated over and over.<br><br>
         <strong>Humbled Trader</strong> (<a href="https://www.youtube.com/channel/UCcIvNGMBSQWwo1v3n-ZRBCw">YT Channel</a>)<br>
         Humbled Trader is a Youtube personality that streams on a regular basis. Her trade videos are quirky and educational. <br><br>
         <strong>Warrior Trading</strong> (<a href="https://www.youtube.com/channel/UCBayuhgYpKNbhJxfExYkPfA">YT Channel</a>)<br>

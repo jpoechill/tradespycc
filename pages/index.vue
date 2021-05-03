@@ -12,7 +12,7 @@
         ACCOUNT 1 – AGGRO 1 ($100,000/$100,000)
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         Stocks, with calls and puts options. No limit on # of trades. Hyper aggro. Go big or bust. <br><br>
         Holdings: 0 Shares. Cash: $100,000.00 <br>

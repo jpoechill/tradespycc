@@ -20,12 +20,12 @@
         Another short book – technical, concise and well organized. The strategy here might be the most simple yet, and simply goes into reading daily candles, ignoring any type of indicators. While the text descrives using this strategy to trade future contracts, it is noted that the ETF should work also. Hoping to come back to dig deeper and back test some of its recommendations.
         <br><br>
         <strong>The MEJT System: A New Tool for Day Trading the S&P 500 Index</strong> <a href="https://www.amazon.com/MEJT-System-Tool-Trading-Index/dp/0857190350/">Link to source.</a><br>
-        No text. <br><br>
+        While yet to read, the content in said text appears to be substantial. Also, and apparently, the author hosts his own YT channel where past charts are reviewed daily.<br><br>
 
         E-books:<br>
         <hr class="my-1">
         <strong>S&P500 Index Strategy: Scalp the S&P index with profitable and reliable strategy</strong><a href="">Link to source.</a><br>
-        Short text, short strategy. While the 1 year performance chart seemed impressive, the layout and content of the book was weak and lacked any details to examples for a reader to really undstand what was going on. Bargain buy.
+        Short text, short strategy. While the 1 year performance chart seemed impressive, the layout and content of the book was weak and lacked any details to examples for a reader to really undstand what was going on. Bargain buy; may come back.
         <br><br>
         <strong>Price-Forecasting Models for iShares Core S&P 500 ETF IVV Stock (Top 100 ETFs By Assets)</strong> <a href="">Link to source.</a><br>
         No text. <br><br>
