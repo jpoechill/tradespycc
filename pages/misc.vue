@@ -5,13 +5,13 @@
        <div class="col-md-12">
          Possibly other things on the internet related to SPY and investing; also things in general that I like (i.e. shameless plugs).<br><br>
          
-
         Coding:<br>
         <hr class="my-1">
-        Dubberly Design Presentations, Dynamic Programming, <a href="https://leetcode.com" target="_blank">LeetCode</a>, <a href="https://freecodecamp.com" target="_blank">FreeCodeCamp</a>, <a href="https://geeksforgeeks.org" target="_blank">GeeksForGeeks</a> <br><br>
+        Dynamic Programming, <a href="https://leetcode.com" target="_blank">LeetCode</a>, <a href="https://freecodecamp.com" target="_blank">FreeCodeCamp</a>, <a href="https://geeksforgeeks.org" target="_blank">GeeksForGeeks</a> <br><br>
 
         News, Design:<br>
         <hr class="my-1">
+        Dribbble, Dubberly Design Presentations, 
         <a href="https://www.youtube.com/user/NewsyHub" target="_blank">Newsy</a>,
         <a href="https://www.bbc.com/" target="_blank">BBC</a>,
         <a href="https://www.designboom.com/" target="_blank">Designboom</a>,
