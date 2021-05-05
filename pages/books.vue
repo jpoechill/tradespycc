@@ -7,7 +7,7 @@
 
         Actual Books:<br>
         <hr class="my-1">
-        <strong>Around The World: Day Trading The SPY, Day Trading The SPY; Zero To Hero</strong> (Currently Reading) <a href="https://www.amazon.com/Around-World-Day-Trading-SPY-ebook/dp/B0732Z744L/">Link to source.</a><br>
+        <strong>Around The World: Day Trading The SPY, Day Trading The SPY; Zero To Hero</strong> <a href="https://www.amazon.com/Around-World-Day-Trading-SPY-ebook/dp/B0732Z744L/">Link to source.</a><br>
         Roughly 80 pages in regards to traveling the world and day trading options in SPY. Although it was generally an easy read, some concept as to how options work may be strange to anyone new to trading. From the description, this text describes a particular "Rainmaker" strategy. In somewhat more detail, this strategy utilizes reading SPY's daily chart (and MACD indicator), to following the trend and taking quick small profits. While the author describes the strategy for which can that be used for any particular portfolio size, I could imagine that trading under PDT could bring some issues. The author makes it clear that losses are to be expected, which is just the reality.
         <br><br>
         Overall, I enjoyed the brevity and conciseness of this text. Best quote: "Trading is a process!" (pg. 58).
