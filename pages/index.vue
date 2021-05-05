@@ -21,11 +21,11 @@
           <br><br>
           No. of resets: 1 <br><br>
           Goals: <br>
-          How many times can I blow an account?<br>
-          With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year.<br><br>
+          • How many times can I blow an account?<br>
+          • With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year.<br><br>
           Notes: <br>
-          2x Think or Swim paper trading account, starting with $100,000 each. <br><br>
-          This is the aggressive, free range account, of which I could plan to eventually "master" at any conceivable level. What I can hope to do here is leverage the different capabilities open to me and use them as an advantage for when the market can move as anyone could expect.<!-- <br><br> -->
+          • 2x Think or Swim paper trading account, starting with $100,000 each. <br>
+          • This is the aggressive, free range account, of which I could plan to eventually "master" at any conceivable level. What I can hope to do here is leverage the different capabilities open to me and use them as an advantage for when the market can move as anyone could expect.<!-- <br><br> -->
         <!-- I can expect this account to have to be restarted and reset multiple times. -->
          <br>
       </div>
