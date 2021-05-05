@@ -6,10 +6,10 @@
         Website updates, blog/vlogs, stock purchases, etc. <br><br>
         Market Observations:<br>
         <hr class="my-1">
-        To be filled. <br><br>
+        May 2nd, 2021. Are we at the top..? <br><br>
         Trade updates:<br>
         <hr class="my-1">
-        May 2nd, 2021. Add,refine content. Add TOS account for tracking.
+        May 2nd, 2021. Add,refine content. Add TOS account for tracking. <br>
         April 29th, 2021. Buy SPY from recent ATH for SAFE 1, MODERATE 1 accounts. <br>
         April 27th, 2021. Was trying to find a good platform that would allow me to make multiple paper trading accounts under one platform. Tried a bunch of different things but none ended up working as well as I wished. So now, currently, I'm hoping to continue messing with TD's Think or Swim app, and go forward with looking how to put together my own little game, via. this website somehow.<br><br>
         Website updates:<br>

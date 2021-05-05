@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="css-selector" style="position: fixed; width: 12px; height: 12px; left: 0; right: 0;">
+    <div class="css-selector" style="position: fixed; width: 18px; height: 18px; left: 0; right: 0;">
 
     </div>
     <div class="container pt-4">

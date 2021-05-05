@@ -8,15 +8,21 @@
 
         Coding:<br>
         <hr class="my-1">
-        Dynamic Programming, <a href="https://leetcode.com" target="_blank">LeetCode</a>, <a href="https://freecodecamp.com" target="_blank">FreeCodeCamp</a>, <a href="https://geeksforgeeks.org" target="_blank">GeeksForGeeks</a> <br><br>
+        Dubberly Design Presentations, Dynamic Programming, <a href="https://leetcode.com" target="_blank">LeetCode</a>, <a href="https://freecodecamp.com" target="_blank">FreeCodeCamp</a>, <a href="https://geeksforgeeks.org" target="_blank">GeeksForGeeks</a> <br><br>
 
         News, Design:<br>
         <hr class="my-1">
-        Newsy, BBC, Designboom, Vice, Polygon, The Verge<br><br>
+        <a href="https://www.youtube.com/user/NewsyHub" target="_blank">Newsy</a>,
+        <a href="https://www.bbc.com/" target="_blank">BBC</a>,
+        <a href="https://www.designboom.com/" target="_blank">Designboom</a>,
+        <a href="https://www.youtube.com/channel/UCZaT_X_mc0BI-djXOlfhqWQ" target="_blank">Vice</a>,
+        <a href="https://www.polygon.com/" target="_blank">Polygon</a>,
+        <a href="https://www.theverge.com/" target="_blank">The Verge</a>
+        <br><br>
 
         Other:<br>
         <hr class="my-1">
-        LDS Church, Monster Hunter, East-West Wing Chun <br><br>
+        LDS Church, Monster Hunter, <a href="http://www.wingchun-sf.com/oakland.html">East-West Wing Chun</a><br><br>
        </div>
      </div>
    </div>
