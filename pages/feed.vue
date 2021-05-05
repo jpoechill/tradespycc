@@ -6,6 +6,7 @@
         Website updates, blog/vlogs, stock purchases, etc. <br><br>
         Market Observations:<br>
         <hr class="my-1">
+        May 4th, 2021. Nice hit on SPY and QQQ today.  <br>
         May 2nd, 2021. Are we at the top..? <br><br>
         Trade updates:<br>
         <hr class="my-1">
