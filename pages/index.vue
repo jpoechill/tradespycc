@@ -16,7 +16,7 @@
       <div class="accordion-body">
         Hyper Volatile. Stock and Options. No limit on # of trades.<br><br>
           Feed: <br>
-          April 30, '21. $200k => $230k => $60k. SPY puts and then calls. Maybe also MVIS (not SPY!). Getting ready for reset 2. <br>
+          April 30, '21. $200k => $230k => $60k. SPY puts and then calls. Maybe also MVIS (not SPY!). Getting ready for reset 2. [<a href="https://tradespy.tumblr.com/post/650195604078788608/200k-235k-59k-time-period-1-week" target="_blank">Photo</a>] <br>
           Jan. '21. $100k to $800k going all-in on PLUG (not SPY!) calls. Reset account after admitting it was a total fluke.
           <br><br>
           No. of resets: 1 <br><br>
@@ -40,6 +40,7 @@
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
          Full stocks, along with 3x leverage ETFs where inclined. 3-5 trades/month.<br><br>
+         Feed: <br>
          Buy 180 shares SPY at $418.60, on 042921. <br><br>
          Holdings: <br>
          180 Shares $418.60 ($75,348). <br><br>
@@ -64,7 +65,8 @@
     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
       <div class="accordion-body">
          Full stocks. Hyper conservative. Control group. Avg. trades: 3-5/year, max.<br><br>
-         Buy 238 shares SPY at $418.60, on 042921. <br><br>
+        Feed: <br>
+        Buy 238 shares SPY at $418.60, on 042921. <br><br>
          Holdings: <br>
          233 Shares @ $418.60 ($99,626.80) Cash: $373.20 <br>
          No. of resets: NA <br><br>
