@@ -7,7 +7,7 @@
         SPY Articles:<br>
         <hr class="my-1">
         How I Day Trade the SPY, by Spicer Matthews <a href="https://options.cafe/blog/how-i-day-trade-the-spy">Link to article.</a><br>
-        This short article is short, but quite in depth. 
+        This short article is short, but quite in depth. Talks about daytrading calls and puts. A++ for content.
         <br><br>
         Crypto Articles:<br>
         <hr class="my-1">
