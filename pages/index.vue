@@ -19,7 +19,7 @@
           May 5th, '21. Account blown. Reset 2. <span class="badge bg-warning">Reset</span><br>
           <ul class="mt-2">
             <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/post/650365708821299200/2-dte-calls-and-puts-account-blown-resetting">[Reference]</a> </li>
-            <li>Reset to 100k 2 DTE SPY calls, and 100k 2 DTE SPY puts. Coin flip. Holding till Friday.</li>
+            <li>Reset to 100k 2 DTE SPY calls, and 100k 2 DTE SPY puts. Pure coin flip. Holding till Friday. <a href="https://tradespy.tumblr.com/post/650371363175006208/new-positions-calls-account-puts-account">[Reference]</a></li>
             <li>&#60;3 DTE are basically shots in the dark. Might try again a few more rounds. <span class="badge bg-primary">Learnings</span></li>
             <li><i>"Paper handing"</i> and not following through on a plan seems worse than sticking to one. <span class="badge bg-primary">Learning</span></li>
           </ul>
@@ -46,7 +46,6 @@
             <li>This is the aggressive, free range account, of which I could plan to eventually "master" at any conceivable level. What I can hope to do here is leverage the different capabilities open to me and use them as an advantage for when the market can move as anyone could expect.</li>
             <li>2x Think or Swim paper trading account, starting with $100,000 each.</li>
           </ul>
-         <br>
       </div>
     </div>
   </div>
@@ -69,14 +68,21 @@
            <li>Buy 180 shares SPY at $418.60.</li>
          </ul>
          Holdings: <br>
-         180 Shares $418.60 ($75,348). <br><br>
+         <ul>
+           <li>180 Shares @ $418.60 ($75,348). </li>
+         </ul>
          Cash: $24,652.00 <br><br>
          No. of resets: 0 <br><br>
          Goals: <br>
-         With moderate effort, comfortably beat the average yearly returns for SPY of +13.25%/year.<br><br>
+         <ul>
+           <li>With moderate effort, comfortably beat the average yearly returns for SPY of +13.25%/year.</li>
+         </ul>
          Notes: <br>
-         This is a moderately risk account. While I am not limited to any number of trade throughout the day/week/year, I am still only trading SPY. In this account, I am hoping to take advantage of market momentum, in case by being in the market when its hot, and being out of it when its not. Access to SPY leverage (3x inverse/bull) where I can feel necessary.
-         <br>
+         <ul>
+           <li>This is a moderately risk account. While I am not limited to any number of trade throughout the day/week/year, I am still only trading SPY. </li>
+          <li>I am hoping to take advantage of market momentum, in case by being in the market when its hot, and being out of it when its not.</li>
+          <li>Access to SPY leverage (3x inverse/bull) where I can feel necessary.</li>
+         </ul>
       </div>
     </div>
   </div>
@@ -92,15 +98,24 @@
         Feed: <br>
         Buy 238 shares SPY at $418.60, on 042921. <br><br>
          Holdings: <br>
-         233 Shares @ $418.60 ($99,626.80) Cash: $373.20 <br><br>
+         <ul>
+           <li>233 Shares @ $418.60 ($99,626.80) Cash: $373.20 </li>
+         </ul>
          No. of resets: NA <br><br>
          Goals: <br>
-         With minimal effort, comfortably mirror the average yearly returns for SPY of +13.25%/year.<br><br>
+         <ul>
+           <li>With minimal effort, comfortably mirror the average yearly returns for SPY of +13.25%/year.</li>
+         </ul>
          Status: <br>
-         Holding with no immediate plans to sell.<br><br>
+         <ul>
+           <li>Holding with no immediate plans to sell.</li>
+         </ul>
          Notes: <br>
-         This is the control group used as a reference point for other accounts that may be tolerable of more risk. The only instances I would hope to make a trade in this account is during cases of imminent disaster, and world catastrophe. In being a long-term buy and hold account, I will hope to see about starting different accounts of the same type throughout unspecified times in the year.
-         <br>
+         <ul>
+           <li>This is the control group used as a reference point for other accounts that may be tolerable of more risk.</li>
+           <li> The only instances I would hope to make a trade in this account is during cases of imminent disaster, and world catastrophe. </li>
+           <li>In being a long-term buy and hold account, I will hope to see about starting different accounts of the same type throughout unspecified times in the year.</li>
+         </ul>
       </div>
     </div>
   </div>
