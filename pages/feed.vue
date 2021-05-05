@@ -6,7 +6,7 @@
         Website updates, blog/vlogs, stock purchases, etc. <br><br>
         Market Observations:<br>
         <hr class="my-1">
-        May 4th, 2021. Nice hit on SPY and QQQ today. Market keeps hitting new highs, but how long will it last? <br>
+        May 4th, 2021. Nice hit on SPY and QQQ today. Market keeps hitting new highs, but how long will it last? [<a href="https://www.fool.com/investing/2021/05/04/why-zoom-video-fastly-and-square-stocks-all-fell-s/">@fool commentary</a>]<br>
         May 2nd, 2021. Are we at the top..? <br><br>
         Trade updates:<br>
         <hr class="my-1">
