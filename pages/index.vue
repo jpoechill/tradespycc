@@ -73,7 +73,7 @@
          Cash: $24,652.00 <br><br>
          No. of resets: 0 <br><br>
          Goals: <br>
-         With moderate effort, comfortably beat the average yearly returns for SPY of +13.25%/year.<br><br>
+         With moderate effort, comfortably beat the average yearly returns for SPY of +13.25%/year. TEST<br><br>
          Notes: <br>
          This is a moderately risk account. While I am not limited to any number of trade throughout the day/week/year, I am still only trading SPY. In this account, I am hoping to take advantage of market momentum, in case by being in the market when its hot, and being out of it when its not. Access to SPY leverage (3x inverse/bull) where I can feel necessary.
          <br>
