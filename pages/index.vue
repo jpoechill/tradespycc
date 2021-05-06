@@ -19,7 +19,7 @@
           May 5th, '21. Account blown. Reset 2. <span class="badge bg-warning">Reset</span><br>
           <ul class="mt-2">
             <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/post/650365708821299200/2-dte-calls-and-puts-account-blown-resetting">[Reference]</a> </li>
-            <li>Reset to 100k 2 DTE SPY calls, and 100k 2 DTE SPY puts. Pure coin flip. Holding till Friday. <a href="https://tradespy.tumblr.com/post/650371363175006208/new-positions-calls-account-puts-account">[Reference]</a></li>
+            <li>Reset one account with 100k of 2 DTE SPY calls, and the other with 100k 2 DTE SPY puts. Pure coin flip. Holding till Friday. <a href="https://tradespy.tumblr.com/post/650371363175006208/new-positions-calls-account-puts-account">[Reference]</a></li>
             <li>&#60;3 DTE are basically shots in the dark. Might try again a few more rounds. <span class="badge bg-primary">Learnings</span></li>
             <li><i>"Paper handing"</i> and not following through on a plan seems worse than sticking to one. <span class="badge bg-primary">Learning</span></li>
           </ul>
@@ -59,7 +59,7 @@
       <div class="accordion-body">
          Full stocks, along with 3x leverage ETFs where inclined. 3-5 trades/month.<br><br>
          Feed: <br>
-         May 5th, '21. Waiting, watching.
+         May 5th, '21. Waiting, watching. <span class="badge bg-info">Hold</span>
          <ul>
            <li>SPY still high. Looking for better pseudo-entry.</li>
          </ul>
@@ -96,7 +96,9 @@
       <div class="accordion-body">
          Full stocks. Hyper conservative. Control group. Avg. trades: 3-5/year, max.<br><br>
         Feed: <br>
-        Buy 238 shares SPY at $418.60, on 042921. <br><br>
+        <ul>
+          <li>Buy 238 shares SPY at $418.60, on 042921. <span class="badge bg-info">Hold</span></li>
+        </ul>
          Holdings: <br>
          <ul>
            <li>233 Shares @ $418.60 ($99,626.80) Cash: $373.20 </li>

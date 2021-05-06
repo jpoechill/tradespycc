@@ -7,6 +7,7 @@
          
         Coding:<br>
         <hr class="my-1">
+         <a href="https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp">MIT OpenCourseWare</a>, 
         Dynamic Programming, <a href="https://leetcode.com" target="_blank">LeetCode</a>, <a href="https://freecodecamp.com" target="_blank">FreeCodeCamp</a>, <a href="https://geeksforgeeks.org" target="_blank">GeeksForGeeks</a> <br><br>
 
         News, Design:<br>
