@@ -23,7 +23,7 @@
             <li>&#60;3 DTE are basically shots in the dark. Might try again a few more rounds. <span class="badge bg-primary">Learnings</span></li>
             <li><i>"Paper handing"</i> and not following through on a plan seems worse than sticking to one. <span class="badge bg-primary">Learning</span></li>
           </ul>
-          April 30, '21. Substantial gain to overall lost. <br>
+          April 30, '21. Substantial gain to overall lost. <span class="badge bg-danger">Loss</span><br>
           <ul class="mt-2">
             <li>Getting ready for reset 2. [<a href="https://tradespy.tumblr.com/post/650195604078788608/200k-235k-59k-time-period-1-week" target="_blank">Reference</a>] </li>
             <li>$200k => $230k => $60k. SPY puts and then calls. </li>
