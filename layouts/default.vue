@@ -32,13 +32,21 @@
 import axios from 'axios'
 
 export default {
-  methods: {
-    numberWithCommas: function (x) {
-      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    }
-  },
   data () {
     return {
+      paths: [
+        '/about',
+        '/articles',
+        '/books',
+        '/charts',
+        '/feed',
+        '/',
+        '/misc',
+        '/people',
+        '/strategies',
+        '/videos',
+        '/websites',
+      ],
       spyCurr: 0,
       options: {
         method: 'GET',
@@ -57,21 +65,66 @@ export default {
       ]
     }
   },
-  mounted () {
-    let self = this
-    // axios.request(self.options).then(function (response) {
-    //   console.log(response.data);
-    // }).catch(function (error) {
-    //   console.error(error);
-    // });
-    axios.get('https://cloud.iexapis.com/stable/stock/' + 'SPY' + '/quote?token=pk_d8826aae332a4b1287b1d4399e2f860b')
+  computed: {
+    currPath: function () {
+      return this.$route.path
+    }
+  },
+  methods: {
+    numberWithCommas: function (x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    },
+    navigate (direction) {
+      // navigate PAGES via LEFT and RIGHT arrow keys
+      let currIndex, newIndex
+
+      currIndex = this.paths.indexOf(this.currPath)
+
+      if (direction === 'LEFT') {
+        if (currIndex === 0) {
+          newIndex = this.paths.length - 1
+        } else {
+          newIndex = currIndex - 1
+        }
+      } else if (direction === 'RIGHT') {
+        if (currIndex === this.paths.length - 1) {
+          newIndex = 0
+        } else {
+          newIndex = currIndex + 1
+        }
+      }
+
+      this.$router.push({
+        path: this.paths[newIndex]
+      })
+    },
+    getSPYPrice () {
+      let self = this
+      axios.get('https://cloud.iexapis.com/stable/stock/' + 'SPY' + '/quote?token=pk_d8826aae332a4b1287b1d4399e2f860b')
         .then(function (response) { 
-            self.spyCurr = response.data.iexRealtimePrice
-            console.log(response)
+          self.spyCurr = response.data.iexRealtimePrice
           })
         .catch(function (error) {
           console.log(error);
         })
+    },
+    addEventListeners () {
+      let self = this
+
+      window.addEventListener('keydown', (e) => {
+        if (e.key == 'ArrowLeft') {
+          self.navigate('LEFT')
+        }
+
+        if (e.key == 'ArrowRight') {
+          self.navigate('RIGHT')
+        }
+      });
+    }
+  },
+  mounted () {
+    this.addEventListeners()
+    this.getSPYPrice()
   }
 }
 </script>

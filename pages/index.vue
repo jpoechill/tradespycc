@@ -21,7 +21,7 @@
             <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/post/650365708821299200/2-dte-calls-and-puts-account-blown-resetting">[Reference]</a> </li>
             <li>Reset one account with 100k of 2 DTE SPY calls, and the other with 100k 2 DTE SPY puts. Pure coin flip. Holding till Friday. <a href="https://tradespy.tumblr.com/post/650371363175006208/new-positions-calls-account-puts-account">[Reference]</a></li>
             <li>&#60;3 DTE are basically shots in the dark. Might try again a few more rounds. <span class="badge bg-primary">Learnings</span></li>
-            <li><i>"Paper handing"</i> and not following through on a plan seems worse than sticking to one. <span class="badge bg-primary">Learning</span></li>
+            <li><i>"Paper handing"</i> and not following through on a plan seems worse than just sticking to one. <span class="badge bg-primary">Learning</span></li>
           </ul>
           April 30, '21. Substantial gain to overall lost. <span class="badge bg-danger">Loss</span><br>
           <ul class="mt-2">
