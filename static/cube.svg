@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="30px" viewBox="0 0 27 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 6 + Path 5 Mask 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 6.12273227 13.5283699 0 26.1944416 7.76630795 23.5520527 21.4092585 11.5311038 29.266801 1.04825791 19.524737"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Path-6-+-Path-5-Mask-2" transform="translate(0.000000, -1.000000)">
+            <g id="Path-6-+-Path-5-Mask" transform="translate(14.547114, 16.355534) rotate(-4.000000) translate(-14.547114, -16.355534) translate(1.047114, 1.355534)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#75E9FE" opacity="0.900000036" xlink:href="#path-1"></use>
+                <polygon id="Path-6" fill="#71DCF7" mask="url(#mask-2)" points="12.5073256 16.0564701 -3.37842473 3.39033426 -1.74940878 19.980639 12.9467455 30.6234075 14.9552173 21.545975"></polygon>
+                <polygon id="Path-5" fill="#B7FBFF" mask="url(#mask-2)" points="12.5229005 16.073758 11.4080645 31.2576894 30.0263263 23.4464308 30.146408 5.37112241"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

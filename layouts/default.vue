@@ -1,25 +1,62 @@
 <template>
   <div>
-    <div class="css-selector" style="position: fixed; width: 18px; height: 18px; left: 0; right: 0;">
-
+    <div style="position: fixed; width: 120px; height: 120px; left: 10px; top: 10px;">
+      <img src="/cube.svg" width="34px" alt="">
     </div>
-    <div class="container pt-4">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link> <br>
-          <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">OTHER RESOURCES (MISC)</nuxt-link>
+
+    <div style="z-index: 999; position: fixed; left: 0px; bottom: 6px;">
+      <img src="/kitten_trans.gif" width="110px" alt="">
+    </div>
+
+    <div style="z-index: 999; position: fixed; right: 14px; top: 14px;">
+      <img src="/binary.svg" width="30px" alt="">
+    </div>
+
+    <div style="z-index: 999; position: fixed; right: 14px; bottom: 14px;">
+      <img src="/heart!.svg" width="30px" alt="">
+    </div>
+
+    <div class="container pt-2">
+      <div class="row pt-2">
+        <div class="col-md-12 text-center mt-3 mb-2">
+          <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link>
         </div>
       </div>
     </div>
-  
+
+    <div style="background-color: #f9f9f9;">
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-md-12 text-center" style="word-spacing: 0px;">
+            <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">MISC</nuxt-link>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <Nuxt />
 
-    <div class="container mt-2 mb-2">
+    <div class="container mt-2">
       <div class="row">
-        <div class="col-md-12 text-center mt-4 mb-4">
-          SPY: ${{ spyCurr }} | Unique View Count: 000<br><br>
-          <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">OTHER RESOURCES (MISC)</nuxt-link>
-          <br>
+        <div class="col-md-12 text-center mt-4 mb-1">
+          SPY: ${{ spyCurr }} | Unique View Count: 000<br>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: #f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center py-2">
+            <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">MISC</nuxt-link>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-2">
+      <div class="row">
+        <div class="col-md-12 text-center mt-1 mb-4">
           This is a SPY research and development PAPER TRADING website, built solely and strictly for educational purposes. © 2021
         </div>
       </div>
@@ -32,6 +69,11 @@
 import axios from 'axios'
 
 export default {
+  components: {
+    dirs: [
+      '~/components',
+    ]
+  },
   data () {
     return {
       paths: [

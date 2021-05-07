@@ -16,20 +16,22 @@
 
         Investors, Finance Specialists:<br>
         <hr class="my-1">
-        Cathie Wood (<a href="https://ark-invest.com">ARK Invest Website</a>)<br>
+        <strong>Cathie Wood </strong>(<a href="https://ark-invest.com">ARK Invest Website</a>)<br>
         Cathie Wood runs ARK Invest, which ran with extraordinary returns in 2020. <br><br>
-        Jim Kramer (<a href="https://www.cnbc.com/mad-money/">CNBC's Mad Money</a>)<br>
+        <strong>Jim Kramer</strong> (<a href="https://www.cnbc.com/mad-money/">CNBC's Mad Money</a>)<br>
         Jim Kramer is a former hedge-fund'er and TV personality. <br><br>
-        Chamath Palihapitiya <br>
+        <strong>Elon Musk</strong> <br>
+        The self-proclaimed <i>'Technoking'</i> of Tesla! <br><br>
+        <strong>Chamath Palihapitiya</strong> <br>
         Finance person. <br><br>
-        Warren Buffett <br>
+        <strong>Warren Buffett</strong> <br>
         Investor. <br><br>
 
         World Figures:<br>
         <hr class="my-1">
-        President Biden <br>
+        <strong>President Biden</strong> <br>
         POTUS. <br><br>
-        Jerome Powell <br>
+        <strong>Jerome Powell</strong> <br>
         Chairman of the Federal Reserve. <br>
 
        </div>

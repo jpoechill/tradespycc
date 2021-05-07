@@ -6,17 +6,19 @@
         Website updates, blog/vlogs, stock purchases, etc. <br><br>
         Market Observations:<br>
         <hr class="my-1">
+        May 7th, 2021. SPY breaking new highs. Really stumped; surprised, thrown back.<br>
         May 5th, 2021. Crypto taking off, QQQ and tech taking more dips. SPY holding... for now.<br>
         May 4th, 2021. Nice hit on SPY and QQQ today. Market keeps hitting new highs, but how long will it last? [<a href="https://www.fool.com/investing/2021/05/04/why-zoom-video-fastly-and-square-stocks-all-fell-s/">@fool commentary</a>]<br>
         May 2nd, 2021. Are we at the top..? <br><br>
         Trade updates:<br>
         <hr class="my-1">
-        May 2nd, 2021. Add, refine content. Add TOS account for tracking. <br>
+        May 7th, 2021. Realizing there are only so many trades of SPY you can make in a day. Considering opening an account with focus, but not limited to SPY.<br>
+        May 2nd, 2021. Add, refine trade content. Add TOS account for tracking. <br>
         April 29th, 2021. Buy SPY from recent ATH for SAFE 1, MODERATE 1 accounts. <br>
         April 27th, 2021. Was trying to find a good platform that would allow me to make multiple paper trading accounts under one platform. Tried a bunch of different things but none ended up working as well as I wished. So now, currently, I'm hoping to continue messing with TD's Think or Swim app, and go forward with looking how to put together my own little game, via. this website somehow.<br><br>
         Website updates:<br>
         <hr class="my-1">
-        May 5th, 2021. Add arrow keys for navigation. <br>
+        May 5th, 2021. Add arrow keys for navigation. Add content, and fix up styles/formatting.<br>
         April 30th, 2021. Added charts section (empty), and updated portfolios page with real time SPY price (API). Started reading "Around the World...".<br>
         April 29th, 2021. Refine content, push to web. <br>
         April 28th, 2021. Add content to websites section and other links. <br>

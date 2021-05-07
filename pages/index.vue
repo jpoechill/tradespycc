@@ -9,19 +9,35 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        ACCOUNT 1 – AGGRO 1, THINK OR SWIM (Starting: $200,000, 2 RESETS)
+        ACCOUNT 1 – AGGRO 1, THINK OR SWIM (Starting: $200,000, 3 RESETS)
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         Hyper Volatile. Stock and Options. No limit on # of trades.<br><br>
           Feed: <br>
+          May 7th, '21. Gains on following through with calls; loss on puts. <span class="badge bg-success">Gain</span> <span class="badge bg-danger">Loss</span> <span class="badge bg-warning">Reset</span><br>
+          <ul class="mt-2">
+            <li>Account 1A: 100k => 175k. Account 1B: 100k => 20k.</li>
+            <li>Stuck with near OTM calls to make some small gains on first account. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
+            <li>Was expecting serious continuation of downward trend, but the otherwise became apparent for the second account. <span class="badge badge-info">Surprise!</span></li>
+            <li>Found out its a bit hard to actually forcefully take an account to 0, without having calls expire to worthless. <span class="badge bg-primary">Learnings</span></li>
+            <li>Resetting 1B account 20k due to low balance. May think about resetting 1A account if it reaches 200k.</li>
+          </ul>
+          May 6th, '21. Gains on SPY puts, etc others. <span class="badge bg-success">Gain</span><br>
+          <ul class="mt-2">
+            <li>Considerable gains on early morning puts before being stomped out. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
+            <li>Wasn't expecting the sharp reversal aftwards, which opened opportunity for which I was not prepared.</li>
+            <li>Unfortunately, above trades are specified non-SPY – deviating from primary mission. Eek.</li>
+            <li>Trading SPY takes true patience when going both ways, in case: downwards and upwards movement. <span class="badge bg-primary">Learnings</span></li>
+            <li>Currently, sitting with <i>no positions</i>.</li>
+          </ul>
           May 5th, '21. Account blown. Reset 2. <span class="badge bg-warning">Reset</span><br>
           <ul class="mt-2">
-            <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/post/650365708821299200/2-dte-calls-and-puts-account-blown-resetting">[Reference]</a> </li>
-            <li>Reset one account with 100k of 2 DTE SPY calls, and the other with 100k 2 DTE SPY puts. Pure coin flip. Holding till Friday. <a href="https://tradespy.tumblr.com/post/650371363175006208/new-positions-calls-account-puts-account">[Reference]</a></li>
+            <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/image/650365708821299200" target="_blank">[Reference]</a> </li>
+            <li>Reset one account with 100k of 2 DTE SPY calls, and the other with 100k 2 DTE SPY puts. Pure coin flip. Holding till Friday. <a href="https://tradespy.tumblr.com/image/650371363175006208" target="_blank">[Reference]</a></li>
             <li>&#60;3 DTE are basically shots in the dark. Might try again a few more rounds. <span class="badge bg-primary">Learnings</span></li>
-            <li><i>"Paper handing"</i> and not following through on a plan seems worse than just sticking to one. <span class="badge bg-primary">Learning</span></li>
+            <li><i>"Paper handing"</i> and not following through on a plan seems worse than just sticking to one. <span class="badge bg-primary">Learnings</span></li>
           </ul>
           April 30, '21. Substantial gain to overall lost. <span class="badge bg-danger">Loss</span><br>
           <ul class="mt-2">
@@ -30,16 +46,17 @@
             <li>Maybe also MVIS (not SPY!) puts.</li>
             <li>&#60;3 DTE's</li>
           </ul>
-          Jan. '21. Major gain. <span class="badge bg-success">Win</span> <span class="badge bg-warning">Reset</span><br>
+          Jan. '21. Major gain. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span><br>
           <ul class="mt-2">
             <li>$100k to $800k going all-in on PLUG (not SPY!) calls. </li>
             <li>Reset account after admitting total fluke.</li>
           </ul>
-          No. of resets: 2 <br><br>
+          No. of resets: 3 <br><br>
           Goals: <br>
           <ul>
             <li>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year.</li>
-            <li>Also: how many times can I blow an account?</li>
+            <li>With strategic effort, double (2x) the value of one account.</li>
+            <li>Also, and currently: How many times can I blow an account?</li>
           </ul>
           Notes: <br>
           <ul>
@@ -76,6 +93,7 @@
          Goals: <br>
          <ul>
            <li>With moderate effort, comfortably beat the average yearly returns for SPY of +13.25%/year.</li>
+           <li>Hoping to utilize a customized 200 day/SMA stragegy. [<a href="/strategies">See Strategies</a>]</li>
          </ul>
          Notes: <br>
          <ul>

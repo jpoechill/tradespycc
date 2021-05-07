@@ -6,13 +6,20 @@
         Websites that talk about trading spy and other related securities. <br><br>
         Daily Charts and Tools:<br>
         <hr class="my-1">
-        <a href="https://finviz.com" target="_blank">Finviz</a>. <a href="https://finviz.com" target="_blank">Barchart</a> <br><br>
+        <strong>FINVIZ</strong> <a href="https://finviz.com" target="_blank">Link to source.</a><br>
+        Charts and numbers; no fluff. <br><br>
+
+        <strong>Barchart</strong> <a href="https://www.barchart.com/" target="_blank">Link to source.</a><br>
+        News, tools, and other market data. Great interactive UIs for comparing tickers.<br><br>
+  
+        <strong>Benzinga Options</strong> <a href="https://www.benzinga.com/markets/options" target="_blank">Link to source.</a><br>
+        Unusual options activities by <i>"smart money"</i> managers, via. Benzinja. Updated daily.<br><br>
 
         Trading General, News:<br>
         <hr class="my-1">
         <a href="https://marketwatch.com" target="_blank">Marketwatch</a>, <a href="https://finance.yahoo.com" target="_blank">Yahoo! Finance</a>, <a href="https://seekingalpha.com" target="_blank">Seeking Alpha</a>, <a href="https://fool.com" target="_blank">Motley Fool</a>, r/WallStreetBets <br>
         <br>
-        SPY Specific:<br>
+        Other (SPY Specific):<br>
         <hr class="my-1">
         <strong>SPX Option Trader</strong> (No Affiliation) <a href="">Link to source.</a><br>
         Tim is a veteran trader, offering insights into trading SPY options and credit spreads. The website is informative, with an overuse of stock images. It seems to be updated regularly with their trading performance. There is a 7 day trial, with plans starting at $200/month. Hoping to explore more, and update here with a review.
