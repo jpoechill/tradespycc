@@ -26,6 +26,7 @@
           May 7th, 2021. 
           <ul>
             <li>SPY breaking new highs. Really stumped; surprised. Just wow.</li>
+            <li>Further dip sentiment, with traders taking long on SPY puts. [<a href="https://www.benzinga.com/etfs/broad-u-s-equity-etfs/21/05/21017410/options-trader-makes-3-78m-bet-the-top-is-nearby-for-spy">Reference via. @benzinga</a>]</li>
           </ul>
           May 5th, 2021. 
           <ul>
@@ -33,7 +34,7 @@
           </ul>
           May 4th, 2021. 
           <ul>
-            <li>Nice hit on SPY and QQQ today. Market keeps hitting new highs, but how long will it last? [<a href="https://www.fool.com/investing/2021/05/04/why-zoom-video-fastly-and-square-stocks-all-fell-s/">@fool commentary</a>]</li>
+            <li>Nice hit on SPY and QQQ today. Market keeps hitting new highs, but how long will it last? [<a href="https://www.fool.com/investing/2021/05/04/why-zoom-video-fastly-and-square-stocks-all-fell-s/">Commentary via. @fool</a>]</li>
           </ul>
           May 2nd, 2021. 
           <ul>
