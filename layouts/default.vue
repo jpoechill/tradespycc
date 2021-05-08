@@ -16,25 +16,66 @@
       <img src="/heart!.svg" width="30px" alt="">
     </div>
 
-    <div class="container pt-2">
-      <div class="row pt-2">
-        <div class="col-md-12 text-center mt-3 mb-2">
-          <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link>
+    <div class="bg-white pb-4 border-bottom">
+
+      <div class="container pt-0">
+        <div class="row pt-2">
+          <div class="col-md-12 text-center mt-3 mb-2">
+            <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link>
+          </div>
+          <!-- <div class="row">
+            <small>
+            <div class="col-md-12 text-center py-2">
+              <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">MISC</nuxt-link>
+            </div>
+            </small>
+          </div> -->
         </div>
       </div>
-    </div>
 
-    <div style="background-color: #f9f9f9;">
-      <div class="container py-2">
-        <div class="row">
-          <div class="col-md-12 text-center" style="word-spacing: 0px;">
-            <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">MISC</nuxt-link>
+      <!-- <div style="background-color: #f9f9f9;" class="mt-5">
+        <div class="container py-2">
+          <div class="row">
+            <div class="col-md-2 text-left" style="word-spacing: 0px;">
+              <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link>
+            </div>
+            <div class="col-md-10 text-right" style="word-spacing: 0px;">
+              <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">MISC</nuxt-link>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div style="background-color: #f9f9f9;">
+        <div class="container py-2">
+          <div class="row">
+            <div class="col-md-12 text-center" style="word-spacing: 0px;">
+              <ul class="nav nav-fill justify-content-center">
+                <li class="nav-item" v-for="(tab, index) in tabs" :key="index">
+                  <nuxt-link :to="tab.path" class="nav-link text-uppercase" :class="{ ooga: tab.isActive }"> {{ tab.title }}</nuxt-link>
+                </li>
+              </ul>  
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <Nuxt />
+          <!-- color: #fff; -->
+    <!-- background-color: #2F93FF; -->
+
+      <!-- <div style="background-color: #f9f9f9;">
+        <div class="container py-2">
+          <div class="row">
+            <div class="col-md-12 text-center" style="word-spacing: 0px;">
+              <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">MISC</nuxt-link>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <Nuxt />
+
+    </div>
 
     <div class="container mt-2">
       <div class="row">
@@ -44,12 +85,14 @@
       </div>
     </div>
 
-    <div style="background-color: #f9f9f9;">
+    <div style="background-color: #ECFEFF;">
       <div class="container">
         <div class="row">
+          <small>
           <div class="col-md-12 text-center py-2">
             <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">MISC</nuxt-link>
           </div>
+          </small>
         </div>
       </div>
     </div>
@@ -76,6 +119,58 @@ export default {
   },
   data () {
     return {
+      tabs: [
+        // {
+        //   title: 'About',
+        //   path: '/about',
+        //   isActive: false,
+        // },
+        {
+          title: 'Feed',
+          path: '/feed',
+          isActive: false
+        },
+        {
+          title: 'Portfolios',
+          path: '/',
+          isActive: false
+        },
+        // {
+        //   title: 'Strategies',
+        //   path: '/strategies',
+        //   isActive: false
+        // },
+        {
+          title: 'Charts',
+          path: '/charts',
+          isActive: false
+        },
+        // {
+        //   title: 'Articles',
+        //   path: '/articles',
+        //   isActive: false
+        // },
+        // {
+        //   title: 'Books',
+        //   path: '/books',
+        //   isActive: false
+        // },
+        // {
+        //   title: 'Videos',
+        //   path: '/videos',
+        //   isActive: false
+        // },
+        // {
+        //   title: 'People',
+        //   path: '/people',
+        //   isActive: false
+        // },
+        // {
+        //   title: 'Misc',
+        //   path: '/misc',
+        //   isActive: false
+        // },
+      ],
       paths: [
         '/about',
         '/articles',
@@ -113,6 +208,18 @@ export default {
     }
   },
   methods: {
+    setCurrPageActive: function () {
+      const currPath = this.currPath
+      const tabs = this.tabs
+
+      for (let index in tabs) {
+        if (tabs[index].path === currPath) {
+          tabs[index].isActive = true
+        } else {
+          tabs[index].isActive = false
+        }
+      } 
+    },
     numberWithCommas: function (x) {
       return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     },
@@ -165,9 +272,15 @@ export default {
     }
   },
   mounted () {
+    this.setCurrPageActive()
     this.addEventListeners()
     this.getSPYPrice()
-  }
+  },
+  watch:{
+    $route (to, from){
+        this.setCurrPageActive()
+      }
+  } 
 }
 </script>
 
@@ -176,6 +289,22 @@ export default {
 
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #E7FEFF;
+}
+
+.border-bottom {
+  border-bottom: 58px solid rgb(249, 249, 249) !important;
+}
+
+.ooga {
+  border-bottom: 4px solid #2F93FF;
+}
+
 .css-selector {  
   background: linear-gradient(270deg, #0bdb00, #00b9ff, #f9ff00);
     background-size: 600% 600%;

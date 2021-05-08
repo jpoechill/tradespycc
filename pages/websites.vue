@@ -1,11 +1,28 @@
 <template>
   <div>
-   <div class="container mt-4 mb-4">
+    <div class="container mt-4 mb-4">
      <div class="row">
        <div class="col-md-12">
-        Websites that talk about trading spy and other related securities. <br><br>
-        Daily Charts and Tools:<br>
-        <hr class="my-1">
+        Websites that talk about trading spy and other related securities.  <br><br>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" :class="{ active: tabs[0].isActive }" aria-current="page" href="#" @click="navigate('chartsTools')">Daily Charts and Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" :class="{ active: tabs[1].isActive }" href="#" @click="navigate('general')">Trading General, News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" :class="{ active: tabs[2].isActive }" href="#" @click="navigate('specific')">Other (SPY Specific)</a>
+          </li>
+        </ul>
+       </div>
+     </div>
+   </div>
+
+   <div class="container mt-4 mb-4" v-if="tabs[0].isActive">
+     <div class="row">
+       <div class="col-md-12">
+        
         <strong>FINVIZ</strong> <a href="https://finviz.com" target="_blank">Link to source.</a><br>
         Charts and numbers; no fluff. <br><br>
 
@@ -13,14 +30,22 @@
         News, tools, and other market data. Great interactive UIs for comparing tickers.<br><br>
   
         <strong>Benzinga Options</strong> <a href="https://www.benzinga.com/markets/options" target="_blank">Link to source.</a><br>
-        Unusual options activities by <i>"smart money"</i> managers, via. Benzinja. Updated daily.<br><br>
+        Unusual options activities by <i>"smart money"</i> managers, via. Benzinja. Updated daily.
+       </div>
+     </div>
+   </div>
 
-        Trading General, News:<br>
-        <hr class="my-1">
+   <div class="container mt-4 mb-4" v-if="tabs[1].isActive">
+     <div class="row">
+       <div class="col-md-12">
         <a href="https://marketwatch.com" target="_blank">Marketwatch</a>, <a href="https://finance.yahoo.com" target="_blank">Yahoo! Finance</a>, <a href="https://seekingalpha.com" target="_blank">Seeking Alpha</a>, <a href="https://fool.com" target="_blank">Motley Fool</a>, r/WallStreetBets <br>
-        <br>
-        Other (SPY Specific):<br>
-        <hr class="my-1">
+       </div>
+     </div>
+   </div>
+
+   <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
+     <div class="row">
+       <div class="col-md-12">
         <strong>SPX Option Trader</strong> (No Affiliation) <a href="">Link to source.</a><br>
         Tim is a veteran trader, offering insights into trading SPY options and credit spreads. The website is informative, with an overuse of stock images. It seems to be updated regularly with their trading performance. There is a 7 day trial, with plans starting at $200/month. Hoping to explore more, and update here with a review.
         
@@ -31,14 +56,46 @@
         <br><br>
         <strong>S&P 500 Futures Trading Group</strong> (No Affiliation) <a href="">Link to source.</a><br>
         This group trades the S&P 500 E-mini. They are located in Arizona, and apparently works through in-person meetings. Membership pricing is not available.<br><br>
-        </div>
+      </div>
      </div>
    </div>
+
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      tabs: [
+        {
+          name: 'chartsTools',
+          isActive: true
+        },
+        {
+          name: 'general',
+          isActive: false
+        },
+        {
+          name: 'specific',
+          isActive: false
+        }
+      ]
+    }
+  },
+  methods: {
+    navigate (page) {
+      let tabs = this.tabs
+      for (let index in tabs) {
+        if (tabs[index].name === page) {
+          tabs[index].isActive = true
+        } else {
+          tabs[index].isActive = false
+        }
+      } 
+    }
+  }
+}
 </script>
 
 <style>
