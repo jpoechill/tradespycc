@@ -69,6 +69,10 @@
    <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
      <div class="row">
        <div class="col-md-12">
+        May 7th, 2021. 
+        <ul>
+          <li>Update layout, design.</li>
+        </ul>
         May 5th, 2021. 
         <ul>
           <li>Add arrow keys for navigation. Add content, and fix up styles/formatting.</li>
