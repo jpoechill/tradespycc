@@ -34,6 +34,10 @@
                 Hyper Volatile. Stock and Options. No limit on # of trades.<br><br>
                   Feed<br>
                   <hr class="my-1">
+                  May 10th, '21. Extending plays. <span class="badge badge-info">Hold</span> <span class="badge badge-secondary">Anxious!</span> <br>
+                  <ul class="mt-2">
+                    <li>Pushing sized calls and "yolo" puts on designated accounts. There shouldn't be much more to the top, right..? </li>
+                  </ul>
                   May 7th, '21. Gains on following through with calls; loss on puts. <span class="badge bg-success">Gain</span> <span class="badge bg-danger">Loss</span> <span class="badge bg-warning">Reset</span><br>
                   <ul class="mt-2">
                     <li>Account 1A: 100k => 175k. Account 1B: 100k => 20k.</li>
@@ -99,7 +103,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                ACCOUNT 2 – MODERATE 1 (${{ numberWithCommas((spyCurr * 180) + 24652.00, ) }}/$100,000, 0 RESETS)
+                ACCOUNT 2 – MODERATE 1 (${{ numberWithCommas((spyCurr * 238) + 221.82, ) }}/$100,000, 0 RESETS)
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -107,6 +111,11 @@
                 Full stocks, along with 3x leverage ETFs where inclined. 3-5 trades/month.<br><br>
                 Feed<br>
                 <hr class="my-1">
+                May 10th, '21. Buy stocks.
+                <ul>
+                  <li>Eliminating cash positions, and going full stocks. Making to further align with 50/200 day SMA strategy.</li>
+                  <li>Buy 58 Shares @ $421.21.</li>
+                </ul>
                 May 5th, '21. Waiting, watching. <span class="badge bg-info">Hold</span>
                 <ul>
                   <li>SPY still high. Looking for better pseudo-entry.</li>
@@ -117,15 +126,17 @@
                 </ul>
                 Holdings: <br>
                 <ul>
-                  <li>180 Shares @ $418.60 ($75,348). </li>
+                  <li>AVG: 238 Shares @ $419.24.</li>
+                  <li>58 Shares @ $421.21 ($24,430.18). </li>
+                  <li>180 Shares @ $418.60 ($75,348.00). </li>
                 </ul>
-                Cash: $24,652.00 <br><br>
+                Cash: $221.82 <br><br>
                 No. of resets: 0 <br><br>
                 Goals<br>
                 <hr class="my-1">
                 <ul>
                   <li>With moderate effort, comfortably beat the average yearly returns for SPY of +13.25%/year.</li>
-                  <li>Hoping to utilize a customized 200 day/SMA stragegy. [<a href="/strategies">See Strategies</a>]</li>
+                  <li>Hoping to utilize a customized 50/200 day SMA strategy. In when over SMA, out when under. [<a href="/strategies">See Strategies</a>]</li>
                 </ul>
                 Notes<br>
                 <hr class="my-1">

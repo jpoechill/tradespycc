@@ -21,8 +21,7 @@
 
    <div class="container mt-4 mb-4" v-show="tabs[0].isActive">
      <div class="row">
-       <div class="col-md-12">
-        <img src="/chart_03.svg" class="w-100" alt="">
+        <div class="col-md-12"><iframe src="https://financhill.com/widget/charts/SPY?periodGrouping=daily&defaultSeries=candlesticks" width="100%" height="500" frameborder="0" scrolling="no" style="margin:0 auto;border: 0;" seamless></iframe><!-- <img src="/chart_03.svg" class="w-100" alt=""> -->
         <br><br>
         Data
         <hr class="my-1">

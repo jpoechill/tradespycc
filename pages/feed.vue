@@ -23,6 +23,10 @@
    <div class="container mt-4 mb-4" v-if="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
+          May 10th, 2021. 
+          <ul>
+            <li>SPY momentum slowing down. QQQ (tech, growth) taking a hit. Crypto flaky.</li>
+          </ul>
           May 7th, 2021. 
           <ul>
             <li>SPY breaking new highs. Really stumped; surprised. Just wow.</li>
