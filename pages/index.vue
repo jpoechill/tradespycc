@@ -34,7 +34,7 @@
                 Hyper Volatile. Stock and Options. No limit on # of trades.<br><br>
                   Feed<br>
                   <hr class="my-1">
-                  May 10th, '21. Extending plays. <span class="badge badge-info">Hold</span> <span class="badge badge-secondary">Anxious!</span> <br>
+                  May 10th, '21. Extending plays. <span class="badge badge-info">Hold</span> <span class="badge badge-light">Anxious!</span> <br>
                   <ul class="mt-2">
                     <li>Pushing sized calls and "yolo" puts on designated accounts. There shouldn't be much more to the top, right..? </li>
                   </ul>
@@ -161,7 +161,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapse show" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                ACCOUNT 3 – SAFE 1 (${{ numberWithCommas((spyCurr * 238) + 373.20).slice(0) }}/$100,000)
+                ACCOUNT 3 – SAFE 1 (${{ numberWithCommas(((spyCurr * 238) + 373.20).toFixed(2)) }}/$100,000)
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">

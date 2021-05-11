@@ -13,10 +13,10 @@
             <a class="nav-link" :class="{ active: tabs[1].isActive }" href="#" @click="navigate('resourceUps')">Resources Updates</a>
           </li>
           <li class="nav-item">
-            <!-- <a class="nav-link" :class="{ active: tabs[2].isActive }" href="#" @click="navigate('tradeUps')">Platform Updates</a> -->
+            <a class="nav-link" :class="{ active: tabs[2].isActive }" href="#" @click="navigate('tradeUps')">Platform Updates</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[2].isActive }" href="#" @click="navigate('websiteUps')">Website Updates</a>
+            <a class="nav-link" :class="{ active: tabs[3].isActive }" href="#" @click="navigate('websiteUps')">Website Updates</a>
           </li>
         </ul>
        </div>
@@ -63,9 +63,14 @@
      </div>
    </div>
 
-   <!-- <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
+   <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
      <div class="row">
        <div class="col-md-12">
+        May 10th, 2021.
+        <ul>            
+          <li>Considering whether I should continue planning on trying to utiltize leveraged ETFs, or giving it up and just sticking to options. Such ETFs seem to only add another layer of complexity to things already happening.</li>
+          <li>Possibly: One idea could be to dedicate and build an entire to platform for such strategy?</li>
+        </ul>
         May 7th, 2021. 
         <ul>
           <li>Realizing there are only so many trades of SPY you can make in a day. Considering opening an account with focus, but not limited to SPY.</li>
@@ -76,9 +81,9 @@
         </ul>
        </div>
      </div>
-   </div> -->
+   </div>
 
-   <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
+   <div class="container mt-4 mb-4" v-if="tabs[3].isActive">
      <div class="row">
        <div class="col-md-12">
         May 10th, 2021. 
@@ -132,10 +137,10 @@ export default {
           name: 'resourceUps',
           isActive: false
         },
-        // {
-        //   name: 'tradeUps',
-        //   isActive: false
-        // },
+        {
+          name: 'tradeUps',
+          isActive: false
+        },
         {
           name: 'websiteUps',
           isActive: false
