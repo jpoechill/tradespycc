@@ -1,14 +1,14 @@
 <template>
   <div>
     <div style="position: fixed; width: 120px; height: 120px; left: 10px; top: 10px;">
-      <img src="/cube.svg" width="34px" alt="">
+      <img src="/cube_02.svg" width="38px" alt="">
     </div>
 
     <div style="z-index: 999; position: fixed; left: 0px; bottom: 6px;">
       <img src="/kitten_trans.gif" width="110px" alt="">
     </div>
 
-    <div style="z-index: 999; position: fixed; right: 14px; top: 14px;">
+    <div style="z-index: 999; position: fixed; right: 18px; top: 18px;">
       <img src="/binary.svg" width="30px" alt="">
     </div>
 
