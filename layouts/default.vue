@@ -86,7 +86,7 @@
         </small>
         <div class="col-md-12 text-center mt-0 mb-1">
           <hr>
-          SPY: ${{ spyCurr }} | Unique View Count: 000<br>
+          SPY: ${{ spyCurr }} | Unique View Count: {{ counter }}<br>
         </div>
       </div>
     </div>
@@ -121,6 +121,7 @@ export default {
   },
   data () {
     return {
+      counter: '',
       tabs: [
         // {
         //   title: 'About',
@@ -213,6 +214,34 @@ export default {
     }
   },
   methods: {
+    getCounter: function () {
+      let self = this
+
+      axios.get('https://api.jsonbin.io/b/609a36596e36c66e53602082')
+        .then(function (response) { 
+          self.counter = response.data.counter
+          self.updateCounter()
+
+          })
+        .catch(function (error) {
+          console.log(error);
+        })
+    },
+    updateCounter: function () {
+      let self = this
+
+      axios
+        .put(
+            "https://api.jsonbin.io/v3/b/609a36596e36c66e53602082", 
+            {"counter": self.counter + 1},
+            { headers: {
+                "Content-Type": "application/json",
+                "X-Master-Key": "$2b$10$FV7EMZC/Z83EQnX/begFCOmbhD7wYz0823Y3DzAOJOGDlZ/TmsLzi"
+              }
+            }
+        )
+        .catch(e => console.log(e));
+    },
     setCurrPageActive: function () {
       const currPath = this.currPath
       const tabs = this.tabs
@@ -277,11 +306,7 @@ export default {
     }
   }, 
   mounted () {
-      this.$nextTick(() => {
-        // console.log('xxx')
-        // console.log($('[data-toggle="tooltip"]').tooltip())
-          $('[data-toggle="tooltip"]').tooltip()
-      });
+    this.getCounter()
     this.setCurrPageActive()
     this.addEventListeners()
     this.getSPYPrice()
