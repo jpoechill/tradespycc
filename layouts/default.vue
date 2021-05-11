@@ -19,10 +19,7 @@
     <div class="bg-white pb-4 border-bottom">
 
       <div class="container pt-0">
-        <div class="row pt-2">
-          <div class="col-md-12 text-center mt-3 mb-2">
-            <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link>
-          </div>
+        <div class="row pt-0">
           <!-- <div class="row">
             <small>
             <div class="col-md-12 text-center py-2">
@@ -79,7 +76,16 @@
 
     <div class="container mt-2">
       <div class="row">
-        <div class="col-md-12 text-center mt-4 mb-1">
+        <div class="col-md-12 text-center mt-3 mb-0">
+          <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link>
+        </div>
+        <small>
+        <div class="col-md-12 text-center pt-2">
+          <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">MISC</nuxt-link>
+        </div>
+        </small>
+        <div class="col-md-12 text-center mt-0 mb-1">
+          <hr>
           SPY: ${{ spyCurr }} | Unique View Count: 000<br>
         </div>
       </div>
@@ -88,11 +94,6 @@
     <div style="background-color: #ECFEFF;">
       <div class="container">
         <div class="row">
-          <small>
-          <div class="col-md-12 text-center py-2">
-            <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIOS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/articles">ARTICLES</nuxt-link>  | <nuxt-link to="/books">BOOKS</nuxt-link> | <nuxt-link to="/videos">VIDEOS</nuxt-link> | <nuxt-link to="/websites">WEBSITES</nuxt-link> | <nuxt-link to="/people">PEOPLE</nuxt-link> | <nuxt-link to="/misc">MISC</nuxt-link>
-          </div>
-          </small>
         </div>
       </div>
     </div>
@@ -110,6 +111,7 @@
 
 <script>
 import axios from 'axios'
+import Vue from 'vue'
 
 export default {
   components: {
@@ -128,11 +130,13 @@ export default {
         {
           title: 'Feed',
           path: '/feed',
+          toolTip: 'Website updates, blog/vlogs, stock purchases, etc.',
           isActive: false
         },
         {
           title: 'Portfolios',
           path: '/',
+          toolTip: 'Portfolio action and balances.',
           isActive: false
         },
         // {
@@ -143,6 +147,7 @@ export default {
         {
           title: 'Charts',
           path: '/charts',
+          toolTip: 'Relevant data viz.',
           isActive: false
         },
         // {
@@ -270,8 +275,13 @@ export default {
         }
       });
     }
-  },
+  }, 
   mounted () {
+      this.$nextTick(() => {
+        // console.log('xxx')
+        // console.log($('[data-toggle="tooltip"]').tooltip())
+          $('[data-toggle="tooltip"]').tooltip()
+      });
     this.setCurrPageActive()
     this.addEventListeners()
     this.getSPYPrice()
@@ -328,5 +338,32 @@ body {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 </style>
