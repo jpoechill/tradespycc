@@ -22,7 +22,12 @@
    <div class="container mt-4 mb-4" v-if="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
-        
+        <strong>Slickcharts</strong> <a href="https://www.investing.com/etfs/spdr-s-p-500-technical" target="_blank">Link to source.</a><br>
+        Current SPY charts with technical details and current/emerging chart patterns. <br><br>
+
+        <strong>Slickcharts</strong> <a href="https://www.slickcharts.com/sp500" target="_blank">Link to source.</a><br>
+        Simple website that shows list of all companies and recent prices in the S&P500. <br><br>
+
         <strong>FINVIZ</strong> <a href="https://finviz.com" target="_blank">Link to source.</a><br>
         Charts and numbers; no fluff. <br><br>
 

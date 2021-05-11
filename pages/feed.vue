@@ -10,7 +10,10 @@
             <a class="nav-link" :class="{ active: tabs[0].isActive }" aria-current="page" href="#" @click="navigate('marketObs')">Market Observations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[1].isActive }" href="#" @click="navigate('tradeUps')">Trade Updates</a>
+            <a class="nav-link" :class="{ active: tabs[1].isActive }" href="#" @click="navigate('resourceUps')">Resources Updates</a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" :class="{ active: tabs[2].isActive }" href="#" @click="navigate('tradeUps')">Platform Updates</a> -->
           </li>
           <li class="nav-item">
             <a class="nav-link" :class="{ active: tabs[2].isActive }" href="#" @click="navigate('websiteUps')">Website Updates</a>
@@ -51,17 +54,21 @@
    <div class="container mt-4 mb-4" v-if="tabs[1].isActive">
      <div class="row">
        <div class="col-md-12">
+          May 10th, 2021. 
+          <ul>
+            <li>An interesting article via. r/options re: research and results of trades made by US Senators. Concludes with data that shows there are winners and losers, that not surpisingly the tech (FAANG) is the most popular, and that such politicians do well enough to beat the S&P 500. [<a href="https://www.reddit.com/r/options/comments/n940ze/i_analyzed_9000_trades_made_by_us_senators_in_the/">Reference via. r/options</a>]</li>
+            <li>Another great SPY reference site, detailing past and current SPY candlestick patterns. Hyper useful. [<a href="https://www.investing.com/etfs/spdr-s-p-500-technical">Reference via. @investing.com</a>]</li>
+          </ul>
+       </div>
+     </div>
+   </div>
+
+   <!-- <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
+     <div class="row">
+       <div class="col-md-12">
         May 7th, 2021. 
         <ul>
           <li>Realizing there are only so many trades of SPY you can make in a day. Considering opening an account with focus, but not limited to SPY.</li>
-        </ul>
-        May 2nd, 2021. 
-        <ul>
-          <li>Add, refine trade content. Add TOS account for tracking. </li>
-        </ul>
-        April 29th, 2021. 
-        <ul>
-          <li>Buy SPY from recent ATH for SAFE 1, MODERATE 1 accounts. </li>
         </ul>
         April 27th, 2021. 
         <ul>
@@ -69,7 +76,7 @@
         </ul>
        </div>
      </div>
-   </div>
+   </div> -->
 
    <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
      <div class="row">
@@ -122,9 +129,13 @@ export default {
           isActive: true
         },
         {
-          name: 'tradeUps',
+          name: 'resourceUps',
           isActive: false
         },
+        // {
+        //   name: 'tradeUps',
+        //   isActive: false
+        // },
         {
           name: 'websiteUps',
           isActive: false
