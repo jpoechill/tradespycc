@@ -25,9 +25,37 @@
           <iframe src="https://financhill.com/widget/charts/SPY?defaultOverlays=SMA50%2CSMA200&periodGrouping=daily&defaultSeries=candlesticks" width="100%" height="500" frameborder="0" scrolling="no" style="margin:0 auto;border: 0;" seamless></iframe>
           <!-- <img src="/chart_03.svg" class="w-100" alt=""> -->
           <br><br>
-          Data
-          <hr class="my-1">
-          Week 1: 3, Week 2: NA, Week 3: NA, Week 4: NA <br><br>
+
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Price</th>
+              <th scope="col">Day's Gain/Loss Amount</th>
+              <th scope="col">Day's Gain/Loss Percent</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1 Day Ago</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th scope="row">2 Days Ago</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th scope="row">3 Days Ago</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+        </table>
        </div>
      </div>
    </div>
@@ -37,9 +65,42 @@
        <div class="col-md-12">
         <img src="/chart_01.svg" class="w-100" alt="">
         <br><br>
-        Data
-        <hr class="my-1">
-        Week 1: 3, Week 2: NA, Week 3: NA, Week 4: NA <br><br>
+
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Bad Resets (Accounts Blown)</th>
+              <th scope="col">Good Resets (Goals Reach – 200%+)</th>
+              <th scope="col">Week Total</th>
+              <th scope="col">Grand Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Week 3</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <th scope="row">Week 2</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <th scope="row">Week 1</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+        </table>
+
        </div>
      </div>
    </div>
@@ -49,9 +110,42 @@
        <div class="col-md-12">
         <img src="/chart_02.svg" class="w-100" alt="">
        <br><br>
-        Data
-        <hr class="my-1">
-        Week 1: 0, Week 2: NA, Week 3: NA, Week 4: NA <br><br><br>
+
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Bad Resets (Accounts Blown)</th>
+              <th scope="col">Good Resets (Goals Reach – 200%+)</th>
+              <th scope="col">Week Total</th>
+              <th scope="col">Grand Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Week 3</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <th scope="row">Week 2</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <th scope="row">Week 1</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+        </table>
+
        </div>
      </div>
    </div>

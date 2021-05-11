@@ -190,7 +190,7 @@ export default {
         // '/videos',
         // '/websites',
       ],
-      spyCurr: 0,
+      spyCurr: "#",
       options: {
         method: 'GET',
         url: 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/auto-complete',
