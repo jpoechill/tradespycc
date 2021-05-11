@@ -217,7 +217,7 @@ export default {
     getCounter: function () {
       let self = this
 
-      axios.get('https://api.jsonbin.io/b/609a36596e36c66e53602082')
+      axios.get('https://jsonstorage.net/api/items/0de26d0c-0065-49d4-8990-98bf6c0f237c')
         .then(function (response) { 
           self.counter = response.data.counter
           self.updateCounter()
@@ -232,11 +232,11 @@ export default {
 
       axios
         .put(
-            "https://api.jsonbin.io/v3/b/609a36596e36c66e53602082", 
+            "https://jsonstorage.net/api/items/0de26d0c-0065-49d4-8990-98bf6c0f237c", 
             {"counter": self.counter + 1},
             { headers: {
-                "Content-Type": "application/json",
-                "X-Master-Key": "$2b$10$FV7EMZC/Z83EQnX/begFCOmbhD7wYz0823Y3DzAOJOGDlZ/TmsLzi"
+                "Content-Type": "application/json; charset=utf-8",
+                "Data-Type": "json"
               }
             }
         )
