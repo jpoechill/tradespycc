@@ -19,21 +19,27 @@
      </div>
    </div>
 
-   <div class="container mt-4 mb-3" v-if="tabs[0].isActive">
+   <div class="container mt-4 mb-3" v-show="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
          <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 ACCOUNT 1 – AGGRO 1, THINK OR SWIM (Starting: $200,000, 3 RESETS)
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
                 Hyper Volatile. Stock and Options. No limit on # of trades.<br><br>
                   Feed<br>
                   <hr class="my-1">
+                  May 11th, '21. Major gains on "yolo'd" puts, and less some on reversal calls. <span class="badge bg-success">Gain</span><br>
+                  <ul class="mt-2">
+                    <li>Puts from previous day extended into this morning, bringing account to 500k+ at one point. Because I hadn't planned on getting this far this soon, I am currently sitting at 432k. Will consider this now as worthy to reset, with the drawback that I failed to <i>pull-out</i> at peak.</li>
+                    <li>Secondary account is still considerably over start, but now struggling to find the proper direction; momentum.</li>
+                    <li>Trading in and out of the day takes more effort than taking striking a longer position, and from current history, show evidence of bringing less returns. <span class="badge bg-primary">Learnings</span></li>
+                  </ul>
                   May 10th, '21. Extending plays. <span class="badge badge-info">Hold</span> <span class="badge badge-light">Anxious!</span> <br>
                   <ul class="mt-2">
                     <li>Pushing sized calls and "yolo" puts on designated accounts. There shouldn't be much more to the top, right..? </li>
@@ -96,21 +102,25 @@
      </div>
    </div>
 
-   <div class="container mt-4 mb-3" v-if="tabs[1].isActive">
+   <div class="container mt-4 mb-3" v-show="tabs[1].isActive">
      <div class="row">
        <div class="col-md-12">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                ACCOUNT 2 – MODERATE 1 (${{ numberWithCommas((spyCurr * 238) + 221.82, ) }}/$100,000, 0 RESETS)
+              <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                ACCOUNT 2 – MODERATE 1 (${{ numberWithCommas(((spyCurr * 238) + 221.82).toFixed(2), ) }}/$100,000, 0 RESETS)
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div id="collapseThree" class="accordion-collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
               <div class="accordion-body">
                 Full stocks, along with 3x leverage ETFs where inclined. 3-5 trades/month.<br><br>
                 Feed<br>
                 <hr class="my-1">
+                May 11th, '21. Foward action plan.
+                <ul>
+                  <li>Planning to sell when SPY price breaks below 50 day SMA.</li>
+                </ul>
                 May 10th, '21. Buy stocks.
                 <ul>
                   <li>Eliminating cash positions, and going full stocks. Making to further align with 50/200 day SMA strategy.</li>
@@ -154,17 +164,17 @@
    </div>
 
 
-   <div class="container mt-4 mb-3" v-if="tabs[2].isActive">
+   <div class="container mt-4 mb-3" v-show="tabs[2].isActive">
      <div class="row">
        <div class="col-md-12">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapse show" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <button class="accordion-button collapse show" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 ACCOUNT 3 – SAFE 1 (${{ numberWithCommas(((spyCurr * 238) + 373.20).toFixed(2)) }}/$100,000)
               </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div id="collapseFour" class="accordion-collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
               <div class="accordion-body">
                 Full stocks. Hyper conservative. Control group. Avg. trades: 3-5/year, max.<br><br>
                 Feed<br>
@@ -201,6 +211,7 @@
        </div>
      </div>
    </div>
+   
   </div>
 </template>
 

@@ -28,6 +28,10 @@
        <div class="col-md-12">
           May 10th, 2021. 
           <ul>
+            <li>SPY takes another hit. The question now: how long does this last, and how far will it go? <span class="badge bg-danger">Reversal</span> </li>
+          </ul>
+          May 10th, 2021. 
+          <ul>
             <li>SPY momentum slowing down. QQQ (tech, growth) taking a hit. Crypto flaky.</li>
             <li>[<a href="https://www.investing.com/analysis/trading-the-sp-500s-latest-wobble-what-the-faang-stocks-are-telling-us-200579135">Reference via. investing.com</a>]</li>
           </ul>
