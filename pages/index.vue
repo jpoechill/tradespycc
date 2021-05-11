@@ -38,7 +38,7 @@
                   <ul class="mt-2">
                     <li>Puts from previous day extended into this morning, bringing account to 500k+ at one point. Because I hadn't planned on getting this far this soon, I am currently sitting at 432k. Will consider this now as worthy to reset, with the drawback that I failed to <i>pull-out</i> at peak.</li>
                     <li>Secondary account is still considerably over start, but now struggling to find the proper direction; momentum.</li>
-                    <li>Trading in and out of the day takes more effort than taking striking a longer position, and from current history, show evidence of bringing less returns. <span class="badge bg-primary">Learnings</span></li>
+                    <li>Trading in and out of the day takes more effort than taking striking a longer position and sitting. From current history, trading in and out also shows evidence of bringing less returns. <span class="badge bg-primary">Learnings</span></li>
                   </ul>
                   May 10th, '21. Extending plays. <span class="badge badge-info">Hold</span> <span class="badge badge-light">Anxious!</span> <br>
                   <ul class="mt-2">
@@ -52,6 +52,7 @@
                     <li>Found out its a bit hard to actually forcefully take an account to 0, without having calls expire to worthless. <span class="badge bg-primary">Learnings</span></li>
                     <li>Resetting 1B account 20k due to low balance. May think about resetting 1A account if it reaches 200k.</li>
                   </ul>
+
                   May 6th, '21. Gains on SPY puts, etc others. <span class="badge bg-success">Gain</span><br>
                   <ul class="mt-2">
                     <li>Considerable gains on early morning puts before being stomped out. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
@@ -60,25 +61,37 @@
                     <li>Trading SPY takes true patience when going both ways, in case: downwards and upwards movement. <span class="badge bg-primary">Learnings</span></li>
                     <li>Currently, sitting with <i>no positions</i>.</li>
                   </ul>
-                  May 5th, '21. Account blown. Reset 2. <span class="badge bg-warning">Reset</span><br>
-                  <ul class="mt-2">
-                    <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/image/650365708821299200" target="_blank">[Reference]</a> </li>
-                    <li>Reset one account with 100k of 2 DTE SPY calls, and the other with 100k 2 DTE SPY puts. Pure coin flip. Holding till Friday. <a href="https://tradespy.tumblr.com/image/650371363175006208" target="_blank">[Reference]</a></li>
-                    <li>&#60;3 DTE are basically shots in the dark. Might try again a few more rounds. <span class="badge bg-primary">Learnings</span></li>
-                    <li><i>"Paper handing"</i> and not following through on a plan seems worse than just sticking to one. <span class="badge bg-primary">Learnings</span></li>
-                  </ul>
-                  April 30, '21. Substantial gain to overall lost. <span class="badge bg-danger">Loss</span><br>
-                  <ul class="mt-2">
-                    <li>Getting ready for reset 2. [<a href="https://tradespy.tumblr.com/post/650195604078788608/200k-235k-59k-time-period-1-week" target="_blank">Reference</a>] </li>
-                    <li>$200k => $230k => $60k. SPY puts and then calls. </li>
-                    <li>Maybe also MVIS (not SPY!) puts.</li>
-                    <li>&#60;3 DTE's</li>
-                  </ul>
-                  Jan. '21. Major gain. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span><br>
-                  <ul class="mt-2">
-                    <li>$100k to $800k going all-in on PLUG (not SPY!) calls. </li>
-                    <li>Reset account after admitting total fluke.</li>
-                  </ul>
+
+                  <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
+                    
+                    May 5th, '21. Account blown. Reset 2. <span class="badge bg-warning">Reset</span><br>
+                    <ul class="mt-2">
+                      <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/image/650365708821299200" target="_blank">[Reference]</a> </li>
+                      <li>Reset one account with 100k of 2 DTE SPY calls, and the other with 100k 2 DTE SPY puts. Pure coin flip. Holding till Friday. <a href="https://tradespy.tumblr.com/image/650371363175006208" target="_blank">[Reference]</a></li>
+                      <li>&#60;3 DTE are basically shots in the dark. Might try again a few more rounds. <span class="badge bg-primary">Learnings</span></li>
+                      <li><i>"Paper handing"</i> and not following through on a plan seems worse than just sticking to one. <span class="badge bg-primary">Learnings</span></li>
+                    </ul>
+                    April 30, '21. Substantial gain to overall lost. <span class="badge bg-danger">Loss</span><br>
+                    <ul class="mt-2">
+                      <li>Getting ready for reset 2. [<a href="https://tradespy.tumblr.com/post/650195604078788608/200k-235k-59k-time-period-1-week" target="_blank">Reference</a>] </li>
+                      <li>$200k => $230k => $60k. SPY puts and then calls. </li>
+                      <li>Maybe also MVIS (not SPY!) puts.</li>
+                      <li>&#60;3 DTE's</li>
+                    </ul>
+                    Jan. '21. Major gain. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span><br>
+                    <ul class="mt-2">
+                      <li>$100k to $800k going all-in on PLUG (not SPY!) calls. </li>
+                      <li>Reset account after admitting total fluke.</li>
+                    </ul>
+                  </div>
+
+                  <div class="position-relative">
+                    <img src="wht_fade.svg" class="w-100 position-absolute wht-fade" alt="" style="bottom: 0;" :style="{ opacity: showViewMore ? 100 : 0 }">
+                  </div>
+                  <button type="button" @click="toggleViewMore()" class="btn btn-primary btn-lg btn-block">View more...</button>
+
+                  <br>
+
                   No. of resets: 3 <br><br>
                   Goals<br>
                   <hr class="my-1">
@@ -221,6 +234,18 @@ import axios from 'axios'
 
 export default {
   methods: {
+    setShowMoreHeight: function () {
+      this.showMoreHeightStatic = this.$refs.showMoreContainer.clientHeight
+    },
+    toggleViewMore: function () {
+      if (this.showViewMore === false) {
+        this.showMoreHeightDynammic = 0
+      } else {
+        this.showMoreHeightDynammic = this.showMoreHeightStatic
+      }
+
+      this.showViewMore = !this.showViewMore
+    },
     numberWithCommas: function (x) {
       return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     },
@@ -237,6 +262,9 @@ export default {
   },
   data () {
     return {
+      showMoreHeightStatic: 0,
+      showMoreHeightDynammic: null,
+      showViewMore: true, 
       tabs: [
         {
           name: 'aggro',
@@ -263,6 +291,9 @@ export default {
   mounted () {
     let self = this
 
+    this.showMoreHeightStatic = this.$refs.showMoreContainer.clientHeight
+    this.showMoreHeightDynammic = 0
+
     axios.get('https://cloud.iexapis.com/stable/stock/' + 'SPY' + '/quote?token=pk_d8826aae332a4b1287b1d4399e2f860b')
         .then(function (response) { 
             self.spyCurr = response.data.iexRealtimePrice
@@ -275,4 +306,19 @@ export default {
 </script>
 
 <style>
+.btn::before {
+  /* content: url('/wht_fade.png'); */
+}
+
+.view-more:hover {
+  cursor: pointer;
+}
+
+.container-view-more, .wht-fade  {
+  transition: all .5s ease-in-out;
+}
+
+img {
+  pointer-events: none
+}
 </style>
