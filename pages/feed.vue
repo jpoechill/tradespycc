@@ -26,7 +26,7 @@
    <div class="container mt-4 mb-4" v-if="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
-          May 10th, 2021. 
+          May 11th, 2021. 
           <ul>
             <li>SPY takes another hit. The question now: how long does this last, and how far will it go? <span class="badge bg-danger">Reversal</span> </li>
           </ul>

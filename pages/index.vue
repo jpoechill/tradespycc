@@ -37,7 +37,7 @@
                   May 11th, '21. Major gains on "yolo'd" puts, and less some on reversal calls. <span class="badge bg-success">Gain</span><br>
                   <ul class="mt-2">
                     <li>Puts from previous day extended into this morning, bringing account to 500k+ at one point. Because I hadn't planned on getting this far this soon, I am currently sitting at 432k. Will consider this now as worthy to reset, with the drawback that I failed to <i>pull-out</i> at peak.</li>
-                    <li>Secondary account is still considerably over start, but now struggling to find the proper direction; momentum.</li>
+                    <li>Secondary account is still considerably over start, but now struggling to find the proper direction; momentum. [<a href="https://tradespy.tumblr.com/post/650903506198331392/account-1-115k-145k-on-late-morning-calls">Reference</a>]</li>
                     <li>Trading in and out of the day takes more effort than taking striking a longer position and sitting. From current history, trading in and out also shows evidence of bringing less returns. <span class="badge bg-primary">Learnings</span></li>
                   </ul>
                   May 10th, '21. Extending plays. <span class="badge badge-info">Hold</span> <span class="badge badge-light">Anxious!</span> <br>
