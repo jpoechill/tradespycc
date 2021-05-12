@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div style="position: fixed; width: 120px; height: 120px; left: 10px; top: 10px;">
+  <div class="border-top">
+    <div style="position: fixed; width: 120px; height: 120px; left: 10px; top: 16px;">
       <img src="/cube_02.svg" width="38px" alt="">
     </div>
 
@@ -8,7 +8,7 @@
       <img src="/kitten_trans.gif" width="110px" alt="">
     </div>
 
-    <div style="z-index: 999; position: fixed; right: 18px; top: 18px;">
+    <div style="z-index: 999; position: fixed; right: 18px; top: 20px;">
       <img src="/binary.svg" width="30px" alt="">
     </div>
 
@@ -16,7 +16,7 @@
       <img src="/heart!.svg" width="30px" alt="">
     </div>
 
-    <div class="bg-white pb-4 border-bottom">
+    <div class="bg-white pb-4">
 
       <div class="container pt-0">
         <div class="row pt-0">
@@ -73,6 +73,12 @@
       <Nuxt />
 
     </div>
+
+    <!-- <div class="container bg-dark"> -->
+      <div class="row" style="background-color: #f9f9f9;">
+        <img src="wave.svg"  class="pt-4 pb-3" alt="">
+      </div>
+    <!-- </div> -->
 
     <div class="container mt-2">
       <div class="row">
@@ -334,6 +340,10 @@ body {
 
 .border-bottom {
   border-bottom: 58px solid rgb(249, 249, 249) !important;
+}
+
+.border-top {
+  border-top: 8px solid yellow !important;
 }
 
 .ooga {

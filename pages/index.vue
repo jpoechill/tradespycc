@@ -26,14 +26,20 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                ACCOUNT 1 – AGGRO 1, THINK OR SWIM (Starting: $200,000, 3 RESETS)
+                ACCOUNT 1 – AGGRO 1, THINK OR SWIM (Starting: $200,000, 5 RESETS)
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
-                Hyper Volatile. Stock and Options. No limit on # of trades.<br><br>
+                Hyper Volatile. Options only. No limit on # of trades.<br><br>
                   Feed<br>
                   <hr class="my-1">
+                  May 12th, '21. Up-hits on puts, less on calls. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset x2</span><br>
+                  <ul class="mt-2">
+                    <li>Holds on puts for the day put me over the top @ 432K => 500k+. [<a href="https://tradespy.tumblr.com/post/651003398878052352/432k-501k-120k-48k-currently">Reference</a>]</li>
+                    <li>Holds on calls put me below 50% in auxiliary account @ 120k => 48k. Am resetting both.</li>
+                    <li>Going forward, rather than purposefully trying to bomb an account as I did with previous calls, I can plan to strategically play both accounts. Effort might be more excruciating and challenging, but I would think from it – I could gain more experience. <span class="badge bg-primary">Learnings</span></li>
+                  </ul>
                   May 11th, '21. Major gains on "yolo'd" puts, and less some on reversal calls. <span class="badge bg-success">Gain</span><br>
                   <ul class="mt-2">
                     <li>Puts from previous day extended into this morning, bringing account to 500k+ at one point. Because I hadn't planned on getting this far this soon, I am currently sitting at 432k. Will consider this now as worthy to reset, with the drawback that I failed to <i>pull-out</i> at peak.</li>
@@ -53,17 +59,17 @@
                     <li>Resetting 1B account 20k due to low balance. May think about resetting 1A account if it reaches 200k.</li>
                   </ul>
 
-                  May 6th, '21. Gains on SPY puts, etc others. <span class="badge bg-success">Gain</span><br>
-                  <ul class="mt-2">
-                    <li>Considerable gains on early morning puts before being stomped out. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
-                    <li>Wasn't expecting the sharp reversal aftwards, which opened opportunity for which I was not prepared.</li>
-                    <li>Unfortunately, above trades are specified non-SPY – deviating from primary mission. Eek.</li>
-                    <li>Trading SPY takes true patience when going both ways, in case: downwards and upwards movement. <span class="badge bg-primary">Learnings</span></li>
-                    <li>Currently, sitting with <i>no positions</i>.</li>
-                  </ul>
-
                   <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
                     
+                    May 6th, '21. Gains on SPY puts, etc others. <span class="badge bg-success">Gain</span><br>
+                    <ul class="mt-2">
+                      <li>Considerable gains on early morning puts before being stomped out. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
+                      <li>Wasn't expecting the sharp reversal aftwards, which opened opportunity for which I was not prepared.</li>
+                      <li>Unfortunately, above trades are specified non-SPY – deviating from primary mission. Eek.</li>
+                      <li>Trading SPY takes true patience when going both ways, in case: downwards and upwards movement. <span class="badge bg-primary">Learnings</span></li>
+                      <li>Currently, sitting with <i>no positions</i>.</li>
+                    </ul>
+
                     May 5th, '21. Account blown. Reset 2. <span class="badge bg-warning">Reset</span><br>
                     <ul class="mt-2">
                       <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/image/650365708821299200" target="_blank">[Reference]</a> </li>
@@ -92,12 +98,14 @@
 
                   <br>
 
-                  No. of resets: 3 <br><br>
+                  No. of resets: 5 <br><br>
                   Goals<br>
                   <hr class="my-1">
                   <ul>
                     <li>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year.</li>
-                    <li>With strategic effort, double (2x) the value of one account.</li>
+                    <li>With strategic effort, double (2x) the original value of one account.</li>
+                    <li>With strategic effort, 5x the original value of one account.</li>
+                    <li>With time and experience, normalize a SPY strategy for consistent upside.</li>
                     <li>Also, and currently: How many times can I blow an account?</li>
                   </ul>
                   Notes<br>
@@ -132,7 +140,7 @@
                 <hr class="my-1">
                 May 11th, '21. Foward action plan.
                 <ul>
-                  <li>Planning to sell when SPY price breaks below 50 day SMA.</li>
+                  <li>Planning to sell when SPY price breaks below 50 day, 3-month SMA. [<a href="https://www.barchart.com/etfs-funds/quotes/SPY/technical-chart?plot=CANDLE&volume=total&data=DO&density=ML&pricesOn=1&asPctChange=0&logscale=0&indicators=SMA(50)&sym=SPY&grid=1&height=500&studyheight=100">Reference</a>] </li>
                 </ul>
                 May 10th, '21. Buy stocks.
                 <ul>

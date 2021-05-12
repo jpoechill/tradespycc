@@ -26,14 +26,17 @@
    <div class="container mt-4 mb-4" v-if="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
+          May 12th, 2021.
+          <ul>
+            <li>Continued down trend. All stocks and equities. Cause: Fear of inflation. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-12-2021-221905341.html">Reference via. @yahoo.com</a>]</li>
+          </ul>
           May 11th, 2021. 
           <ul>
             <li>SPY takes another hit. The question now: how long does this last, and how far will it go? <span class="badge bg-danger">Reversal</span> </li>
           </ul>
           May 10th, 2021. 
           <ul>
-            <li>SPY momentum slowing down. QQQ (tech, growth) taking a hit. Crypto flaky.</li>
-            <li>[<a href="https://www.investing.com/analysis/trading-the-sp-500s-latest-wobble-what-the-faang-stocks-are-telling-us-200579135">Reference via. investing.com</a>]</li>
+            <li>SPY momentum slowing down. QQQ (tech, growth) taking a hit. Crypto flaky. [<a href="https://www.investing.com/analysis/trading-the-sp-500s-latest-wobble-what-the-faang-stocks-are-telling-us-200579135">Reference via. investing.com</a>]</li>
           </ul>
           May 7th, 2021. 
           <ul>
@@ -61,8 +64,8 @@
        <div class="col-md-12">
           May 10th, 2021. 
           <ul>
-            <li>An interesting article via. r/options re: research and results of trades made by US Senators. Concludes with data that shows there are winners and losers, that not surpisingly the tech (FAANG) is the most popular, and that such politicians do well enough to beat the S&P 500. [<a href="https://www.reddit.com/r/options/comments/n940ze/i_analyzed_9000_trades_made_by_us_senators_in_the/">Reference via. r/options</a>]</li>
-            <li>Another great SPY reference site, detailing past and current SPY candlestick patterns. Hyper useful. [<a href="https://www.investing.com/etfs/spdr-s-p-500-technical">Reference via. @investing.com</a>]</li>
+            <li>New article: An interesting article via. r/options re: research and results of trades made by US Senators. Concludes with data that shows there are winners and losers, that not surpisingly the tech (FAANG) is the most popular, and that such politicians do well enough to beat the S&P 500. [<a href="https://www.reddit.com/r/options/comments/n940ze/i_analyzed_9000_trades_made_by_us_senators_in_the/">Reference via. r/options</a>]</li>
+            <li>New tools site: Another great SPY reference site, detailing past and current SPY candlestick patterns. Hyper useful. [<a href="https://www.investing.com/etfs/spdr-s-p-500-technical">Reference via. @investing.com</a>]</li>
           </ul>
        </div>
      </div>
@@ -71,6 +74,10 @@
    <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
      <div class="row">
        <div class="col-md-12">
+        May 12th, 2021.
+        <ul>            
+          <li>Remove stocks from Aggro 1 account, and update to options only.</li>
+        </ul>
         May 10th, 2021.
         <ul>            
           <li>Considering whether I should continue planning on trying to utiltize leveraged ETFs, or giving it up and just sticking to options. Such ETFs seem to only add another layer of complexity to things already happening.</li>
