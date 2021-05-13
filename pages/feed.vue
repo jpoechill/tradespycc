@@ -28,7 +28,7 @@
        <div class="col-md-12">
           May 12th, 2021.
           <ul>
-            <li>Continued down trend. All stocks and equities. Cause: Fear of inflation. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-12-2021-221905341.html">Reference via. @yahoo.com</a>]</li>
+            <li>Continued down trend. All stocks and equities. Cause: fear of inflation. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-12-2021-221905341.html">Reference via. @yahoo.com</a>]</li>
           </ul>
           May 11th, 2021. 
           <ul>

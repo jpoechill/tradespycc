@@ -1,6 +1,6 @@
 <template>
-  <div class="border-top">
-    <div style="position: fixed; width: 120px; height: 120px; left: 10px; top: 16px;">
+  <div>
+    <div style="position: fixed; z-index: 99; width: 120px; height: 120px; left: 10px; top: 16px;">
       <img src="/cube_02.svg" width="38px" alt="">
     </div>
 
@@ -43,7 +43,7 @@
         </div>
       </div> -->
 
-      <div style="background-color: #f9f9f9;">
+      <div style="background-color: #f9f9f9; position: fixed; width: 100%; z-index: 1;" class="border-top">
         <div class="container py-2">
           <div class="row">
             <div class="col-md-12 text-center" style="word-spacing: 0px;">
@@ -70,7 +70,9 @@
         </div>
       </div> -->
 
-      <Nuxt />
+      <div style="margin-top: 90px;">
+        <Nuxt/>
+      </div>
 
     </div>
 

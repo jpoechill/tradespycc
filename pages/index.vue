@@ -37,7 +37,7 @@
                   May 12th, '21. Up-hits on puts, less on calls. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset x2</span><br>
                   <ul class="mt-2">
                     <li>Holds on puts for the day put me over the top @ 432K => 500k+. [<a href="https://tradespy.tumblr.com/post/651003398878052352/432k-501k-120k-48k-currently">Reference</a>]</li>
-                    <li>Holds on calls put me below 50% in auxiliary account @ 120k => 48k. Am resetting both.</li>
+                    <li>Holds on calls put me below 50% in auxiliary account @ 120k => 48k. Resetting both.</li>
                     <li>Going forward, rather than purposefully trying to bomb an account as I did with previous calls, I can plan to strategically play both accounts. Effort might be more excruciating and challenging, but I would think from it – I could gain more experience. <span class="badge bg-primary">Learnings</span></li>
                   </ul>
                   May 11th, '21. Major gains on "yolo'd" puts, and less some on reversal calls. <span class="badge bg-success">Gain</span><br>
@@ -50,17 +50,19 @@
                   <ul class="mt-2">
                     <li>Pushing sized calls and "yolo" puts on designated accounts. There shouldn't be much more to the top, right..? </li>
                   </ul>
-                  May 7th, '21. Gains on following through with calls; loss on puts. <span class="badge bg-success">Gain</span> <span class="badge bg-danger">Loss</span> <span class="badge bg-warning">Reset</span><br>
-                  <ul class="mt-2">
-                    <li>Account 1A: 100k => 175k. Account 1B: 100k => 20k.</li>
-                    <li>Stuck with near OTM calls to make some small gains on first account. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
-                    <li>Was expecting serious continuation of downward trend, but the otherwise became apparent for the second account. <span class="badge badge-info">Surprise!</span></li>
-                    <li>Found out its a bit hard to actually forcefully take an account to 0, without having calls expire to worthless. <span class="badge bg-primary">Learnings</span></li>
-                    <li>Resetting 1B account 20k due to low balance. May think about resetting 1A account if it reaches 200k.</li>
-                  </ul>
+
 
                   <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
                     
+                    May 7th, '21. Gains on following through with calls; loss on puts. <span class="badge bg-success">Gain</span> <span class="badge bg-danger">Loss</span> <span class="badge bg-warning">Reset</span><br>
+                    <ul class="mt-2">
+                      <li>Account 1A: 100k => 175k. Account 1B: 100k => 20k.</li>
+                      <li>Stuck with near OTM calls to make some small gains on first account. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
+                      <li>Was expecting serious continuation of downward trend, but the otherwise became apparent for the second account. <span class="badge badge-info">Surprise!</span></li>
+                      <li>Found out its a bit hard to actually forcefully take an account to 0, without having calls expire to worthless. <span class="badge bg-primary">Learnings</span></li>
+                      <li>Resetting 1B account 20k due to low balance. May think about resetting 1A account if it reaches 200k.</li>
+                    </ul>
+
                     May 6th, '21. Gains on SPY puts, etc others. <span class="badge bg-success">Gain</span><br>
                     <ul class="mt-2">
                       <li>Considerable gains on early morning puts before being stomped out. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
