@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div style="position: fixed; z-index: 99; width: 120px; height: 120px; left: 10px; top: 16px;">
-      <img src="/cube_02.svg" width="38px" alt="">
+    <div style="position: fixed; z-index: 99; width: 120px; height: 120px; left: 10px; top: 15px;">
+      <img src="/art.png" width="46px" alt="">
     </div>
 
     <div style="z-index: 999; position: fixed; left: 0px; bottom: 6px;">
       <img src="/kitten_trans.gif" width="110px" alt="">
     </div>
 
-    <div style="z-index: 999; position: fixed; right: 18px; top: 20px;">
-      <img src="/binary.svg" width="30px" alt="">
+    <div style="z-index: 999; position: fixed; right: 18px; top: 22px;">
+      <img src="/binary.svg" width="32px" alt="">
     </div>
 
     <div style="z-index: 999; position: fixed; right: 14px; bottom: 14px;">
@@ -77,8 +77,8 @@
     </div>
 
     <!-- <div class="container bg-dark"> -->
-      <div class="row" style="background-color: #f9f9f9;">
-        <img src="wave.svg"  class="pt-4 pb-3" alt="">
+      <div class="row px-0 mx-0" style="background-color: #f9f9f9;">
+        <img src="wave.svg"  class="pt-4 pb-3 mx-0 px-0 w-100" alt="">
       </div>
     <!-- </div> -->
 

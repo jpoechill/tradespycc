@@ -34,6 +34,12 @@
                 Hyper Volatile. Options only. No limit on # of trades.<br><br>
                   Feed<br>
                   <hr class="my-1">
+                  May 13th, '21. Up-hits on puts, less on calls. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset x2</span><br>
+                  <ul class="mt-2">
+                    <li>Holds on puts for the day put me over the top @ 432K => 500k+. [<a href="https://tradespy.tumblr.com/post/651003398878052352/432k-501k-120k-48k-currently">Reference</a>]</li>
+                    <li>Holds on calls put me below 50% in auxiliary account @ 120k => 48k. Resetting both.</li>
+                    <li>Going forward, rather than purposefully trying to bomb an account as I did with previous calls, I can plan to strategically play both accounts. Effort might be more excruciating and challenging, but I would think from it – I could gain more experience. <span class="badge bg-primary">Learnings</span></li>
+                  </ul>
                   May 12th, '21. Up-hits on puts, less on calls. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset x2</span><br>
                   <ul class="mt-2">
                     <li>Holds on puts for the day put me over the top @ 432K => 500k+. [<a href="https://tradespy.tumblr.com/post/651003398878052352/432k-501k-120k-48k-currently">Reference</a>]</li>

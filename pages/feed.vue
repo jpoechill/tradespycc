@@ -26,13 +26,23 @@
    <div class="container mt-4 mb-4" v-if="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
+          May 14th, 2021.
+          <ul>
+            <li>Continued SPY gains. Starting to find success in following the flow of the market.</li>
+            <li>Has growth stocks been primed for a return?</li>
+          </ul>
+          May 13th, 2021.
+          <ul>
+            <li>Comeback. <span class="badge bg-success">Reversal</span></li>
+          </ul>
           May 12th, 2021.
           <ul>
             <li>Continued down trend. All stocks and equities. Cause: fear of inflation. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-12-2021-221905341.html">Reference via. @yahoo.com</a>]</li>
+            <li>The fall is here. To re-iterate from earlier: how long does this last, and how far will it go? Questions. </li>
           </ul>
           May 11th, 2021. 
           <ul>
-            <li>SPY takes another hit. The question now: how long does this last, and how far will it go? <span class="badge bg-danger">Reversal</span> </li>
+            <li>SPY takes another hit. The question now: how long does this last, and how far will it go? <span class="badge bg-danger">Reversal</span></li>
           </ul>
           May 10th, 2021. 
           <ul>
