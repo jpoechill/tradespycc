@@ -34,11 +34,16 @@
                 Hyper Volatile. Options only. No limit on # of trades.<br><br>
                   Feed<br>
                   <hr class="my-1">
-                  May 13th, '21. Up-hits on puts, less on calls. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset x2</span><br>
+                  May 14th, '21. Picked up late morning calls, matching flow of market. <span class="badge bg-success">Gain</span><br>
                   <ul class="mt-2">
-                    <li>Holds on puts for the day put me over the top @ 432K => 500k+. [<a href="https://tradespy.tumblr.com/post/651003398878052352/432k-501k-120k-48k-currently">Reference</a>]</li>
-                    <li>Holds on calls put me below 50% in auxiliary account @ 120k => 48k. Resetting both.</li>
-                    <li>Going forward, rather than purposefully trying to bomb an account as I did with previous calls, I can plan to strategically play both accounts. Effort might be more excruciating and challenging, but I would think from it – I could gain more experience. <span class="badge bg-primary">Learnings</span></li>
+                    <li>Inclined for a moment to buy puts, just to go against the market but decided it needless.</li>
+                    <li>Overall, the decision today was a simple one, and proved profitable.</li>
+                    <li>Question now: SPY is lower than ATH, how soon will it return, and will it break out again? Forecast for the coming week?</li>
+                  </ul>
+                  May 13th, '21. Took loss betting on continued puts before being stomped out. <span class="badge bg-danger">Loss</span><br>
+                  <ul class="mt-2">
+                    <li>Market making a quick comeback from 2-day down trend. <span class="badge badge-info">Surprise!</span></li>
+                    <li>Tech, QQQ still weaker.</li>
                   </ul>
                   May 12th, '21. Up-hits on puts, less on calls. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset x2</span><br>
                   <ul class="mt-2">
@@ -78,7 +83,7 @@
                       <li>Currently, sitting with <i>no positions</i>.</li>
                     </ul>
 
-                    May 5th, '21. Account blown. Reset 2. <span class="badge bg-warning">Reset</span><br>
+                    May 5th, '21. Account blown. Reset 2. <span class="badge bg-warning">Reset x2</span><br>
                     <ul class="mt-2">
                       <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/image/650365708821299200" target="_blank">[Reference]</a> </li>
                       <li>Reset one account with 100k of 2 DTE SPY calls, and the other with 100k 2 DTE SPY puts. Pure coin flip. Holding till Friday. <a href="https://tradespy.tumblr.com/image/650371363175006208" target="_blank">[Reference]</a></li>

@@ -9,13 +9,13 @@
             <a class="nav-link" :class="{ active: tabs[0].isActive }" aria-current="page" href="#" @click="navigate('main')">SPY Daily</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[3].isActive }" href="#" @click="navigate('totalResets')">Total Resets</a>
+            <a class="nav-link" :class="{ active: tabs[1].isActive }" href="#" @click="navigate('totalResets')">Total Resets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[1].isActive }" aria-current="page" href="#" @click="navigate('badResets')">Bad Resets</a>
+            <a class="nav-link" :class="{ active: tabs[2].isActive }" aria-current="page" href="#" @click="navigate('badResets')">Bad Resets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[2].isActive }" href="#" @click="navigate('goodResets')">Good Resets</a>
+            <a class="nav-link" :class="{ active: tabs[3].isActive }" href="#" @click="navigate('goodResets')">Good Resets</a>
           </li>
         </ul>
        </div>
@@ -81,25 +81,18 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Week 3</th>
+              <th scope="row">May</th>
+              <td>4</td>
               <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>9</td>
-            </tr>
-            <tr>
-              <th scope="row">Week 2</th>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
+              <td>5</td>
               <td>6</td>
             </tr>
             <tr>
-              <th scope="row">Week 1</th>
+              <th scope="row">Before May</th>
+              <td>0</td>
               <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>3</td>
+              <td>0</td>
+              <td>1</td>
             </tr>
           </tbody>
         </table>
@@ -214,15 +207,15 @@ export default {
           isActive: true
         },
         {
+          name: 'totalResets',
+          isActive: false
+        },
+        {
           name: 'badResets',
           isActive: false
         },
         {
           name: 'goodResets',
-          isActive: false
-        },
-        {
-          name: 'totalResets',
           isActive: false
         }
       ]
