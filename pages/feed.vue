@@ -29,8 +29,8 @@
           May 14th, 2021.
           <ul>
             <li>Continued SPY gains. Starting to find success in following the flow of the market.</li>
-            <li>Notable movers: XLE, XLF.</li>
-            <li>Have growth stocks been primed for a return?</li>
+            <li>Notable movers: XLE, XLF. [<a href="https://seekingalpha.com/news/3696789-sp-500s-weekly-market-breakdown-and-sector-performance">Reference via. @seekingalpha</a>] </li>
+            <li>Questions: Have growth stocks been primed for a return? Or is it still too early?</li>
           </ul>
           May 13th, 2021.
           <ul>
