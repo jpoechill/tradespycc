@@ -36,8 +36,10 @@
                   <hr class="my-1">
                   May 14th, '21. Picked up late morning calls, matching flow of market. <span class="badge bg-success">Gain</span><br>
                   <ul class="mt-2">
-                    <li>Inclined for a moment to buy puts, just to go against the market but decided it needless.</li>
+                    <li>Inclined for a moment to buy puts just to go against the market, but decided it needless. [<a href="https://tradespy.tumblr.com/post/651217360539320320/following-the-trend-gains-on-calls-36k-48k">Reference</a>] </li>
                     <li>Overall, the decision today was a simple one, and proved profitable.</li>
+                    <li><mark>Getting somewhat easier to feel what SPY might do, and controlling reactions to unpredicticality of what is/has actually happened.</mark> <span class="badge bg-primary">Learnings</span></li>
+                    <li><mark>Also getting better (less anxious), and more confident about making day trades, and then sitting through the decision afterwards.</mark> <span class="badge bg-primary">Learnings</span></li>
                     <li>Question now: SPY is lower than ATH, how soon will it return, and will it break out again? Forecast for the coming week?</li>
                   </ul>
                   May 13th, '21. Took loss betting on continued puts before being stomped out. <span class="badge bg-danger">Loss</span><br>
@@ -49,13 +51,13 @@
                   <ul class="mt-2">
                     <li>Holds on puts for the day put me over the top @ 432K => 500k+. [<a href="https://tradespy.tumblr.com/post/651003398878052352/432k-501k-120k-48k-currently">Reference</a>]</li>
                     <li>Holds on calls put me below 50% in auxiliary account @ 120k => 48k. Resetting both.</li>
-                    <li>Going forward, rather than purposefully trying to bomb an account as I did with previous calls, I can plan to strategically play both accounts. Effort might be more excruciating and challenging, but I would think from it – I could gain more experience. <span class="badge bg-primary">Learnings</span></li>
+                    <li><mark>Going forward, rather than purposefully trying to bomb an account as I did with previous calls, I can plan to strategically play both accounts. The effort might be more excruciating and challenging, but I would think from it – I could gain more experience.</mark> <span class="badge bg-primary">Learnings</span></li>
                   </ul>
                   May 11th, '21. Major gains on "yolo'd" puts, and less some on reversal calls. <span class="badge bg-success">Gain</span><br>
                   <ul class="mt-2">
                     <li>Puts from previous day extended into this morning, bringing account to 500k+ at one point. Because I hadn't planned on getting this far this soon, I am currently sitting at 432k. Will consider this now as worthy to reset, with the drawback that I failed to <i>pull-out</i> at peak.</li>
                     <li>Secondary account is still considerably over start, but now struggling to find the proper direction; momentum. [<a href="https://tradespy.tumblr.com/post/650903506198331392/account-1-115k-145k-on-late-morning-calls">Reference</a>]</li>
-                    <li>Trading in and out of the day takes more effort than taking striking a longer position and sitting. From current history, trading in and out also shows evidence of bringing less returns. <span class="badge bg-primary">Learnings</span></li>
+                    <li><mark>Trading in and out of the day takes more effort than taking striking a longer position and sitting. From current history, trading in and out also shows evidence of bringing less returns.</mark> <span class="badge bg-primary">Learnings</span></li>
                   </ul>
                   May 10th, '21. Extending plays. <span class="badge badge-info">Hold</span> <span class="badge badge-light">Anxious!</span> <br>
                   <ul class="mt-2">
@@ -70,7 +72,7 @@
                       <li>Account 1A: 100k => 175k. Account 1B: 100k => 20k.</li>
                       <li>Stuck with near OTM calls to make some small gains on first account. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
                       <li>Was expecting serious continuation of downward trend, but the otherwise became apparent for the second account. <span class="badge badge-info">Surprise!</span></li>
-                      <li>Found out its a bit hard to actually forcefully take an account to 0, without having calls expire to worthless. <span class="badge bg-primary">Learnings</span></li>
+                      <li><mark>Found out its a bit hard to actually forcefully take an account to 0, without having calls expire to worthless.</mark> <span class="badge bg-primary">Learnings</span></li>
                       <li>Resetting 1B account 20k due to low balance. May think about resetting 1A account if it reaches 200k.</li>
                     </ul>
 
@@ -79,7 +81,7 @@
                       <li>Considerable gains on early morning puts before being stomped out. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
                       <li>Wasn't expecting the sharp reversal aftwards, which opened opportunity for which I was not prepared.</li>
                       <li>Unfortunately, above trades are specified non-SPY – deviating from primary mission. Eek.</li>
-                      <li>Trading SPY takes true patience when going both ways, in case: downwards and upwards movement. <span class="badge bg-primary">Learnings</span></li>
+                      <li><mark>Trading SPY takes true patience when going both ways, in case: downwards and upwards movement.</mark> <span class="badge bg-primary">Learnings</span></li>
                       <li>Currently, sitting with <i>no positions</i>.</li>
                     </ul>
 
@@ -88,7 +90,7 @@
                       <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/image/650365708821299200" target="_blank">[Reference]</a> </li>
                       <li>Reset one account with 100k of 2 DTE SPY calls, and the other with 100k 2 DTE SPY puts. Pure coin flip. Holding till Friday. <a href="https://tradespy.tumblr.com/image/650371363175006208" target="_blank">[Reference]</a></li>
                       <li>&#60;3 DTE are basically shots in the dark. Might try again a few more rounds. <span class="badge bg-primary">Learnings</span></li>
-                      <li><i>"Paper handing"</i> and not following through on a plan seems worse than just sticking to one. <span class="badge bg-primary">Learnings</span></li>
+                      <li><mark><i>"Paper handing"</i> and not following through on a plan seems worse than just sticking to one.</mark> <span class="badge bg-primary">Learnings</span></li>
                     </ul>
                     April 30, '21. Substantial gain to overall lost. <span class="badge bg-danger">Loss</span><br>
                     <ul class="mt-2">
@@ -341,5 +343,9 @@ export default {
 
 img {
   pointer-events: none
+}
+
+mark {
+  margin-left: -4px;
 }
 </style>

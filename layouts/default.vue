@@ -85,7 +85,8 @@
     <div class="container mt-2">
       <div class="row">
         <div class="col-md-12 text-center mt-3 mb-0">
-          <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link>
+          <!-- <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link> -->
+          <nuxt-link to="/" style="color: #111;"><img src="/logo.svg" width="175px" class="mb-1" alt="tradeSPY.cc Logo"></nuxt-link>
         </div>
         <small>
         <div class="col-md-12 text-center pt-2">
