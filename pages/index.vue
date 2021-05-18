@@ -33,7 +33,15 @@
               <div class="accordion-body">
                 Hyper Volatile. Options only. No limit on # of trades.<br><br>
                   Feed<br>
-                  <hr class="my-1">May 17th, '21. Volitility and overtrading.  <span class="badge bg-warning">Reset</span><br>
+                  <hr class="my-1">
+                  
+                  May 18th, '21. Full gains where I was paying attention.<br>
+                  <ul class="mt-2">
+                    <li>Even with some of the volitility today, I was able to match a majority of the flows for solid gains – all where I was paying attention.  [<a href="https://tradespy.tumblr.com/post/651555796716519424/100k-116k-65k-48k-gains-where-i-was-paying">Reference</a>]</li>
+                    <li>Day's summary: 100k => 115k. 60k => 48k. <span class="badge bg-success">Gain</span> <span class="badge bg-danger">Loss</span> </li>
+                    <li><mark>Relying less on fundamentals and moving into an area where I'm purely playing the chart. Much hoping to keep with today's consistency in moving forward. </mark> <span class="badge bg-primary">Learnings</span></li>
+                  </ul>
+                  May 17th, '21. Volitility and overtrading.  <span class="badge bg-warning">Reset</span><br>
                   <ul class="mt-2">
                     <li>Held on to calls over the weekend, and returned to a morning market dip. <span class="badge badge-info">Surprise!</span> [<a href="https://www.marketwatch.com/story/dow-poised-to-start-week-under-pressure-11621251248?mod=home-page">Reference via. @marketwatch</a>] </li>
                     <li><mark>With minor gains leading to overall loss, the bigger mishap today was simply overtrading. Hindsight, the only way to have won would have been to take a short (~10-20 min) scalp and then being wholly done there.</mark> <span class="badge bg-primary">Learnings</span></li>
@@ -47,14 +55,15 @@
                     <li><mark>Also getting better (less anxious), and more confident about making day trades, and then sitting through the decision afterwards.</mark> <span class="badge bg-primary">Learnings</span></li>
                     <li>Question now: SPY is lower than ATH, how soon will it return, and will it break out again? Forecast for the coming week?</li>
                   </ul>
-                  May 13th, '21. Took loss betting on continued puts before being stomped out. <span class="badge bg-danger">Loss</span><br>
-                  <ul class="mt-2">
-                    <li>Market making a quick comeback from 2-day down trend. <span class="badge badge-info">Surprise!</span></li>
-                    <li>Tech, QQQ still weaker.</li>
-                  </ul>
+
 
                   <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
                     
+                    May 13th, '21. Took loss betting on continued puts before being stomped out. <span class="badge bg-danger">Loss</span><br>
+                    <ul class="mt-2">
+                      <li>Market making a quick comeback from 2-day down trend. <span class="badge badge-info">Surprise!</span></li>
+                      <li>Tech, QQQ still weaker.</li>
+                    </ul>
                     May 12th, '21. Up-hits on puts, less on calls. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset x2</span><br>
                     <ul class="mt-2">
                       <li>Holds on puts for the day put me over the top @ 432K => 500k+. [<a href="https://tradespy.tumblr.com/post/651003398878052352/432k-501k-120k-48k-currently">Reference</a>]</li>
@@ -119,9 +128,7 @@
                   Sitting Strategy<br>
                   <hr class="my-1">
                   <ul>
-                    <li>Riding the wave. Currently strategy is a pure <i><u>paper-trading</u></i> strategy which involves making a short future prediction, and then buying (or <i>yolo'ing</i>) along such path. Where the prediction proves wrong (with SPY turns against prediction), this strategy will part with either all near ending puts/calls and go to follow the current momentum. </li>
-                    <li>The most difficult part of strategy will be days where direction is weak, and there is none to do but guess in which way securities will go. <del>In case, we will have the option to split accounts to track both downwards && upwards movements, or choose to take both into a single direction.</del> Overall and in such case, we will utilize <mark><i>pure and simple guess work</i></mark>. 🤔</li>
-                    <li>Yolo'ed options not held for more than 2-3 days at most, before making decision to reset. Room for refinement. </li>
+                    <li>Riding the wave. Currently strategy is a pure <i><u>paper-trading</u></i> strategy which involves making a short future prediction and then buying (or <i>yolo'ing</i>) along such path. Where the prediction proves wrong (with SPY turns against prediction), part with all holdings and consider following the new/current momentum. Utilize <mark><i>GUESSING</i></mark>🤔 when stumped – or until guessing no longer works. Options never held for longer than 3 days.</li>
                   </ul>
                   Goals<br>
                   <hr class="my-1">

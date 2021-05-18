@@ -36,6 +36,11 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
+                May 18th, 2021.
+                <ul>
+                  <li>Volitility with market draw-down. <span class="badge bg-danger">Reversal</span> [<a href="https://www.marketwatch.com/story/dow-futures-rise-as-home-depot-reports-unprecedented-quarterly-demand-11621337117?mod=home-page">Reference via. @marketwatch</a>] </li>
+                  <li>Tech making comebacks. Does this get worse before it gets better?</li>
+                </ul>
                 May 17th, 2021.
                 <ul>
                   <li>Morning draw-down with afternoon rise. [<a href="https://www.marketwatch.com/story/dow-poised-to-start-week-under-pressure-11621251248?mod=home-page">Reference via. @marketwatch</a>] </li>
@@ -129,6 +134,10 @@
    <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
      <div class="row">
        <div class="col-md-12">
+        May 18th, 2021.
+        <ul>            
+          <li>Consolidate sections.</li>
+        </ul>
         May 15th, 2021.
         <ul>            
           <li>Add strategies description.</li>

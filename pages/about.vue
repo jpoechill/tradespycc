@@ -3,13 +3,14 @@
    <div class="container mt-4 mb-4">
      <div class="row">
        <div class="col-md-12">
-        About – What is this thing?
+        What is this thing?
         <hr class="my-1">
         This is a website built with intents to learn more about the stock market by focusing on a single security – in this case, SPY. <br><br>
         While I hope to eventually build and develop my own strategies in the future, at the moment, I am currently continuing to engross myself in such resources related to safely trading SPY that I can find available. <br><br>
         While I can understand that there could be an infinite number of other stocks and names in the market – this website, and project, primarily revolves SPY (S&P500 ETF), and observations in tracking its general/daily movements.
         <br><br>
-        What platforms am I using? <br><br>
+        What platforms am I using? 
+        <hr class="my-1">
         For the main trading account (AGRRO 1), I am using TD Ameritrade's Think or Swim app, on the iPad. I enjoy this because it allows me to reset positions and balances whenever I can feel, and also, because their paper-trading experience mimics their real-life experience.
         <br><br>
         For all other accounts (MODERATE 1 and SAFE 1), I am trading these almost literally on paper, and through text. Being simple enough in trade actions, little real calculations is involved.
