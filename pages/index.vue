@@ -26,14 +26,19 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                ACCOUNT 1 – AGGRO 1, THINK OR SWIM (Starting: $200,000, 5 RESETS)
+                ACCOUNT 1 – AGGRO 1, THINK OR SWIM (Starting: $200,000)
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
                 Hyper Volatile. Options only. No limit on # of trades.<br><br>
                   Feed<br>
-                  <hr class="my-1">
+                  <hr class="my-1">May 17th, '21. Volitility and overtrading.  <span class="badge bg-warning">Reset</span><br>
+                  <ul class="mt-2">
+                    <li>Held on to calls over the weekend, and returned to a morning market dip. <span class="badge badge-info">Surprise!</span> [<a href="https://www.marketwatch.com/story/dow-poised-to-start-week-under-pressure-11621251248?mod=home-page">Reference via. @marketwatch</a>] </li>
+                    <li><mark>With minor gains leading to overall loss, the bigger mishap today was simply overtrading. Hindsight, the only way to have won would have been to take a short (~10-20 min) scalp and then being wholly done there.</mark> <span class="badge bg-primary">Learnings</span></li>
+                    <li>One account blown. Other with significant losses, though still salvageable. 40k => 10k; 100k => 60k.</li>
+                  </ul>
                   May 14th, '21. Picked up late morning calls, matching flow of market. <span class="badge bg-success">Gain</span><br>
                   <ul class="mt-2">
                     <li>Inclined for a moment to buy puts just to go against the market, but decided it needless. [<a href="https://tradespy.tumblr.com/post/651217360539320320/following-the-trend-gains-on-calls-36k-48k">Reference</a>] </li>
@@ -47,28 +52,25 @@
                     <li>Market making a quick comeback from 2-day down trend. <span class="badge badge-info">Surprise!</span></li>
                     <li>Tech, QQQ still weaker.</li>
                   </ul>
-                  May 12th, '21. Up-hits on puts, less on calls. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset x2</span><br>
-                  <ul class="mt-2">
-                    <li>Holds on puts for the day put me over the top @ 432K => 500k+. [<a href="https://tradespy.tumblr.com/post/651003398878052352/432k-501k-120k-48k-currently">Reference</a>]</li>
-                    <li>Holds on calls put me below 50% in auxiliary account @ 120k => 48k. Resetting both.</li>
-                    <li><mark>Going forward, rather than purposefully trying to bomb an account as I did with previous calls, I can plan to strategically play both accounts. The effort might be more excruciating and challenging, but I would think from it – I could gain more experience.</mark> <span class="badge bg-primary">Learnings</span></li>
-                  </ul>
 
                   <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
-
-                  May 11th, '21. Major gains on "yolo'd" puts, and less some on reversal calls. <span class="badge bg-success">Gain</span><br>
-                  <ul class="mt-2">
-                    <li>Puts from previous day extended into this morning, bringing account to 500k+ at one point. Because I hadn't planned on getting this far this soon, I am currently sitting at 432k. Will consider this now as worthy to reset, with the drawback that I failed to <i>pull-out</i> at peak.</li>
-                    <li>Secondary account is still considerably over start, but now struggling to find the proper direction; momentum. [<a href="https://tradespy.tumblr.com/post/650903506198331392/account-1-115k-145k-on-late-morning-calls">Reference</a>]</li>
-                    <li><mark>Trading in and out of the day takes more effort than taking striking a longer position and sitting. From current history, trading in and out also shows evidence of bringing less returns.</mark> <span class="badge bg-primary">Learnings</span></li>
-                  </ul>
-
-
+                    
+                    May 12th, '21. Up-hits on puts, less on calls. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset x2</span><br>
+                    <ul class="mt-2">
+                      <li>Holds on puts for the day put me over the top @ 432K => 500k+. [<a href="https://tradespy.tumblr.com/post/651003398878052352/432k-501k-120k-48k-currently">Reference</a>]</li>
+                      <li>Holds on calls put me below 50% in auxiliary account @ 120k => 48k. Resetting both.</li>
+                      <li><mark>Going forward, rather than purposefully trying to bomb an account as I did with previous calls, I can plan to strategically play both accounts. The effort might be more excruciating and challenging, but I would think from it – I could gain more experience.</mark> <span class="badge bg-primary">Learnings</span></li>
+                    </ul>
+                    May 11th, '21. Major gains on "yolo'd" puts, and less some on reversal calls. <span class="badge bg-success">Gain</span><br>
+                    <ul class="mt-2">
+                      <li>Puts from previous day extended into this morning, bringing account to 500k+ at one point. Because I hadn't planned on getting this far this soon, I am currently sitting at 432k. Will consider this now as worthy to reset, with the drawback that I failed to <i>pull-out</i> at peak.</li>
+                      <li>Secondary account is still considerably over start, but now struggling to find the proper direction; momentum. [<a href="https://tradespy.tumblr.com/post/650903506198331392/account-1-115k-145k-on-late-morning-calls">Reference</a>]</li>
+                      <li><mark>Trading in and out of the day takes more effort than taking striking a longer position and sitting. From current history, trading in and out also shows evidence of bringing less returns.</mark> <span class="badge bg-primary">Learnings</span></li>
+                    </ul>
                     May 10th, '21. Extending plays. <span class="badge badge-info">Hold</span> <span class="badge badge-light">Anxious!</span> <br>
                     <ul class="mt-2">
                       <li>Pushing sized calls and "yolo" puts on designated accounts. There shouldn't be much more to the top, right..? </li>
                     </ul>
-
                     May 7th, '21. Gains on following through with calls; loss on puts. <span class="badge bg-success">Gain</span> <span class="badge bg-danger">Loss</span> <span class="badge bg-warning">Reset</span><br>
                     <ul class="mt-2">
                       <li>Account 1A: 100k => 175k. Account 1B: 100k => 20k.</li>
@@ -77,7 +79,6 @@
                       <li><mark>Found out its a bit hard to actually forcefully take an account to 0, without having calls expire to worthless.</mark> <span class="badge bg-primary">Learnings</span></li>
                       <li>Resetting 1B account 20k due to low balance. May think about resetting 1A account if it reaches 200k.</li>
                     </ul>
-
                     May 6th, '21. Gains on SPY puts, etc others. <span class="badge bg-success">Gain</span><br>
                     <ul class="mt-2">
                       <li>Considerable gains on early morning puts before being stomped out. <a href="https://tradespy.tumblr.com/image/650455008880607232" target="_blank">[Reference]</a> </li>
@@ -86,7 +87,6 @@
                       <li><mark>Trading SPY takes true patience when going both ways, in case: downwards and upwards movement.</mark> <span class="badge bg-primary">Learnings</span></li>
                       <li>Currently, sitting with <i>no positions</i>.</li>
                     </ul>
-
                     May 5th, '21. Account blown. Reset 2. <span class="badge bg-warning">Reset x2</span><br>
                     <ul class="mt-2">
                       <li>Blown by messing around with &#60;3 DTE calls and puts.  <a href="https://tradespy.tumblr.com/image/650365708821299200" target="_blank">[Reference]</a> </li>
@@ -115,21 +115,28 @@
 
                   <br>
 
-                  No. of resets: 5 <br><br>
+                  No. of resets: 6 <br><br>
+                  Sitting Strategy<br>
+                  <hr class="my-1">
+                  <ul>
+                    <li>Riding the wave. Currently strategy is a pure <i><u>paper-trading</u></i> strategy which involves making a short future prediction, and then buying (or <i>yolo'ing</i>) along such path. Where the prediction proves wrong (with SPY turns against prediction), this strategy will part with either all near ending puts/calls and go to follow the current momentum. </li>
+                    <li>The most difficult part of strategy will be days where direction is weak, and there is none to do but guess in which way securities will go. <del>In case, we will have the option to split accounts to track both downwards && upwards movements, or choose to take both into a single direction.</del> Overall and in such case, we will utilize <mark><i>pure and simple guess work</i></mark>. 🤔</li>
+                    <li>Yolo'ed options not held for more than 2-3 days at most, before making decision to reset. Room for refinement. </li>
+                  </ul>
                   Goals<br>
                   <hr class="my-1">
                   <ul>
                     <li>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year.</li>
-                    <li>With strategic effort, double (2x) the original value of one account.</li>
-                    <li>With strategic effort, 5x the original value of one account.</li>
-                    <li>With time and experience, normalize a SPY strategy for consistent upside.</li>
-                    <li>Also, and currently: How many times can I blow an account?</li>
+                    <li>With strategic effort, double (2x) or more the original value of one account.</li>
+                    <li>Process: Trade => Reset => Refine.</li>
                   </ul>
                   Notes<br>
                   <hr class="my-1">
                   <ul>
-                    <li>This is the aggressive, free range account, of which I could plan to eventually "master" at any conceivable level. What I can hope to do here is leverage the different capabilities open to me and use them as an advantage for when the market can move as anyone could expect.</li>
+                    <li>This is the aggressive, free range account, of which I could plan to eventually "master" at any conceivable level. <del>What I can hope to do here is leverage the different capabilities open to me and use them as an advantage for when the market can move as anyone could expect.</del> The main instrument being options.</li>
                     <li>2x Think or Swim paper trading account, starting with $100,000 each.</li>
+                    <li>To-do: normalize a SPY strategy for consistent upside.</li>
+                    <li><del>Also, and currently: How many times can I blow an account?</del></li>
                   </ul>
               </div>
             </div>
@@ -180,11 +187,15 @@
                 </ul>
                 Cash: $221.82 <br><br>
                 No. of resets: 0 <br><br>
+                Strategy<br>
+                <hr class="my-1">
+                <ul>
+                  <li>Utilize an ad-hoc 50/200 day SMA strategy. In when over SMA, out when under. [<a href="/strategies">See Strategies</a>]</li>
+                </ul>
                 Goals<br>
                 <hr class="my-1">
                 <ul>
                   <li>With moderate effort, comfortably beat the average yearly returns for SPY of +13.25%/year.</li>
-                  <li>Hoping to utilize a customized 50/200 day SMA strategy. In when over SMA, out when under. [<a href="/strategies">See Strategies</a>]</li>
                 </ul>
                 Notes<br>
                 <hr class="my-1">
@@ -331,10 +342,6 @@ export default {
 </script>
 
 <style>
-.btn::before {
-  /* content: url('/wht_fade.png'); */
-}
-
 .view-more:hover {
   cursor: pointer;
 }

@@ -4,7 +4,7 @@
    <div class="container mt-4 mb-4">
      <div class="row">
        <div class="col-md-12">
-        Website updates, blog/vlogs, stock purchases, etc. <br><br>
+        Market observations, news, and website updates. <br><br>
         <ul class="nav nav-tabs">
           <li class="nav-item">
             <a class="nav-link" :class="{ active: tabs[0].isActive }" aria-current="page" href="#" @click="navigate('marketObs')">Market Observations</a>
@@ -23,49 +23,77 @@
      </div>
    </div>
 
-   <div class="container mt-4 mb-4" v-if="tabs[0].isActive">
+   <div class="container mt-4 mb-2" v-if="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
-          May 14th, 2021.
-          <ul>
-            <li>Continued SPY gains. Starting to find success in following the flow of the market.</li>
-            <li>Notable movers: XLE, XLF. [<a href="https://seekingalpha.com/news/3696789-sp-500s-weekly-market-breakdown-and-sector-performance">Reference via. @seekingalpha</a>] </li>
-            <li>Questions: Have growth stocks been primed for a return? Or is it still too early?</li>
-          </ul>
-          May 13th, 2021.
-          <ul>
-            <li>Comeback. <span class="badge bg-success">Reversal</span></li>
-          </ul>
-          May 12th, 2021.
-          <ul>
-            <li>Continued down trend. All stocks and equities. Cause: fear of inflation. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-12-2021-221905341.html">Reference via. @yahoo.com</a>]</li>
-            <li>The fall is here. To re-iterate from earlier: how long does this last, and how far will it go? Questions. </li>
-          </ul>
-          May 11th, 2021. 
-          <ul>
-            <li>SPY takes another hit. The question now: how long does this last, and how far will it go? <span class="badge bg-danger">Reversal</span></li>
-          </ul>
-          May 10th, 2021. 
-          <ul>
-            <li>SPY momentum slowing down. QQQ (tech, growth) taking a hit. Crypto flaky. [<a href="https://www.investing.com/analysis/trading-the-sp-500s-latest-wobble-what-the-faang-stocks-are-telling-us-200579135">Reference via. investing.com</a>]</li>
-          </ul>
-          May 7th, 2021. 
-          <ul>
-            <li>SPY breaking new highs. Really stumped; surprised. Just wow.</li>
-            <li>Further dip sentiment, with traders taking long on SPY puts. [<a href="https://www.benzinga.com/etfs/broad-u-s-equity-etfs/21/05/21017410/options-trader-makes-3-78m-bet-the-top-is-nearby-for-spy">Reference via. @benzinga</a>]</li>
-          </ul>
-          May 5th, 2021. 
-          <ul>
-            <li>Crypto taking off, QQQ and tech taking more dips. SPY holding... for now.</li>
-          </ul>
-          May 4th, 2021. 
-          <ul>
-            <li>Nice hit on SPY and QQQ today. Market keeps hitting new highs, but how long will it last? [<a href="https://www.fool.com/investing/2021/05/04/why-zoom-video-fastly-and-square-stocks-all-fell-s/">Commentary via. @fool</a>]</li>
-          </ul>
-          May 2nd, 2021. 
-          <ul>
-            <li>Are we at the top..?</li>
-          </ul>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                MARKET OBSERVATIONS 1 – MONTH OF MAY 2020
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="accordion-body">
+                May 17th, 2021.
+                <ul>
+                  <li>Morning draw-down with afternoon rise. [<a href="https://www.marketwatch.com/story/dow-poised-to-start-week-under-pressure-11621251248?mod=home-page">Reference via. @marketwatch</a>] </li>
+                  <li>Tricky place to be in seeing that current level is perfectly in between recent lows and highs.</li>
+                </ul>
+                May 14th, 2021.
+                <ul>
+                  <li>Continued SPY gains. Starting to find success in following the flow of the market. [<a href="https://seekingalpha.com/news/3696789-sp-500s-weekly-market-breakdown-and-sector-performance">Reference via. @seekingalpha</a>] </li>
+                  <li>Questions: Have growth stocks been primed for a return? Or is it still too early?</li>
+                </ul>
+                May 13th, 2021.
+                <ul>
+                  <li>Comeback. <span class="badge bg-success">Reversal</span></li>
+                </ul>
+                May 12th, 2021.
+                <ul>
+                  <li>Continued down trend. All stocks and equities. Cause: fear of inflation. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-12-2021-221905341.html">Reference via. @yahoo.com</a>]</li>
+                  <li>The fall is here. To re-iterate from earlier: how long does this last, and how far will it go? Questions. </li>
+                </ul>
+
+                <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
+                
+                  May 11th, 2021. 
+                  <ul>
+                    <li>SPY takes another hit. The question now: how long does this last, and how far will it go? <span class="badge bg-danger">Reversal</span></li>
+                  </ul>
+                  May 10th, 2021. 
+                  <ul>
+                    <li>SPY momentum slowing down. QQQ (tech, growth) taking a hit. Crypto flaky. [<a href="https://www.investing.com/analysis/trading-the-sp-500s-latest-wobble-what-the-faang-stocks-are-telling-us-200579135">Reference via. investing.com</a>]</li>
+                  </ul>
+                  May 7th, 2021. 
+                  <ul>
+                    <li>SPY breaking new highs. Really stumped; surprised. Just wow.</li>
+                    <li>Further dip sentiment, with traders taking long on SPY puts. [<a href="https://www.benzinga.com/etfs/broad-u-s-equity-etfs/21/05/21017410/options-trader-makes-3-78m-bet-the-top-is-nearby-for-spy">Reference via. @benzinga</a>]</li>
+                  </ul>
+                  May 5th, 2021. 
+                  <ul>
+                    <li>Crypto taking off, QQQ and tech taking more dips. SPY holding... for now.</li>
+                  </ul>
+                  May 4th, 2021. 
+                  <ul>
+                    <li>Nice hit on SPY and QQQ today. Market keeps hitting new highs, but how long will it last? [<a href="https://www.fool.com/investing/2021/05/04/why-zoom-video-fastly-and-square-stocks-all-fell-s/">Commentary via. @fool</a>]</li>
+                  </ul>
+                  May 2nd, 2021. 
+                  <ul>
+                    <li>Are we at the top..?</li>
+                  </ul>
+                </div>
+
+                <div class="position-relative">
+                  <img src="wht_fade.svg" class="w-100 position-absolute wht-fade" alt="" style="bottom: 0;" :style="{ opacity: showViewMore ? 100 : 0 }">
+                </div>
+                <button type="button" @click="toggleViewMore()" class="btn btn-primary btn-lg btn-block">View more...</button>
+            
+              </div>
+            </div>
+          </div>
+        </div>
        </div>
      </div>
    </div>
@@ -73,6 +101,16 @@
    <div class="container mt-4 mb-4" v-if="tabs[1].isActive">
      <div class="row">
        <div class="col-md-12">
+          May 17th, 2021. 
+          <ul>
+            <li>Add sourced aritcles/content in strategies section. <nuxt-link to="/strategies">Link to section.</nuxt-link></li>
+          </ul>
+          May 15th, 2021. 
+          <ul>
+            <li>Article re: thoughts on an upcoming market crash. The message brings some caution as to what to future can hold, but in such, with given and current strategy, I can be more ready for the situation in which gains came be made with SPY going in either direction. The trouble may be, as we've seen this week, is correctly marking the reversals in time and catching the overall direction before it goes against us.
+               [<a href="https://www.fool.com/investing/2021/05/15/stock-market-crash-is-coming-3-stocks-i-aim-to-buy/">Reference via. @seekingalpha.com</a>]
+            </li>
+          </ul>
           May 14th, 2021. 
           <ul>
             <li>Best SPY (et others) heat map found so far: [<a href="https://finviz.com/map.ashx">@Finviz Heap Map</a>]</li>
@@ -91,6 +129,10 @@
    <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
      <div class="row">
        <div class="col-md-12">
+        May 15th, 2021.
+        <ul>            
+          <li>Add strategies description.</li>
+        </ul>
         May 12th, 2021.
         <ul>            
           <li>Remove stocks from Aggro 1 account, and update to options only.</li>
@@ -155,8 +197,15 @@
 
 <script>
 export default {
+  mounted () {
+    this.showMoreHeightStatic = this.$refs.showMoreContainer.clientHeight
+    this.showMoreHeightDynammic = 0
+  },
   data () {
     return {
+      showMoreHeightStatic: 0,
+      showMoreHeightDynammic: null,
+      showViewMore: true, 
       tabs: [
         {
           name: 'marketObs',
@@ -178,6 +227,18 @@ export default {
     }
   },
   methods: {
+    setShowMoreHeight: function () {
+      this.showMoreHeightStatic = this.$refs.showMoreContainer.clientHeight
+    },
+    toggleViewMore: function () {
+      if (this.showViewMore === false) {
+        this.showMoreHeightDynammic = 0
+      } else {
+        this.showMoreHeightDynammic = this.showMoreHeightStatic
+      }
+
+      this.showViewMore = !this.showViewMore
+    },
     navigate (page) {
       let tabs = this.tabs
       for (let index in tabs) {

@@ -1,15 +1,29 @@
 <template>
   <div>
-    <div style="position: fixed; z-index: 99; width: 120px; height: 120px; left: 10px; top: 15px;">
-      <img src="/art.png" width="46px" alt="">
+    <div style="position: fixed; z-index: 2; left: 10px; top: 15px;">
+      <img src="/art.png" width="50px" alt="">
     </div>
 
     <div style="z-index: 999; position: fixed; left: 0px; bottom: 6px;">
       <img src="/kitten_trans.gif" width="110px" alt="">
     </div>
 
+    <div class="rotate" style="z-index: 999; position: fixed; left: 12px; bottom: 50%;">
+      <img src="/key.png" width="58px" alt="">
+    </div>
+
+    <div class="rotate" style="z-index: 999; position: fixed; right: 12px; bottom: 50%;">
+      <img src="/peele.png" width="58px" alt="">
+    </div>
+
+
     <div style="z-index: 999; position: fixed; right: 18px; top: 22px;">
       <img src="/binary.svg" width="32px" alt="">
+    </div>
+
+
+    <div style="z-index: 999; position: fixed; right: 50%; bottom: 12px;">
+      <img src="/dog.png" width="52px" alt="">
     </div>
 
     <div style="z-index: 999; position: fixed; right: 14px; bottom: 14px;">
@@ -48,7 +62,7 @@
           <div class="row">
             <div class="col-md-12 text-center" style="word-spacing: 0px;">
               <ul class="nav nav-fill justify-content-center">
-                <li class="nav-item" v-for="(tab, index) in tabs" :key="index">
+                <li class="nav-item" style="z-index: 1;" v-for="(tab, index) in tabs" :key="index">
                   <nuxt-link :to="tab.path" class="nav-link text-uppercase" :class="{ ooga: tab.isActive }"> {{ tab.title }}</nuxt-link>
                 </li>
               </ul>  
@@ -95,7 +109,7 @@
         </small>
         <div class="col-md-12 text-center mt-0 mb-1">
           <hr>
-          SPY: ${{ spyCurr }} | Unique View Count: {{ counter }}<br>
+          SPY: ${{ spyCurr }} | <a href="https://finance.yahoo.com/chart/SPY/#eyJpbnRlcnZhbCI6MSwicGVyaW9kaWNpdHkiOjEsInRpbWVVbml0IjoibWludXRlIiwiY2FuZGxlV2lkdGgiOjIuOTg5NjkwNzIxNjQ5NDg0NiwiZmxpcHBlZCI6ZmFsc2UsInZvbHVtZVVuZGVybGF5Ijp0cnVlLCJhZGoiOnRydWUsImNyb3NzaGFpciI6dHJ1ZSwiY2hhcnRUeXBlIjoibGluZSIsImV4dGVuZGVkIjpmYWxzZSwibWFya2V0U2Vzc2lvbnMiOnt9LCJhZ2dyZWdhdGlvblR5cGUiOiJvaGxjIiwiY2hhcnRTY2FsZSI6ImxpbmVhciIsInBhbmVscyI6eyJjaGFydCI6eyJwZXJjZW50IjoxLCJkaXNwbGF5IjoiU1BZIiwiY2hhcnROYW1lIjoiY2hhcnQiLCJpbmRleCI6MCwieUF4aXMiOnsibmFtZSI6ImNoYXJ0IiwicG9zaXRpb24iOm51bGx9LCJ5YXhpc0xIUyI6W10sInlheGlzUkhTIjpbImNoYXJ0Iiwi4oCMdm9sIHVuZHLigIwiXX19LCJsaW5lV2lkdGgiOjIsInN0cmlwZWRCYWNrZ3JvdW5kIjp0cnVlLCJldmVudHMiOnRydWUsImNvbG9yIjoiIzAwODFmMiIsInN0cmlwZWRCYWNrZ3JvdWQiOnRydWUsInJhbmdlIjp7ImR0TGVmdCI6IjIwMjEtMDUtMTRUMTk6NTk6MDAuMDAwWiIsImR0UmlnaHQiOiIyMDIxLTA1LTE3VDIwOjAwOjAwLjAwMFoiLCJiYXNlIjoidG9kYXkiLCJnb0ludG9GdXR1cmUiOnRydWUsInBlcmlvZGljaXR5Ijp7ImludGVydmFsIjoxLCJwZXJpb2QiOjEsInRpbWVVbml0IjoibWludXRlIn0sInBhZGRpbmciOjB9LCJldmVudE1hcCI6eyJjb3Jwb3JhdGUiOltdLCJzaWdEZXYiOnt9fSwic3ltYm9scyI6W3sic3ltYm9sIjoiU1BZIiwic3ltYm9sT2JqZWN0Ijp7InN5bWJvbCI6IlNQWSIsInF1b3RlVHlwZSI6IkVURiIsImV4Y2hhbmdlVGltZVpvbmUiOiJBbWVyaWNhL05ld19Zb3JrIn0sInBlcmlvZGljaXR5IjoxLCJpbnRlcnZhbCI6MSwidGltZVVuaXQiOiJtaW51dGUiLCJzZXRTcGFuIjp7Im11bHRpcGxpZXIiOjEsImJhc2UiOiJ0b2RheSIsInBlcmlvZGljaXR5Ijp7ImludGVydmFsIjoxLCJwZXJpb2QiOjEsInRpbWVVbml0IjoibWludXRlIn19fV0sImN1c3RvbVJhbmdlIjpudWxsLCJzdHVkaWVzIjp7IuKAjHZvbCB1bmRy4oCMIjp7InR5cGUiOiJ2b2wgdW5kciIsImlucHV0cyI6eyJpZCI6IuKAjHZvbCB1bmRy4oCMIiwiZGlzcGxheSI6IuKAjHZvbCB1bmRy4oCMIn0sIm91dHB1dHMiOnsiVXAgVm9sdW1lIjoiIzAwYjA2MSIsIkRvd24gVm9sdW1lIjoiI2ZmMzMzYSJ9LCJwYW5lbCI6ImNoYXJ0IiwicGFyYW1ldGVycyI6eyJ3aWR0aEZhY3RvciI6MC40NSwiY2hhcnROYW1lIjoiY2hhcnQiLCJwYW5lbE5hbWUiOiJjaGFydCJ9fSwi4oCMbWHigIwgKDUwLEMsbWEsMCkiOnsidHlwZSI6Im1hIiwiaW5wdXRzIjp7IlBlcmlvZCI6NTAsIkZpZWxkIjoiQ2xvc2UiLCJUeXBlIjoic2ltcGxlIiwiT2Zmc2V0IjowLCJpZCI6IuKAjG1h4oCMICg1MCxDLG1hLDApIiwiZGlzcGxheSI6IuKAjG1h4oCMICg1MCxDLG1hLDApIn0sIm91dHB1dHMiOnsiTUEiOiIjYWQ2ZWZmIn0sInBhbmVsIjoiY2hhcnQiLCJwYXJhbWV0ZXJzIjp7ImNoYXJ0TmFtZSI6ImNoYXJ0IiwicGFuZWxOYW1lIjoiY2hhcnQifX0sIuKAjG1h4oCMICgyMDAsQyxtYSwwKSI6eyJ0eXBlIjoibWEiLCJpbnB1dHMiOnsiUGVyaW9kIjoiMjAwIiwiRmllbGQiOiJDbG9zZSIsIlR5cGUiOiJzaW1wbGUiLCJPZmZzZXQiOiIwIiwiaWQiOiLigIxtYeKAjCAoMjAwLEMsbWEsMCkiLCJkaXNwbGF5Ijoi4oCMbWHigIwgKDIwMCxDLG1hLDApIn0sIm91dHB1dHMiOnsiTUEiOiIjZmYzMzNhIn0sInBhbmVsIjoiY2hhcnQiLCJwYXJhbWV0ZXJzIjp7ImNoYXJ0TmFtZSI6ImNoYXJ0IiwicGFuZWxOYW1lIjoiY2hhcnQifX19LCJzZXRTcGFuIjp7Im11bHRpcGxpZXIiOjEsImJhc2UiOiJ0b2RheSIsInBlcmlvZGljaXR5Ijp7ImludGVydmFsIjoxLCJwZXJpb2QiOjEsInRpbWVVbml0IjoibWludXRlIn19fQ--">SPY Daily Chart</a> | Unique View Count: {{ counter }}<br>
         </div>
       </div>
     </div>
@@ -107,9 +121,9 @@
       </div>
     </div>
 
-    <div class="container mb-2">
+    <div class="container mb-5">
       <div class="row">
-        <div class="col-md-12 text-center mt-1 mb-4">
+        <div class="col-md-12 text-center mt-1 mb-5">
           This is a SPY research and development PAPER TRADING website, built solely and strictly for educational purposes. © 2021
         </div>
       </div>
@@ -138,13 +152,13 @@ export default {
         //   isActive: false,
         // },
         {
-          title: 'Feed',
+          title: '→ Feed',
           path: '/feed',
           toolTip: 'Website updates, blog/vlogs, stock purchases, etc.',
           isActive: false
         },
         {
-          title: 'Portfolios',
+          title: '→ Portfolio',
           path: '/',
           toolTip: 'Portfolio action and balances.',
           isActive: false
@@ -155,7 +169,7 @@ export default {
         //   isActive: false
         // },
         {
-          title: 'Charts',
+          title: '→ Charts',
           path: '/charts',
           toolTip: 'Relevant data viz.',
           isActive: false
@@ -403,5 +417,15 @@ body {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+/* Rotate on hover */
+
+.rotate {
+  transition: transform .7s ease-in-out;
+}
+
+.rotate:hover {
+  transform: rotate(360deg);
 }
 </style>

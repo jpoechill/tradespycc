@@ -74,7 +74,7 @@
             <tr>
               <th scope="col"></th>
               <th scope="col">Bad Resets (Accounts Blown)</th>
-              <th scope="col">Good Resets (Goals Reach – 200%+)</th>
+              <th scope="col">Good Resets (Goals Reach – +200%)</th>
               <th scope="col">Week Total</th>
               <th scope="col">Grand Total</th>
             </tr>
@@ -112,32 +112,16 @@
             <tr>
               <th scope="col"></th>
               <th scope="col">Bad Resets (Accounts Blown)</th>
-              <th scope="col">Good Resets (Goals Reach – 200%+)</th>
-              <th scope="col">Week Total</th>
-              <th scope="col">Grand Total</th>
+              <th scope="col">Avg. Bad Resets/Week</th>
+              <th scope="col">Total</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Week 3</th>
-              <td>1</td>
+              <th scope="row">May</th>
+              <td>4</td>
               <td>2</td>
-              <td>3</td>
-              <td>9</td>
-            </tr>
-            <tr>
-              <th scope="row">Week 2</th>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>6</td>
-            </tr>
-            <tr>
-              <th scope="row">Week 1</th>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>3</td>
+              <td>4</td>
             </tr>
           </tbody>
         </table>
@@ -158,33 +142,17 @@
           <thead>
             <tr>
               <th scope="col"></th>
-              <th scope="col">Bad Resets (Accounts Blown)</th>
-              <th scope="col">Good Resets (Goals Reach – 200%+)</th>
-              <th scope="col">Week Total</th>
-              <th scope="col">Grand Total</th>
+              <th scope="col">Good Resets (Goals Reach – +200%)</th>
+              <th scope="col">Avg. Bad Resets/Week</th>
+              <th scope="col">Total</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Week 3</th>
+              <th scope="row">May</th>
               <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>9</td>
-            </tr>
-            <tr>
-              <th scope="row">Week 2</th>
               <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>6</td>
-            </tr>
-            <tr>
-              <th scope="row">Week 1</th>
               <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>3</td>
             </tr>
           </tbody>
         </table>
