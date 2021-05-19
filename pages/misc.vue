@@ -21,33 +21,22 @@
        <div class="col-md-12">
         Personalities, Youtubers<br>
         <hr class="my-1">
-        <strong>Chris Sain</strong> (<a href="">YT Channel</a>)<br>
-        Regular updates throughout the week. Tickers names are usually insightful, but after time gets repeated over and over. Insightful, overall.<br><br>
-        <strong>Humbled Trader</strong> (<a href="https://www.youtube.com/channel/UCcIvNGMBSQWwo1v3n-ZRBCw">YT Channel</a>)<br>
-        Humbled Trader is a Youtube personality that streams on a regular basis. Her trade videos are quirky and educational. <br><br>
-        <strong>Warrior Trading</strong> (<a href="https://www.youtube.com/channel/UCBayuhgYpKNbhJxfExYkPfA">YT Channel</a>)<br>
-        Cameron live-streams on a regular basis and runs his own learning platform. His streams cover his specialized strategy of scalping momentum trades every morning, of which the success of such can be seen throughout.
-        <br><br>
+        Chris Sain, 
+        <a href="https://www.youtube.com/channel/UCcIvNGMBSQWwo1v3n-ZRBCw">Humbled Trader</a>, 
+        <a href="https://www.youtube.com/channel/UCBayuhgYpKNbhJxfExYkPfA">Warrior Trading</a><br><br>
 
         Investors, Finance Specialists<br>
         <hr class="my-1">
-        <strong>Cathie Wood </strong>(<a href="https://ark-invest.com">ARK Invest Website</a>)<br>
-        Cathie Wood runs ARK Invest, which ran with extraordinary returns in 2020. <br><br>
-        <strong>Jim Kramer</strong> (<a href="https://www.cnbc.com/mad-money/">CNBC's Mad Money</a>)<br>
-        Jim Kramer is a former hedge-fund'er and TV personality. <br><br>
-        <strong>Elon Musk</strong> <br>
-        The self-proclaimed <i>'Technoking'</i> of Tesla! <br><br>
-        <strong>Chamath Palihapitiya</strong> <br>
-        Finance person. <br><br>
-        <strong>Warren Buffett</strong> <br>
-        Investor. <br><br>
+        <a href="https://ark-invest.com">Cathie Wood</a>, 
+        <a href="https://www.cnbc.com/mad-money/">Jim Kramer</a>,
+        Elon Musk,
+        Chamath Palihapitiya,
+        Warren Buffett <br><br>
 
         World Figures<br>
         <hr class="my-1">
-        <strong>President Biden</strong> <br>
-        POTUS. <br><br>
-        <strong>Jerome Powell</strong> <br>
-        Chairman of the Federal Reserve. <br>
+        President Biden, 
+        Jerome Powell, Janet Yellen
        </div>
      </div>
    </div>
@@ -79,7 +68,7 @@
 
         Other:<br>
         <hr class="my-1">
-        LDS Church, <a href="http://www.wingchun-sf.com/oakland.html">East-West Wing Chun</a><br><br>
+        LDS Church, <a href="http://www.wingchun-sf.com/oakland.html">East-West Wing Chun</a>, <a href="https://www.hbo.com/game-of-thrones">Game of Thrones</a><br><br>
        </div>
      </div>
    </div>

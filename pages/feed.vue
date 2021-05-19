@@ -36,10 +36,11 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
-                May 18th, 2021.
+                May 19th, 2021.
                 <ul>
                   <li>Opened down, with a shaky end-of-day rise. Overall cultprit: inflation. [<a href="https://www.marketwatch.com/story/dow-futures-drop-250-points-and-tech-stocks-slump-anew-ahead-of-fed-minutes-11621423385?mod=home-page">Reference via. @marketwatch</a>] </li>
                   <li>Opportunity for SPY to close below opening, leaving questions that this down trend may continue.</li>
+                  <li>Possibly more "fits and starts" of a return to back to growth. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-19-2021-221605666.html">Reference via. yahooFinance</a>]</li>
                 </ul>
                 May 18th, 2021.
                 <ul>
@@ -111,6 +112,10 @@
    <div class="container mt-4 mb-4" v-if="tabs[1].isActive">
      <div class="row">
        <div class="col-md-12">
+          May 19th, 2021. 
+          <ul>
+            <li>What I need: a basic charting and TA guide. [<a href="https://school.stockcharts.com/doku.php?id=overview:technical_analysis">Reference via. StockCharts</a>] </li>
+          </ul>
           May 17th, 2021. 
           <ul>
             <li>Add sourced aritcles/content in strategies section. <nuxt-link to="/strategies">Link to section.</nuxt-link></li>

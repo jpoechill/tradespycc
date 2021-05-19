@@ -31,6 +31,9 @@
    <div class="container mt-4 mb-4" v-if="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
+        <strong>Technical Analysis</strong> (StockCharts.com) <a href="https://school.stockcharts.com/doku.php?id=overview:technical_analysis">Link to article.</a><br>
+        General run down for better understanding candles, charts, and TA (technical analysis) – as boring as it sounds.
+        <br><br>
         <strong>How I Day Trade the SPY</strong> (Spicer Matthews) <a href="https://options.cafe/blog/how-i-day-trade-the-spy">Link to article.</a><br>
         This short article is short, but quite in depth. Talks about daytrading calls and puts. A++ for content.
         <br><br>

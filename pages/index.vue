@@ -39,7 +39,7 @@
                   <ul class="mt-2">
                     <li>Got in late today but was still able to catch some action – albeit, small gains. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
                     <li>Yesterday's puts failed to close in time, which led them to be carried into <i>major and considerable gains</i> the following day.</li>
-                    <li>As seen in wins today. am continuing to better accurately catch market flows. Here, hoping to do more with understanding exactly TA, the candles, and general charting knowledge. <span class="badge bg-primary">Learnings</span></li>
+                    <li><mark>As seen in wins today. am continuing to better accurately catch market flows. Here, hoping to do more with understanding exactly TA, the candles, and general charting knowledge.</mark> <span class="badge bg-primary">Learnings</span></li>
                     <li>Day's summary: 115k => 133k. 48k => 120k. <span class="badge bg-success">Gain</span> </li>
                   </ul>
                   May 18th, '21. Full gains where I was paying attention.<br>
