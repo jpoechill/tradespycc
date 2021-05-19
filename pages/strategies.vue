@@ -23,7 +23,7 @@
      <div class="row">
        <div class="col-md-12">
         <strong>'Riding the Wave' Strategy</strong> <br>
-        Description here.<br><br>
+        Summary: Requires PDT. No holdings overnight. Ability to make gain regardless of market direction (down or up). Trade everyday. Development process.<br><br>
        </div>
      </div>
    </div>

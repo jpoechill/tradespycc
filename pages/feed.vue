@@ -38,7 +38,12 @@
               <div class="accordion-body">
                 May 18th, 2021.
                 <ul>
-                  <li>Volitility with market draw-down. <span class="badge bg-danger">Reversal</span> [<a href="https://www.marketwatch.com/story/dow-futures-rise-as-home-depot-reports-unprecedented-quarterly-demand-11621337117?mod=home-page">Reference via. @marketwatch</a>] </li>
+                  <li>Opened down, with a shaky end-of-day rise. Overall cultprit: inflation. [<a href="https://www.marketwatch.com/story/dow-futures-drop-250-points-and-tech-stocks-slump-anew-ahead-of-fed-minutes-11621423385?mod=home-page">Reference via. @marketwatch</a>] </li>
+                  <li>Opportunity for SPY to close below opening, leaving questions that this down trend may continue.</li>
+                </ul>
+                May 18th, 2021.
+                <ul>
+                  <li>Volitility with company earnings and general market draw-down. <span class="badge bg-danger">Reversal</span> [<a href="https://www.marketwatch.com/story/dow-futures-rise-as-home-depot-reports-unprecedented-quarterly-demand-11621337117?mod=home-page">Reference via. @marketwatch</a>] </li>
                   <li>Tech making comebacks. Does this get worse before it gets better?</li>
                 </ul>
                 May 17th, 2021.
@@ -48,21 +53,21 @@
                 </ul>
                 May 14th, 2021.
                 <ul>
-                  <li>Continued SPY gains. Starting to find success in following the flow of the market. [<a href="https://seekingalpha.com/news/3696789-sp-500s-weekly-market-breakdown-and-sector-performance">Reference via. @seekingalpha</a>] </li>
+                  <li>Continued SPY gains. [<a href="https://seekingalpha.com/news/3696789-sp-500s-weekly-market-breakdown-and-sector-performance">Reference via. @seekingalpha</a>] </li>
                   <li>Questions: Have growth stocks been primed for a return? Or is it still too early?</li>
                 </ul>
                 May 13th, 2021.
                 <ul>
                   <li>Comeback. <span class="badge bg-success">Reversal</span></li>
                 </ul>
-                May 12th, 2021.
-                <ul>
-                  <li>Continued down trend. All stocks and equities. Cause: fear of inflation. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-12-2021-221905341.html">Reference via. @yahoo.com</a>]</li>
-                  <li>The fall is here. To re-iterate from earlier: how long does this last, and how far will it go? Questions. </li>
-                </ul>
 
                 <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
                 
+                  May 12th, 2021.
+                  <ul>
+                    <li>Continued down trend. All stocks and equities. Cause: fear of inflation. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-12-2021-221905341.html">Reference via. @yahoo.com</a>]</li>
+                    <li>The fall is here. To re-iterate from earlier: how long does this last, and how far will it go? Questions. </li>
+                  </ul>
                   May 11th, 2021. 
                   <ul>
                     <li>SPY takes another hit. The question now: how long does this last, and how far will it go? <span class="badge bg-danger">Reversal</span></li>
@@ -134,6 +139,10 @@
    <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
      <div class="row">
        <div class="col-md-12">
+        May 19th, 2021.
+        <ul>            
+          <li>Worked with TOS support to enabled real-time data in paper-trading account.</li>
+        </ul>
         May 18th, 2021.
         <ul>            
           <li>Consolidate sections.</li>

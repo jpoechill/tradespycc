@@ -35,6 +35,13 @@
                   Feed<br>
                   <hr class="my-1">
                   
+                  May 19th, '21. More gains where paying attention.<br>
+                  <ul class="mt-2">
+                    <li>Got in late today but was still able to catch some action – albeit, small gains. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
+                    <li>Yesterday's puts failed to close in time, which led them to be carried into <i>major and considerable gains</i> the following day.</li>
+                    <li>As seen in wins today. am continuing to better accurately catch market flows. Here, hoping to do more with understanding exactly TA, the candles, and general charting knowledge. <span class="badge bg-primary">Learnings</span></li>
+                    <li>Day's summary: 115k => 133k. 48k => 120k. <span class="badge bg-success">Gain</span> </li>
+                  </ul>
                   May 18th, '21. Full gains where I was paying attention.<br>
                   <ul class="mt-2">
                     <li>Even with some of the volitility today, I was able to match a majority of the flows for solid gains – all where I was paying attention.  [<a href="https://tradespy.tumblr.com/post/651555796716519424/100k-116k-65k-48k-gains-where-i-was-paying">Reference</a>]</li>
@@ -47,18 +54,17 @@
                     <li><mark>With minor gains leading to overall loss, the bigger mishap today was simply overtrading. Hindsight, the only way to have won would have been to take a short (~10-20 min) scalp and then being wholly done there.</mark> <span class="badge bg-primary">Learnings</span></li>
                     <li>One account blown. Other with significant losses, though still salvageable. 40k => 10k; 100k => 60k.</li>
                   </ul>
-                  May 14th, '21. Picked up late morning calls, matching flow of market. <span class="badge bg-success">Gain</span><br>
-                  <ul class="mt-2">
-                    <li>Inclined for a moment to buy puts just to go against the market, but decided it needless. [<a href="https://tradespy.tumblr.com/post/651217360539320320/following-the-trend-gains-on-calls-36k-48k">Reference</a>] </li>
-                    <li>Overall, the decision today was a simple one, and proved profitable.</li>
-                    <li><mark>Getting somewhat easier to feel what SPY might do, and controlling reactions to unpredicticality of what is/has actually happened.</mark> <span class="badge bg-primary">Learnings</span></li>
-                    <li><mark>Also getting better (less anxious), and more confident about making day trades, and then sitting through the decision afterwards.</mark> <span class="badge bg-primary">Learnings</span></li>
-                    <li>Question now: SPY is lower than ATH, how soon will it return, and will it break out again? Forecast for the coming week?</li>
-                  </ul>
-
 
                   <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
                     
+                    May 14th, '21. Picked up late morning calls, matching flow of market. <span class="badge bg-success">Gain</span><br>
+                    <ul class="mt-2">
+                      <li>Inclined for a moment to buy puts just to go against the market, but decided it needless. [<a href="https://tradespy.tumblr.com/post/651217360539320320/following-the-trend-gains-on-calls-36k-48k">Reference</a>] </li>
+                      <li>Overall, the decision today was a simple one, and proved profitable.</li>
+                      <li><mark>Getting somewhat easier to feel what SPY might do, and controlling reactions to unpredicticality of what is/has actually happened.</mark> <span class="badge bg-primary">Learnings</span></li>
+                      <li><mark>Also getting better (less anxious), and more confident about making day trades, and then sitting through the decision afterwards.</mark> <span class="badge bg-primary">Learnings</span></li>
+                      <li>Question now: SPY is lower than ATH, how soon will it return, and will it break out again? Forecast for the coming week?</li>
+                    </ul>
                     May 13th, '21. Took loss betting on continued puts before being stomped out. <span class="badge bg-danger">Loss</span><br>
                     <ul class="mt-2">
                       <li>Market making a quick comeback from 2-day down trend. <span class="badge badge-info">Surprise!</span></li>
@@ -128,12 +134,12 @@
                   Sitting Strategy<br>
                   <hr class="my-1">
                   <ul>
-                    <li>Riding the wave. Currently strategy is a pure <i><u>paper-trading</u></i> strategy which involves making a short future prediction and then buying (or <i>yolo'ing</i>) along such path. Where the prediction proves wrong (with SPY turns against prediction), part with all holdings and consider following the new/current momentum. Utilize <mark><i>GUESSING</i></mark>🤔 when stumped – or until guessing no longer works. Options never held for longer than 3 days.</li>
+                    <li>Riding the wave. Currently strategy is a pure <i><u>paper-trading</u></i> strategy which involves making a short future prediction and then buying (or <i>yolo'ing</i>) along such path. Where the prediction proves wrong (with SPY turns against prediction), part with all holdings and consider following the new/current momentum. Utilize <mark><i><del>GUESSING</del></i></mark> <i>PATIENCE</i> 🤔  when stumped <del> – or until guessing no longer works</del>. Options never held for longer than 3 days.</li>
                   </ul>
                   Goals<br>
                   <hr class="my-1">
                   <ul>
-                    <li>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year.</li>
+                    <li>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year – on a consistent basis.</li>
                     <li>With strategic effort, double (2x) or more the original value of one account.</li>
                     <li>Process: Trade => Reset => Refine.</li>
                   </ul>
