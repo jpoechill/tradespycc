@@ -36,6 +36,17 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
+                May 21st, 2021.
+                <ul>
+                  <li>Shaky downward day. Concerns re: inflation. <span class="badge bg-danger">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-21-2021-221344440.html">Reference via. @yahooFinance</a>] </li>
+                  <li>More sharp declines than rises. Where do we go from here?</li>
+                </ul>
+                May 20th, 2021.
+                <ul>
+                  <li>Equities opening higher due to peak low jobless claims. <span class="badge bg-success">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-20-2021-221318405.html">Reference via. @yahooFinance</a>] </li>
+                  <li>SPY still trading below ATH; overall positive sentiments.</li>
+                  <li>Tech continuing to make gains.</li>
+                </ul>
                 May 19th, 2021.
                 <ul>
                   <li>Opened down, with a shaky end-of-day rise. Overall cultprit: inflation. [<a href="https://www.marketwatch.com/story/dow-futures-drop-250-points-and-tech-stocks-slump-anew-ahead-of-fed-minutes-11621423385?mod=home-page">Reference via. @marketwatch</a>] </li>
@@ -47,23 +58,23 @@
                   <li>Volitility with company earnings and general market draw-down. <span class="badge bg-danger">Reversal</span> [<a href="https://www.marketwatch.com/story/dow-futures-rise-as-home-depot-reports-unprecedented-quarterly-demand-11621337117?mod=home-page">Reference via. @marketwatch</a>] </li>
                   <li>Tech making comebacks. Does this get worse before it gets better?</li>
                 </ul>
-                May 17th, 2021.
-                <ul>
-                  <li>Morning draw-down with afternoon rise. [<a href="https://www.marketwatch.com/story/dow-poised-to-start-week-under-pressure-11621251248?mod=home-page">Reference via. @marketwatch</a>] </li>
-                  <li>Tricky place to be in seeing that current level is perfectly in between recent lows and highs.</li>
-                </ul>
-                May 14th, 2021.
-                <ul>
-                  <li>Continued SPY gains. [<a href="https://seekingalpha.com/news/3696789-sp-500s-weekly-market-breakdown-and-sector-performance">Reference via. @seekingalpha</a>] </li>
-                  <li>Questions: Have growth stocks been primed for a return? Or is it still too early?</li>
-                </ul>
-                May 13th, 2021.
-                <ul>
-                  <li>Comeback. <span class="badge bg-success">Reversal</span></li>
-                </ul>
 
                 <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
                 
+                  May 17th, 2021.
+                  <ul>
+                    <li>Morning draw-down with afternoon rise. [<a href="https://www.marketwatch.com/story/dow-poised-to-start-week-under-pressure-11621251248?mod=home-page">Reference via. @marketwatch</a>] </li>
+                    <li>Tricky place to be in seeing that current level is perfectly in between recent lows and highs.</li>
+                  </ul>
+                  May 14th, 2021.
+                  <ul>
+                    <li>Continued SPY gains. [<a href="https://seekingalpha.com/news/3696789-sp-500s-weekly-market-breakdown-and-sector-performance">Reference via. @seekingalpha</a>] </li>
+                    <li>Questions: Have growth stocks been primed for a return? Or is it still too early?</li>
+                  </ul>
+                  May 13th, 2021.
+                  <ul>
+                    <li>Comeback. <span class="badge bg-success">Reversal</span></li>
+                  </ul>
                   May 12th, 2021.
                   <ul>
                     <li>Continued down trend. All stocks and equities. Cause: fear of inflation. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-12-2021-221905341.html">Reference via. @yahoo.com</a>]</li>
@@ -112,9 +123,15 @@
    <div class="container mt-4 mb-4" v-if="tabs[1].isActive">
      <div class="row">
        <div class="col-md-12">
+          May 21th, 2021. 
+          <ul>
+            <li>To-do: investigate how taxes/fees/commissions works for gain. </li>
+            <li>To-do: consider being conscious of such (taxes/fees/commissions), and amounts difference from gains in trades.</li>
+          </ul>
           May 19th, 2021. 
           <ul>
             <li>What I need: a basic charting and TA guide. [<a href="https://school.stockcharts.com/doku.php?id=overview:technical_analysis">Reference via. StockCharts</a>] </li>
+            <li>Add article on transitioning from paper trading to live trading.</li>
           </ul>
           May 17th, 2021. 
           <ul>
@@ -144,6 +161,17 @@
    <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
      <div class="row">
        <div class="col-md-12">
+        May 21st, 2021.
+        <ul>            
+          <li>Update goals to fight for overall consistency and mental health.</li>
+        </ul>
+        May 20th, 2021.
+        <ul>            
+          <li>Experimented with TOS on desktop – got it to work, but still overall clunky. Settling with yahoo's daily chart and TOS tablet app.</li>
+          <li>Updated tablet settings/ui-preferences to streamline only core functionalities.</li>
+          <li>Hoping to find some time to detail current strategy, and do some research on more TA.</li>
+          <li>Updates to main strategy.</li>
+        </ul>
         May 19th, 2021.
         <ul>            
           <li>Worked with TOS support to enabled real-time data in paper-trading account.</li>

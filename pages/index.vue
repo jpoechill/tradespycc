@@ -35,28 +35,46 @@
                   Feed<br>
                   <hr class="my-1">
                   
-                  May 19th, '21. More gains where paying attention.<br>
+                  May 21st, '21. Gains, with recovered blunder. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
                   <ul class="mt-2">
-                    <li>Got in late today but was still able to catch some action – albeit, small gains. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
-                    <li>Yesterday's puts failed to close in time, which led them to be carried into <i>major and considerable gains</i> the following day.</li>
-                    <li><mark>As seen in wins today. am continuing to better accurately catch market flows. Here, hoping to do more with understanding exactly TA, the candles, and general charting knowledge.</mark> <span class="badge bg-primary">Learnings</span></li>
-                    <li>Day's summary: 115k => 133k. 48k => 120k. <span class="badge bg-success">Gain</span> </li>
+                    <li>More trade time => more gains. Am content, but really do not want to become over zealous. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
+                    <li>Reset smaller account to research how fees/commissions are factored into option trades. Would like to try hand at 10k account next.</li>
+                    <li><mark>Blunder today was taking a put to the bottom, and then purchasing a call before the last price could settle. Loss about all of the day's gain immediately after purchase. Overall, was able to recover – albeit almost frantically.</mark> <span class="badge bg-primary">Learnings</span></li>
+                    <li><mark>Need to work on taking more patience, trading less, and being considerate of overall costs (fees/commission) per trade. More research on history of candle-sticks.</mark> <span class="badge bg-primary">Learnings</span></li>
+                    <li>Day's summary: 100k => 150k (fees.commissions: 105k!). 1.23m => 3m (fees/commissions: 1.16m).</li>
+                    <li>Trade time: ~4hrs.</li>
                   </ul>
-                  May 18th, '21. Full gains where I was paying attention.<br>
+                  May 20th, '21. Gains where paying attention. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
                   <ul class="mt-2">
-                    <li>Even with some of the volitility today, I was able to match a majority of the flows for solid gains – all where I was paying attention.  [<a href="https://tradespy.tumblr.com/post/651555796716519424/100k-116k-65k-48k-gains-where-i-was-paying">Reference</a>]</li>
-                    <li>Day's summary: 100k => 115k. 60k => 48k. <span class="badge bg-success">Gain</span> <span class="badge bg-danger">Loss</span> </li>
-                    <li><mark>Relying less on fundamentals and moving into an area where I'm purely playing the chart. Much hoping to keep with today's consistency in moving forward. </mark> <span class="badge bg-primary">Learnings</span></li>
-                  </ul>
-                  May 17th, '21. Volitility and overtrading.  <span class="badge bg-warning">Reset</span><br>
-                  <ul class="mt-2">
-                    <li>Held on to calls over the weekend, and returned to a morning market dip. <span class="badge badge-info">Surprise!</span> [<a href="https://www.marketwatch.com/story/dow-poised-to-start-week-under-pressure-11621251248?mod=home-page">Reference via. @marketwatch</a>] </li>
-                    <li><mark>With minor gains leading to overall loss, the bigger mishap today was simply overtrading. Hindsight, the only way to have won would have been to take a short (~10-20 min) scalp and then being wholly done there.</mark> <span class="badge bg-primary">Learnings</span></li>
-                    <li>One account blown. Other with significant losses, though still salvageable. 40k => 10k; 100k => 60k.</li>
+                    <li>More solid gains where paying attention. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
+                    <li>Reset second account to 1m balance; overall it did well. Hoping to try a ~10k balance next.</li>
+                    <li><mark>Losses on second account when I tried to trade other securities not SPY... The liquidity and spreads just weren't there. :'( </mark>  <span class="badge bg-primary">Learnings</span></li>
+                    <li><mark>Hindsight, while I closed the day for myself before 9am (12noon, eastern), I see now that there would have been plenty of opportunity to make even more gains today due some of the strong movement that happened after. I question now, what would be returns if I dedicate a full day to solely trading and focusing with said strategy. Is there a limit to how much can be made in a day, and what factors would challenge and hold me back from doing this, apart from mental endurance?</mark>  <span class="badge bg-primary">Learnings</span> <span class="badge badge-light">Questions?</span> </li>
+                    <li>Day's summary: 133k => 141k. 100k => 120k => 106k. 1m => 1.23m.</li>
+                    <li>Trade time: <2hrs.</li>
                   </ul>
 
                   <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
                     
+                    May 19th, '21. More gains where paying attention.<br>
+                    <ul class="mt-2">
+                      <li>Got in late today but was still able to catch some action – albeit, small gains. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
+                      <li>Yesterday's puts failed to close in time, which led them to be carried into <i>major and considerable gains</i> the following day.</li>
+                      <li><mark>As seen in wins today. am continuing to better accurately catch market flows. Here, hoping to do more with understanding exactly TA, the candles, and general charting knowledge.</mark> <span class="badge bg-primary">Learnings</span></li>
+                      <li>Day's summary: 115k => 133k. 48k => 120k. <span class="badge bg-success">Gain</span> </li>
+                    </ul>
+                    May 18th, '21. Full gains where I was paying attention.<br>
+                    <ul class="mt-2">
+                      <li>Even with some of the volitility today, I was able to match a majority of the flows for solid gains – all where I was paying attention.  [<a href="https://tradespy.tumblr.com/post/651555796716519424/100k-116k-65k-48k-gains-where-i-was-paying">Reference</a>]</li>
+                      <li>Day's summary: 100k => 115k. 60k => 48k. <span class="badge bg-success">Gain</span> <span class="badge bg-danger">Loss</span> </li>
+                      <li><mark>Relying less on fundamentals and moving into an area where I'm purely playing the chart. Much hoping to keep with today's consistency in moving forward. </mark> <span class="badge bg-primary">Learnings</span></li>
+                    </ul>
+                    May 17th, '21. Volitility and overtrading.  <span class="badge bg-warning">Reset</span><br>
+                    <ul class="mt-2">
+                      <li>Held on to calls over the weekend, and returned to a morning market dip. <span class="badge badge-info">Surprise!</span> [<a href="https://www.marketwatch.com/story/dow-poised-to-start-week-under-pressure-11621251248?mod=home-page">Reference via. @marketwatch</a>] </li>
+                      <li><mark>With minor gains leading to overall loss, the bigger mishap today was simply overtrading. Hindsight, the only way to have won would have been to take a short (~10-20 min) scalp and then being wholly done there.</mark> <span class="badge bg-primary">Learnings</span></li>
+                      <li>One account blown. Other with significant losses, though still salvageable. 40k => 10k; 100k => 60k.</li>
+                    </ul>
                     May 14th, '21. Picked up late morning calls, matching flow of market. <span class="badge bg-success">Gain</span><br>
                     <ul class="mt-2">
                       <li>Inclined for a moment to buy puts just to go against the market, but decided it needless. [<a href="https://tradespy.tumblr.com/post/651217360539320320/following-the-trend-gains-on-calls-36k-48k">Reference</a>] </li>
@@ -130,17 +148,24 @@
 
                   <br>
 
-                  No. of resets: 6 <br><br>
+                  No. of resets: 7 <br><br>
                   Sitting Strategy<br>
                   <hr class="my-1">
                   <ul>
-                    <li>Riding the wave. Currently strategy is a pure <i><u>paper-trading</u></i> strategy which involves making a short future prediction and then buying (or <i>yolo'ing</i>) along such path. Where the prediction proves wrong (with SPY turns against prediction), part with all holdings and consider following the new/current momentum. Utilize <mark><i><del>GUESSING</del></i></mark> <i>PATIENCE</i> 🤔  when stumped <del> – or until guessing no longer works</del>. Options never held for longer than 3 days.</li>
+                    <li>Riding the wave. Currently strategy is a pure <i><u>paper-trading</u></i> strategy which involves making a short future prediction and then buying (or <i>yolo'ing</i>) along such path. Where the prediction proves wrong (with SPY turns against prediction), part with all holdings and consider following the new/current momentum. </li>
+                    <li>Currently buying the closest available strike price per call/put, or whichever strike has the higher volume. Currently experimenting with different purchase sizes and determining effectiveness rate and risks of <mark><i>yolo'ing</i></mark>.</li>
+                    <li>Most difficult times are grey areas when the market runs in a flat line. In such cases, severe patients must be utilize until a direction shows it self. Still am trying to figure out how to much such times.</li>
+                    <li>Currently interested in reviewing returns in steady times vs volatile times.</li>
+                    <li>Options never held for longer than 3 days, with average time held being just a few minutes.</li>
                   </ul>
                   Goals<br>
                   <hr class="my-1">
                   <ul>
-                    <li>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year – on a consistent basis.</li>
-                    <li>With strategic effort, double (2x) or more the original value of one account.</li>
+                    <li><del>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year – on a consistent basis.</del></li>
+                    <li><del>With strategic effort, double (2x) or more the original value of one account.</del></li>
+                    <li>Prove consistency in gains, in paper-trading, and possibly, such a transition to live-trading.</li>
+                    <li>Be accountable, and consciously aware of fees/commissions, and relative tax burdens.</li>
+                    <li><del>Eventually transition strategy into live trading, without rush. Possibly months (even years?) down the line.</del></li>
                     <li>Process: Trade => Reset => Refine.</li>
                   </ul>
                   Notes<br>
@@ -148,7 +173,10 @@
                   <ul>
                     <li>This is the aggressive, free range account, of which I could plan to eventually "master" at any conceivable level. <del>What I can hope to do here is leverage the different capabilities open to me and use them as an advantage for when the market can move as anyone could expect.</del> The main instrument being options.</li>
                     <li>2x Think or Swim paper trading account, starting with $100,000 each.</li>
-                    <li>To-do: normalize a SPY strategy for consistent upside.</li>
+                    <li>Would eventually like to experiment with different starting balances – 10k, 50k, 250k, 500k, 1m and etc.</li>
+                    <li>Would like to continue building/optimizing/refining platform in months and years on. Somehow would like to keep it <mark><i>light and playful</i></mark>.</li>
+                    <!-- <li>Would like to continue paper-trading months and years on – or until completely comfortable with identical, successful plays in live-trading.</li> -->
+                    <li><del>To-do: normalize a SPY strategy for consistent upside.</del></li>
                     <li><del>Also, and currently: How many times can I blow an account?</del></li>
                   </ul>
               </div>

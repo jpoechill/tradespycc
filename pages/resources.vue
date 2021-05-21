@@ -31,6 +31,9 @@
    <div class="container mt-4 mb-4" v-if="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
+        <strong>Transitioning From Demo to Live Day Trading</strong> (Cory Mitchell, via. @theBalance) <a href="https://www.thebalance.com/transitioning-from-demo-to-live-day-trading-1031432">Link to article.</a><br>
+        Thoughts on transitioning from paper to live trading. Best quotes: "Day traders need to trade—and know when not to trade", "Being a successful live trader requires completely embracing losing trades", "when trading a live account, start out with the smallest position size possible."
+        <br><br>
         <strong>Technical Analysis</strong> (StockCharts.com) <a href="https://school.stockcharts.com/doku.php?id=overview:technical_analysis">Link to article.</a><br>
         General run down for better understanding candles, charts, and TA (technical analysis) – as boring as it sounds.
         <br><br>
