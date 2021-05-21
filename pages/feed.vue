@@ -162,8 +162,9 @@
      <div class="row">
        <div class="col-md-12">
         May 21st, 2021.
-        <ul>            
-          <li>Update goals to fight for overall consistency and mental health.</li>
+        <ul>    
+          <li>Remove targeted, value account goals.</li>        
+          <li>Update goals, moreover, to fight for overall consistency, growth and mental health.</li>
         </ul>
         May 20th, 2021.
         <ul>            
