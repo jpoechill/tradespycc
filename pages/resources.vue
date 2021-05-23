@@ -31,6 +31,9 @@
    <div class="container mt-4 mb-4" v-if="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
+        <strong>Mentally and Financially Ready to Flip the Switch? Paper Trading vs. Live Trading Accounts</strong> (John Manley, via. @TDAmeritrade) <a href="https://tickertape.tdameritrade.com/tools/paper-trading-vs-live-trading-accounts-15504">Link to article.</a><br>
+        Great article with hints on what it takes to move to live trading. Tip: remain emotionally detached, and if so far successful, your stripes may be well earned!
+        <br><br>
         <strong>Transitioning From Demo to Live Day Trading</strong> (Cory Mitchell, via. @theBalance) <a href="https://www.thebalance.com/transitioning-from-demo-to-live-day-trading-1031432">Link to article.</a><br>
         Thoughts on transitioning from paper to live trading. Best quotes: "Day traders need to trade—and know when not to trade", "Being a successful live trader requires completely embracing losing trades", "when trading a live account, start out with the smallest position size possible."
         <br><br>
@@ -87,7 +90,15 @@
      </div>
    </div>
 
-   <div class="container mt-4 mb-4" v-if="tabs[3].isActive">
+    <div class="container mt-4 mb-4" v-if="tabs[3].isActive">
+     <div class="row">
+       <div class="col-md-12">
+        No content.
+       </div>
+     </div>
+   </div>
+
+   <div class="container mt-4 mb-4" v-if="tabs[4].isActive">
      <div class="row">
        <div class="col-md-12">
         <strong>Slickcharts</strong> <a href="https://www.investing.com/etfs/spdr-s-p-500-technical" target="_blank">Link to source.</a><br>
@@ -108,7 +119,7 @@
      </div>
    </div>
 
-   <div class="container mt-4 mb-4" v-if="tabs[4].isActive">
+   <div class="container mt-4 mb-4" v-if="tabs[5].isActive">
      <div class="row">
        <div class="col-md-12">
         <strong>SPX Option Trader</strong> (No Affiliation) <a href="">Link to source.</a><br>

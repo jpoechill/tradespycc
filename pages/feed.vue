@@ -122,11 +122,17 @@
 
    <div class="container mt-4 mb-4" v-if="tabs[1].isActive">
      <div class="row">
-       <div class="col-md-12">
-          May 21th, 2021. 
+       <div class="col-md-12 bg-white py-3">
+          May 21st, 2021. 
+          <ul>
+            <li>Ordered/received great book on reading/understanding/comprehending candle-stick patterns.</li>
+          </ul>
+          May 21st, 2021. 
           <ul>
             <li>To-do: investigate how taxes/fees/commissions works for gain. </li>
             <li>To-do: consider being conscious of such (taxes/fees/commissions), and amounts difference from gains in trades.</li>
+            <li>While paper-trading can now be considered successful, consider transitions to live-trading, and what might be the challenges and risks from there.</li>
+            <li>possible new goal: Trade 'til the sky falls down.</li>
           </ul>
           May 19th, 2021. 
           <ul>
@@ -160,7 +166,13 @@
 
    <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
      <div class="row">
-       <div class="col-md-12">
+       <div class="col-md-12 bg-white py-3">
+        May 22nd, 2021.
+        <ul>    
+          <li>Consider updating site to focus solely on options trading; removing moderate/safe sections in portfolios.</li>        
+          <li>Consider addition or transition of website to live-trading. Would like to keep the "playfulness" of paper trading, but some how, would like to pose contents (?) for serious readers.</li>
+          <li>Possibly, in the future, may be able to trade such accounts on a limited number of days in the week, rather than currently, every single day.</li>
+        </ul>
         May 21st, 2021.
         <ul>    
           <li>Remove targeted, value account goals.</li>        
@@ -208,7 +220,11 @@
 
    <div class="container mt-4 mb-4" v-if="tabs[3].isActive">
      <div class="row">
-       <div class="col-md-12">
+       <div class="col-md-12 bg-white py-3">
+        May 21st, 2021. 
+        <ul>
+          <li>Add some tackiness.</li>
+        </ul>
         May 10th, 2021. 
         <ul>
           <li>Layout update.</li>

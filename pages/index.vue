@@ -220,7 +220,16 @@
                 <ul>
                   <li>Buy 180 shares SPY at $418.60.</li>
                 </ul>
-                Holdings: <br>
+                
+              </div>
+            </div>
+
+            
+          </div>
+
+<div class="col-md-12 mt-4 py-3 bg-white rounded">
+
+          Holdings: <br>
                 <ul>
                   <li>AVG: 238 Shares @ $419.24.</li>
                   <li>58 Shares @ $421.21 ($24,430.18). </li>
@@ -245,9 +254,7 @@
                   <li>I am hoping to take advantage of market momentum, in case by being in the market when its hot, and being out of it when its not.</li>
                   <li>Access to SPY leverage (3x inverse/bull) where I can feel necessary.</li>
                 </ul>
-              </div>
-            </div>
-          </div>
+</div>
         </div>
        </div>
      </div>
@@ -373,7 +380,7 @@ export default {
 
     axios.get('https://cloud.iexapis.com/stable/stock/' + 'SPY' + '/quote?token=pk_d8826aae332a4b1287b1d4399e2f860b')
         .then(function (response) { 
-            self.spyCurr = response.data.iexRealtimePrice
+            self.spyCurr = response.data.latestPrice
           })
         .catch(function (error) {
           console.log(error);

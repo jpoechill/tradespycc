@@ -9,7 +9,7 @@
     </div>
 
     <div class="rotate" style="z-index: 999; position: fixed; left: 12px; bottom: 50%;">
-      <img src="/key.png" width="58px" alt="">
+      <img src="/edna.png" width="58px" alt="">
     </div>
 
     <div class="rotate" style="z-index: 999; position: fixed; right: 12px; bottom: 50%;">
@@ -30,7 +30,7 @@
       <img src="/heart!.svg" width="30px" alt="">
     </div>
 
-    <div class="bg-white pb-4">
+    <div class="pb-4" style="background-color: rgb(222 222 255);">
 
       <div class="container pt-0">
         <div class="row pt-0">
@@ -306,9 +306,13 @@ export default {
     },
     getSPYPrice () {
       let self = this
+
+      console.log('SPY PRICE')
+
       axios.get('https://cloud.iexapis.com/stable/stock/' + 'SPY' + '/quote?token=pk_d8826aae332a4b1287b1d4399e2f860b')
         .then(function (response) { 
-          self.spyCurr = response.data.iexRealtimePrice
+          console.log(response.data.latestPrice)
+          self.spyCurr = response.data.latestPrice
           })
         .catch(function (error) {
           console.log(error);
