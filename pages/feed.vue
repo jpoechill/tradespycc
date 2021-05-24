@@ -36,6 +36,11 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
+                May 24th, 2021.
+                <ul>
+                  <li>Early rise; afternoon high to closing draw down. <span class="badge bg-success">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-24-2021-112518586.html">Reference via. @yahooFinance</a>] </li>
+                  <li>Positive day. Things might be looking bright this week?</li>
+                </ul>
                 May 21st, 2021.
                 <ul>
                   <li>Shaky downward day. Concerns re: inflation. <span class="badge bg-danger">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-21-2021-221344440.html">Reference via. @yahooFinance</a>] </li>
@@ -171,7 +176,7 @@
         <ul>    
           <li>Consider updating site to focus solely on options trading; removing moderate/safe sections in portfolios.</li>        
           <li>Consider addition or transition of website to live-trading. Would like to keep the "playfulness" of paper trading, but some how, would like to pose contents (?) for serious readers.</li>
-          <li>Possibly, in the future, may be able to trade such accounts on a limited number of days in the week, rather than currently, every single day.</li>
+          <li>Possibly, in the future, may be able to trade such accounts on a limited number of days in the week, rather than currently, every single day. Market updates, and chart analysis should continue to be exactly the same.</li>
         </ul>
         May 21st, 2021.
         <ul>    
