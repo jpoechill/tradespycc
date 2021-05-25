@@ -24,6 +24,12 @@
        <div class="col-md-12">
         <strong>'Riding the Wave' Strategy</strong> <br>
         Summary: Requires PDT. No holdings overnight. Ability to make gain regardless of market direction (down or up). Trade everyday. Development process.<br><br>
+        <ul>
+          <li>Don't be afraid to yolo.</li>
+          <li>Wait for confrimation candles.</li>
+          <li>Never hold longer than through 2/3 opposing candles.</li>
+          <li>Allow prices to settle after a major gain/loss before buying into reversal plays.</li>
+        </ul>
        </div>
      </div>
    </div>

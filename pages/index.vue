@@ -34,7 +34,18 @@
                 Hyper Volatile. Options only. No limit on # of trades.<br><br>
                   Feed<br>
                   <hr class="my-1">
-                  
+                    
+                  May 24th, '21. Substantial gain, with minor blunder. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
+                  <ul class="mt-2">
+                    <li>Focused on major account today. Experimented with 3 DTE options. Although less risky (as can be seen in gain), I am positive that I saved more in overall fees than OTE's plays. Possibly hoping not to reset account until it reaches 10m, or 100m. Continuing hyper-aggressive approach.</li>
+                    <li>Loss that eventually recovered today came from being somewhat disoriented+dissatisfied with price action, which ended up with me trying to chase prices rather than playing the chart. </li>
+                    <li><mark>Starting to see consistent winning days with more confidence in being able to turn a profitable day regardless of market direction. Hoping to steady the play, with continuing to deepen knowledge through practice and study.</mark> <span class="badge bg-primary">Learnings</span></li>
+                    <li><mark>The chart brings truth. Play the chart. Ignore the numbers.</mark>  <span class="badge bg-primary">Learnings</span></li>
+                    <li><mark>Don't burn out. Remember to take breaks where imclined and needed. </mark>  <span class="badge bg-primary">Learnings</span></li>
+                    <li>Resetting minor account to 10k. Hoping to record time it take to get to 100k.</li>
+                    <li>Day's summary: 3m => 4m (fees/commissions to date: 3.2m).</li>
+                    <li>Trade time: ~4hrs.</li>
+                  </ul>
                   May 21st, '21. Gains, with recovered blunder. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
                   <ul class="mt-2">
                     <li>More trade time => more gains. Am content, but really do not want to become over zealous. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
@@ -163,7 +174,9 @@
                   <ul>
                     <li><del>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year – on a consistent basis.</del></li>
                     <li><del>With strategic effort, double (2x) or more the original value of one account.</del></li>
+                    <li>Prove discipline in consistency in positive winning days/week.</li>
                     <li>Prove consistency in gains, in paper-trading, and possibly, such a transition to live-trading.</li>
+                    <li>Where abled, enhance and perfect descriptions and details of current strategy.</li>
                     <li>Be accountable, and consciously aware of fees/commissions, and relative tax burdens.</li>
                     <li><del>Eventually transition strategy into live trading, without rush. Possibly months (even years?) down the line.</del></li>
                     <li>Process: Trade => Reset => Refine.</li>
