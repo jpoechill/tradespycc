@@ -21,7 +21,7 @@
             <a class="nav-link" :class="{ active: tabs[4].isActive }" href="#" @click="navigate('tools')">Charts and Tools</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[5].isActive }" href="#" @click="navigate('platform')">Paid Platforms</a>
+            <a class="nav-link" :class="{ active: tabs[5].isActive }" href="#" @click="navigate('platform')">Websites & Platforms</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" :class="{ active: tabs[6].isActive }" href="#" @click="navigate('people')">People Links</a>

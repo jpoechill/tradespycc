@@ -37,9 +37,9 @@
                     
                   May 26th, '21. Probably a million trades, but overall, full gains. <span class="badge bg-success">Gain</span> [<a href="https://tradespy.tumblr.com/post/652307358174887936/15k-30k-10m-10m-no-change-min-optimal">Reference</a>]
                   <ul class="mt-2">
-                    <li>SPY ended up barely moving, but with this, was still able to accomplish doubling (2x) today's start, over many, many trades...</li>
-                    <li>Currently, trying to figure out how to adjust to trading less. Also, more serious investigations into transitions into live trading.</li>
-                    <li>Would like to somehow continue to be transparent once the shift is made, but lose <i>light and playfullness</i>, as seen currently.</li>
+                    <li>SPY ended up barely moving, but with this, was still able to accomplish doubling (2x) today's start. This, through many, many trades...</li>
+                    <li>Currently, trying to figure out how to adjust to seriously trading less. Also, more serious investigations into transitions into live trading.</li>
+                    <li>Would like to somehow continue to be transparent once the shift is made, but keep <i>light and playfullness</i>, as seen currently.</li>
                     <li>Contemplating working with a new goal, to count # amount of trades/day, and hand tallying each one.</li>
                     <li>Day's summary:  15k => 30k. 10m => 10m.</li>
                     <li>Trade time: ~4hrs.</li>
@@ -73,18 +73,17 @@
                     <li>Day's summary: 100k => 150k (fees.commissions: 105k!). 1.23m => 3m (fees/commissions: 1.16m).</li>
                     <li>Trade time: ~4hrs.</li>
                   </ul>
-                  May 20th, '21. Gains where paying attention. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
-                  <ul class="mt-2">
-                    <li>More solid gains where paying attention. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
-                    <li>Reset second account to 1m balance; overall it did well. Hoping to try a ~10k balance next.</li>
-                    <li><mark>Losses on second account when I tried to trade other securities not SPY... The liquidity and spreads just weren't there. :'( </mark>  <span class="badge bg-primary">Learnings</span></li>
-                    <li><mark>Hindsight, while I closed the day for myself before 9am (12noon, eastern), I see now that there would have been plenty of opportunity to make even more gains today due some of the strong movement that happened after. I question now, what would be returns if I dedicate a full day to solely trading and focusing with said strategy. Is there a limit to how much can be made in a day, and what factors would challenge and hold me back from doing this, apart from mental endurance?</mark>  <span class="badge bg-primary">Learnings</span> <span class="badge badge-light">Questions?</span> </li>
-                    <li>Day's summary: 133k => 141k. 100k => 120k => 106k. 1m => 1.23m.</li>
-                    <li>Trade time: <2hrs.</li>
-                  </ul>
 
                   <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
-                    
+                    May 20th, '21. Gains where paying attention. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
+                    <ul class="mt-2">
+                      <li>More solid gains where paying attention. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
+                      <li>Reset second account to 1m balance; overall it did well. Hoping to try a ~10k balance next.</li>
+                      <li><mark>Losses on second account when I tried to trade other securities not SPY... The liquidity and spreads just weren't there. :'( </mark>  <span class="badge bg-primary">Learnings</span></li>
+                      <li><mark>Hindsight, while I closed the day for myself before 9am (12noon, eastern), I see now that there would have been plenty of opportunity to make even more gains today due some of the strong movement that happened after. I question now, what would be returns if I dedicate a full day to solely trading and focusing with said strategy. Is there a limit to how much can be made in a day, and what factors would challenge and hold me back from doing this, apart from mental endurance?</mark>  <span class="badge bg-primary">Learnings</span> <span class="badge badge-light">Questions?</span> </li>
+                      <li>Day's summary: 133k => 141k. 100k => 120k => 106k. 1m => 1.23m.</li>
+                      <li>Trade time: <2hrs.</li>
+                    </ul>
                     May 19th, '21. More gains where paying attention.<br>
                     <ul class="mt-2">
                       <li>Got in late today but was still able to catch some action – albeit, small gains. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
