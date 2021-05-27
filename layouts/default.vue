@@ -104,7 +104,7 @@
         </div>
         <small>
         <div class="col-md-12 text-center pt-2">
-          <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIO</nuxt-link> |  <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/resources">RESOURCES</nuxt-link> | <nuxt-link to="/misc">MISC</nuxt-link>
+          <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIO</nuxt-link> |  <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/resources">RESOURCES</nuxt-link>
         </div>
         </small>
         <div class="col-md-12 text-center mt-0 mb-1">
@@ -353,6 +353,7 @@ export default {
 <style>
 html {
   scroll-behavior: smooth;
+  /* font-size: 16px; */
 }
 
 body {

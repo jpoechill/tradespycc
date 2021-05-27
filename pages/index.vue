@@ -35,6 +35,22 @@
                   Feed<br>
                   <hr class="my-1">
                     
+                  May 26th, '21. Probably a million trades, but overall, full gains. <span class="badge bg-success">Gain</span>
+                  <ul class="mt-2">
+                    <li>SPY ended up barely moving, but with this, was still able to accomplish doubling (2x) today's start.</li>
+                    <li>Trying to figure out how to adjust to trading less. Also, more serious investigations into transitions into live trading.</li>
+                    <li>Day's summary:  15k => 30k. 10m => 10m.</li>
+                    <li>Trade time: ~4hrs.</li>
+                  </ul>
+                  May 25th, '21. Strategy still working well. Overall substantial gain, with reset of smaller account to 15k. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
+                  <ul class="mt-2">
+                    <li>Early downward movement today along with larger bid sizes allowed me considerable gains in larger account.</li>
+                    <li>Movement in end of day allowed me to boost smaller account by 50%. In a real-world case, would be limited to PDT, so would actually have to be more careful about picks in entering/exits.</li>
+                    <li>Some personal issues still with over trading; in such, losing out on fees/commissions.</li>
+                    <li>Rather than setting account goals, would like to see myself set ones that are more time based, ie. trade x style for 1 month and review. Could possibly provide greater detail in the after.</li>
+                    <li>Day's summary:  10k => 15k. 4m => 10m (fees/commissions to date: 3.2m).</li>
+                    <li>Trade time: ~4hrs.</li>
+                  </ul>
                   May 24th, '21. Substantial gain, with minor blunder. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
                   <ul class="mt-2">
                     <li>Focused on major account today. Experimented with 3 DTE options. Although less risky (as can be seen in gain), I am positive that I saved more in overall fees than OTE's plays. Possibly hoping not to reset account until it reaches 10m, or 100m. Continuing hyper-aggressive approach.</li>
@@ -163,21 +179,18 @@
                   Sitting Strategy<br>
                   <hr class="my-1">
                   <ul>
-                    <li>Riding the wave. Currently strategy is a pure <i><u>paper-trading</u></i> strategy which involves making a short future prediction and then buying (or <i>yolo'ing</i>) along such path. Where the prediction proves wrong (with SPY turns against prediction), part with all holdings and consider following the new/current momentum. </li>
-                    <li>Currently buying the closest available strike price per call/put, or whichever strike has the higher volume. Currently experimenting with different purchase sizes and determining effectiveness rate and risks of <mark><i>yolo'ing</i></mark>.</li>
-                    <li>Most difficult times are grey areas when the market runs in a flat line. In such cases, severe patients must be utilize until a direction shows it self. Still am trying to figure out how to much such times.</li>
-                    <li>Currently interested in reviewing returns in steady times vs volatile times.</li>
-                    <li>Options never held for longer than 3 days, with average time held being just a few minutes.</li>
+                    <li>[<nuxt-link to="/strategies">See Strategies</nuxt-link>]</li>
                   </ul>
                   Goals<br>
                   <hr class="my-1">
                   <ul>
                     <li><del>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year – on a consistent basis.</del></li>
                     <li><del>With strategic effort, double (2x) or more the original value of one account.</del></li>
-                    <li>Prove discipline in consistency in positive winning days/week.</li>
-                    <li>Prove consistency in gains, in paper-trading, and possibly, such a transition to live-trading.</li>
+                    <li>Prove discipline and consistency with positive winning days/week.</li>
+                    <li>Record pecentages of weekly returns. After time, review and assess.</li>
                     <li>Where abled, enhance and perfect descriptions and details of current strategy.</li>
                     <li>Be accountable, and consciously aware of fees/commissions, and relative tax burdens.</li>
+                    <li>Carefully, and methodically, prove a successful transition to live-trading.</li>
                     <li><del>Eventually transition strategy into live trading, without rush. Possibly months (even years?) down the line.</del></li>
                     <li>Process: Trade => Reset => Refine.</li>
                   </ul>

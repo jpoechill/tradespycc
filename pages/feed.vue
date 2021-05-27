@@ -36,9 +36,18 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
+                May 26th, 2021.
+                <ul>
+                  <li>SPY inches along. Personally looking for the day it corrects to go <i>hard</i> on puts... Yikes.</li>
+                  <li>SPY short interest, higher than its been. [<a href="https://www.bloomberg.com/news/articles/2021-05-25/bets-against-357-billion-s-p-500-etf-jump-to-highest-this-year">Reference via. @bloomberg</a>] </li>
+                </ul>
+                May 25th, 2021.
+                <ul>
+                  <li>Some continued downard momentum. Do we hold here, or no?</li>
+                </ul>
                 May 24th, 2021.
                 <ul>
-                  <li>Early rise; afternoon high to closing draw down. <span class="badge bg-success">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-24-2021-112518586.html">Reference via. @yahooFinance</a>] </li>
+                  <li>Early rise; afternoon high to closing draw down. <span class="badge bg-success">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-24-2021-112518586.html">Reference via. @yahooFinance</a>, <a href="https://www.bloomberg.com/news/articles/2021-05-24/asian-stocks-set-to-climb-as-dollar-yields-drop-markets-wrap">Reference via. @bloomberg</a>] </li>
                   <li>Positive day. Things might be looking bright this week?</li>
                 </ul>
                 May 21st, 2021.
@@ -128,6 +137,10 @@
    <div class="container mt-4 mb-4" v-if="tabs[1].isActive">
      <div class="row">
        <div class="col-md-12 bg-white py-3">
+         May 26th, 2021. 
+          <ul>
+            <li>More serious investigations into using current strategy IRL. Tradings hundreds of thousands of options prices back and forth may not particularly be practical in a real world setting.</li>
+          </ul>
           May 21st, 2021. 
           <ul>
             <li>Ordered/received great book on reading/understanding/comprehending candle-stick patterns.</li>
@@ -172,6 +185,10 @@
    <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
      <div class="row">
        <div class="col-md-12 bg-white py-3">
+        May 24th, 2021.
+        <ul>    
+          <li>Start refining, updating strategies section.</li>        
+        </ul>
         May 22nd, 2021.
         <ul>    
           <li>Consider updating site to focus solely on options trading; removing moderate/safe sections in portfolios.</li>        
