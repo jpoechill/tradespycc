@@ -39,7 +39,7 @@
                 May 26th, 2021.
                 <ul>
                   <li>SPY inches along. Personally looking for the day it corrects to go <i>hard</i> on puts... Yikes.</li>
-                  <li>SPY short interest, higher than its been. [<a href="https://www.bloomberg.com/news/articles/2021-05-25/bets-against-357-billion-s-p-500-etf-jump-to-highest-this-year">Reference via. @bloomberg</a>] </li>
+                  <li>SPY short interest, higher than ever its been YTD. [<a href="https://www.bloomberg.com/news/articles/2021-05-25/bets-against-357-billion-s-p-500-etf-jump-to-highest-this-year">Reference via. @bloomberg</a>] </li>
                 </ul>
                 May 25th, 2021.
                 <ul>

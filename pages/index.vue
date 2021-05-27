@@ -35,10 +35,12 @@
                   Feed<br>
                   <hr class="my-1">
                     
-                  May 26th, '21. Probably a million trades, but overall, full gains. <span class="badge bg-success">Gain</span>
+                  May 26th, '21. Probably a million trades, but overall, full gains. <span class="badge bg-success">Gain</span> [<a href="https://tradespy.tumblr.com/post/652307358174887936/15k-30k-10m-10m-no-change-min-optimal">Reference</a>]
                   <ul class="mt-2">
-                    <li>SPY ended up barely moving, but with this, was still able to accomplish doubling (2x) today's start.</li>
-                    <li>Trying to figure out how to adjust to trading less. Also, more serious investigations into transitions into live trading.</li>
+                    <li>SPY ended up barely moving, but with this, was still able to accomplish doubling (2x) today's start, over many, many trades...</li>
+                    <li>Currently, trying to figure out how to adjust to trading less. Also, more serious investigations into transitions into live trading.</li>
+                    <li>Would like to somehow continue to be transparent once the shift is made, but lose <i>light and playfullness</i>, as seen currently.</li>
+                    <li>Contemplating working with a new goal, to count # amount of trades/day, and hand tallying each one.</li>
                     <li>Day's summary:  15k => 30k. 10m => 10m.</li>
                     <li>Trade time: ~4hrs.</li>
                   </ul>
