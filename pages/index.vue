@@ -35,6 +35,14 @@
                   Feed<br>
                   <hr class="my-1">
                     
+                  May 27th, '21. Slow day, but was able to catch some good dips. <span class="badge bg-success">Gain</span> [<a href="https://tradespy.tumblr.com/post/652356585986916352/30k-72k-10m-10m-no-change-trade-time">Reference</a>]
+                  <ul class="mt-2">
+                    <li>Overall slow day, but was still able to catch some falls (2x) that put me over the top. Finished the day early.</li>
+                    <li>More investigations, prep for strategy transition to live trading.</li>
+                    <li>Day's summary:  30k => 72k. 10m => 12m (yikes, traded AMC..!).</li>
+                    <li>Approximate # of day-trades (round trips): <20 </li>
+                    <li>Trade time: ~2hrs.</li>
+                  </ul>
                   May 26th, '21. Probably a million trades, but overall, full gains. <span class="badge bg-success">Gain</span> [<a href="https://tradespy.tumblr.com/post/652307358174887936/15k-30k-10m-10m-no-change-min-optimal">Reference</a>]
                   <ul class="mt-2">
                     <li>SPY ended up barely moving, but with this, was still able to accomplish doubling (2x) today's start. This, through many, many trades...</li>
@@ -44,37 +52,38 @@
                     <li>Day's summary:  15k => 30k. 10m => 10m.</li>
                     <li>Trade time: ~4hrs.</li>
                   </ul>
-                  May 25th, '21. Strategy still working well. Overall substantial gain, with reset of smaller account to 15k. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
-                  <ul class="mt-2">
-                    <li>Early downward movement today along with larger bid sizes allowed me considerable gains in larger account.</li>
-                    <li>Movement in end of day allowed me to boost smaller account by 50%. In a real-world case, would be limited to PDT, so would actually have to be more careful about picks in entering/exits.</li>
-                    <li>Some personal issues still with over trading; in such, losing out on fees/commissions.</li>
-                    <li>Rather than setting account goals, would like to see myself set ones that are more time based, ie. trade x style for 1 month and review. Could possibly provide greater detail in the after.</li>
-                    <li>Day's summary:  10k => 15k. 4m => 10m (fees/commissions to date: 3.2m).</li>
-                    <li>Trade time: ~4hrs.</li>
-                  </ul>
-                  May 24th, '21. Substantial gain, with minor blunder. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
-                  <ul class="mt-2">
-                    <li>Focused on major account today. Experimented with 3 DTE options. Although less risky (as can be seen in gain), I am positive that I saved more in overall fees than OTE's plays. Possibly hoping not to reset account until it reaches 10m, or 100m. Continuing hyper-aggressive approach.</li>
-                    <li>Loss that eventually recovered today came from being somewhat disoriented+dissatisfied with price action, which ended up with me trying to chase prices rather than playing the chart. </li>
-                    <li><mark>Starting to see consistent winning days with more confidence in being able to turn a profitable day regardless of market direction. Hoping to steady the play, with continuing to deepen knowledge through practice and study.</mark> <span class="badge bg-primary">Learnings</span></li>
-                    <li><mark>The chart brings truth. Play the chart. Ignore the numbers.</mark>  <span class="badge bg-primary">Learnings</span></li>
-                    <li><mark>Don't burn out. Remember to take breaks where imclined and needed. </mark>  <span class="badge bg-primary">Learnings</span></li>
-                    <li>Resetting minor account to 10k. Hoping to record time it take to get to 100k.</li>
-                    <li>Day's summary: 3m => 4m (fees/commissions to date: 3.2m).</li>
-                    <li>Trade time: ~4hrs.</li>
-                  </ul>
-                  May 21st, '21. Gains, with recovered blunder. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
-                  <ul class="mt-2">
-                    <li>More trade time => more gains. Am content, but really do not want to become over zealous. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
-                    <li>Reset smaller account to research how fees/commissions are factored into option trades. Would like to try hand at 10k account next.</li>
-                    <li><mark>Blunder today was taking a put to the bottom, and then purchasing a call before the last price could settle. Loss about all of the day's gain immediately after purchase. Overall, was able to recover – albeit almost frantically.</mark> <span class="badge bg-primary">Learnings</span></li>
-                    <li><mark>Need to work on taking more patience, trading less, and being considerate of overall costs (fees/commission) per trade. More research on history of candle-sticks.</mark> <span class="badge bg-primary">Learnings</span></li>
-                    <li>Day's summary: 100k => 150k (fees.commissions: 105k!). 1.23m => 3m (fees/commissions: 1.16m).</li>
-                    <li>Trade time: ~4hrs.</li>
-                  </ul>
 
                   <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
+                    
+                    May 25th, '21. Strategy still working well. Overall substantial gain, with reset of smaller account to 15k. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
+                    <ul class="mt-2">
+                      <li>Early downward movement today along with larger bid sizes allowed me considerable gains in larger account.</li>
+                      <li>Movement in end of day allowed me to boost smaller account by 50%. In a real-world case, would be limited to PDT, so would actually have to be more careful about picks in entering/exits.</li>
+                      <li>Some personal issues still with over trading; in such, losing out on fees/commissions.</li>
+                      <li>Rather than setting account goals, would like to see myself set ones that are more time based, ie. trade x style for 1 month and review. Could possibly provide greater detail in the after.</li>
+                      <li>Day's summary:  10k => 15k. 4m => 10m (fees/commissions to date: 3.2m).</li>
+                      <li>Trade time: ~4hrs.</li>
+                    </ul>
+                    May 24th, '21. Substantial gain, with minor blunder. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
+                    <ul class="mt-2">
+                      <li>Focused on major account today. Experimented with 3 DTE options. Although less risky (as can be seen in gain), I am positive that I saved more in overall fees than OTE's plays. Possibly hoping not to reset account until it reaches 10m, or 100m. Continuing hyper-aggressive approach.</li>
+                      <li>Loss that eventually recovered today came from being somewhat disoriented+dissatisfied with price action, which ended up with me trying to chase prices rather than playing the chart. </li>
+                      <li><mark>Starting to see consistent winning days with more confidence in being able to turn a profitable day regardless of market direction. Hoping to steady the play, with continuing to deepen knowledge through practice and study.</mark> <span class="badge bg-primary">Learnings</span></li>
+                      <li><mark>The chart brings truth. Play the chart. Ignore the numbers.</mark>  <span class="badge bg-primary">Learnings</span></li>
+                      <li><mark>Don't burn out. Remember to take breaks where imclined and needed. </mark>  <span class="badge bg-primary">Learnings</span></li>
+                      <li>Resetting minor account to 10k. Hoping to record time it take to get to 100k.</li>
+                      <li>Day's summary: 3m => 4m (fees/commissions to date: 3.2m).</li>
+                      <li>Trade time: ~4hrs.</li>
+                    </ul>
+                    May 21st, '21. Gains, with recovered blunder. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
+                    <ul class="mt-2">
+                      <li>More trade time => more gains. Am content, but really do not want to become over zealous. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
+                      <li>Reset smaller account to research how fees/commissions are factored into option trades. Would like to try hand at 10k account next.</li>
+                      <li><mark>Blunder today was taking a put to the bottom, and then purchasing a call before the last price could settle. Loss about all of the day's gain immediately after purchase. Overall, was able to recover – albeit almost frantically.</mark> <span class="badge bg-primary">Learnings</span></li>
+                      <li><mark>Need to work on taking more patience, trading less, and being considerate of overall costs (fees/commission) per trade. More research on history of candle-sticks.</mark> <span class="badge bg-primary">Learnings</span></li>
+                      <li>Day's summary: 100k => 150k (fees.commissions: 105k!). 1.23m => 3m (fees/commissions: 1.16m).</li>
+                      <li>Trade time: ~4hrs.</li>
+                    </ul>
                     May 20th, '21. Gains where paying attention. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
                     <ul class="mt-2">
                       <li>More solid gains where paying attention. [<a href="https://tradespy.tumblr.com/post/651641411815571456/more-gains-where-paying-attention-115k-133k">Reference</a>]</li>
@@ -176,7 +185,7 @@
 
                   <br>
 
-                  No. of resets: 7 <br><br>
+                  No. of resets: 11 <br><br>
                   Sitting Strategy<br>
                   <hr class="my-1">
                   <ul>
@@ -187,8 +196,8 @@
                   <ul>
                     <li><del>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year – on a consistent basis.</del></li>
                     <li><del>With strategic effort, double (2x) or more the original value of one account.</del></li>
-                    <li>Prove discipline and consistency with positive winning days/week.</li>
-                    <li>Record pecentages of weekly returns. After time, review and assess.</li>
+                    <li><del>Prove discipline and consistency with positive winning days/week.</del></li>
+                    <li><del>Record pecentages of weekly returns. After time, review and assess.</del></li>
                     <li>Where abled, enhance and perfect descriptions and details of current strategy.</li>
                     <li>Be accountable, and consciously aware of fees/commissions, and relative tax burdens.</li>
                     <li>Carefully, and methodically, prove a successful transition to live-trading.</li>

@@ -36,6 +36,11 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
+                May 27th, 2021.
+                <ul>
+                  <li>SPY still inching along.</li>
+                  <li>Ready a break out, or even a dip. Soemthings brewing, though. [<a href="https://www.marketwatch.com/story/as-the-s-p-500-approaches-its-all-time-high-brace-for-a-violent-move-01622125439?mod=home-page">Reference via. @marketwatch</a>]</li>
+                </ul>
                 May 26th, 2021.
                 <ul>
                   <li>SPY inches along. Personally looking for the day it corrects to go <i>hard</i> on puts... Yikes.</li>
