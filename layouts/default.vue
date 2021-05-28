@@ -21,7 +21,6 @@
       <img src="/binary.svg" width="32px" alt="">
     </div>
 
-
     <div style="z-index: 999; position: fixed; right: 50%; bottom: 12px;">
       <img src="/dog.png" width="52px" alt="">
     </div>
@@ -124,7 +123,7 @@
     <div class="container mb-5">
       <div class="row">
         <div class="col-md-12 text-center mt-1 mb-5">
-          This is a SPY research and development PAPER TRADING & (soon to be) LIVE TRADING website, built solely and strictly for review and educational purposes. © 2021
+          This is a SPY research and development PAPER TRADING website, built solely and strictly for review and educational purposes. © 2021
         </div>
       </div>
     </div>

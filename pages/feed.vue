@@ -36,6 +36,11 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
+                May 28th, 2021.
+                <ul>
+                  <li>SPY rocky, but breaking even.</li>
+                  <li>Long weekend ahead.</li>
+                </ul>
                 May 27th, 2021.
                 <ul>
                   <li>SPY still inching along.</li>
@@ -46,40 +51,40 @@
                   <li>SPY inches along. Personally looking for the day it corrects to go <i>hard</i> on puts... Yikes.</li>
                   <li>SPY short interest, higher than ever its been YTD. [<a href="https://www.bloomberg.com/news/articles/2021-05-25/bets-against-357-billion-s-p-500-etf-jump-to-highest-this-year">Reference via. @bloomberg</a>] </li>
                 </ul>
-                May 25th, 2021.
-                <ul>
-                  <li>Some continued downard momentum. Do we hold here, or no?</li>
-                </ul>
-                May 24th, 2021.
-                <ul>
-                  <li>Early rise; afternoon high to closing draw down. <span class="badge bg-success">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-24-2021-112518586.html">Reference via. @yahooFinance</a>, <a href="https://www.bloomberg.com/news/articles/2021-05-24/asian-stocks-set-to-climb-as-dollar-yields-drop-markets-wrap">Reference via. @bloomberg</a>] </li>
-                  <li>Positive day. Things might be looking bright this week?</li>
-                </ul>
-                May 21st, 2021.
-                <ul>
-                  <li>Shaky downward day. Concerns re: inflation. <span class="badge bg-danger">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-21-2021-221344440.html">Reference via. @yahooFinance</a>] </li>
-                  <li>More sharp declines than rises. Where do we go from here?</li>
-                </ul>
-                May 20th, 2021.
-                <ul>
-                  <li>Equities opening higher due to peak low jobless claims. <span class="badge bg-success">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-20-2021-221318405.html">Reference via. @yahooFinance</a>] </li>
-                  <li>SPY still trading below ATH; overall positive sentiments.</li>
-                  <li>Tech continuing to make gains.</li>
-                </ul>
-                May 19th, 2021.
-                <ul>
-                  <li>Opened down, with a shaky end-of-day rise. Overall cultprit: inflation. [<a href="https://www.marketwatch.com/story/dow-futures-drop-250-points-and-tech-stocks-slump-anew-ahead-of-fed-minutes-11621423385?mod=home-page">Reference via. @marketwatch</a>] </li>
-                  <li>Opportunity for SPY to close below opening, leaving questions that this down trend may continue.</li>
-                  <li>Possibly more "fits and starts" of a return to back to growth. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-19-2021-221605666.html">Reference via. yahooFinance</a>]</li>
-                </ul>
-                May 18th, 2021.
-                <ul>
-                  <li>Volitility with company earnings and general market draw-down. <span class="badge bg-danger">Reversal</span> [<a href="https://www.marketwatch.com/story/dow-futures-rise-as-home-depot-reports-unprecedented-quarterly-demand-11621337117?mod=home-page">Reference via. @marketwatch</a>] </li>
-                  <li>Tech making comebacks. Does this get worse before it gets better?</li>
-                </ul>
 
                 <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
                 
+                  May 25th, 2021.
+                  <ul>
+                    <li>Some continued downard momentum. Do we hold here, or no?</li>
+                  </ul>
+                  May 24th, 2021.
+                  <ul>
+                    <li>Early rise; afternoon high to closing draw down. <span class="badge bg-success">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-24-2021-112518586.html">Reference via. @yahooFinance</a>, <a href="https://www.bloomberg.com/news/articles/2021-05-24/asian-stocks-set-to-climb-as-dollar-yields-drop-markets-wrap">Reference via. @bloomberg</a>] </li>
+                    <li>Positive day. Things might be looking bright this week?</li>
+                  </ul>
+                  May 21st, 2021.
+                  <ul>
+                    <li>Shaky downward day. Concerns re: inflation. <span class="badge bg-danger">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-21-2021-221344440.html">Reference via. @yahooFinance</a>] </li>
+                    <li>More sharp declines than rises. Where do we go from here?</li>
+                  </ul>
+                  May 20th, 2021.
+                  <ul>
+                    <li>Equities opening higher due to peak low jobless claims. <span class="badge bg-success">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-20-2021-221318405.html">Reference via. @yahooFinance</a>] </li>
+                    <li>SPY still trading below ATH; overall positive sentiments.</li>
+                    <li>Tech continuing to make gains.</li>
+                  </ul>
+                  May 19th, 2021.
+                  <ul>
+                    <li>Opened down, with a shaky end-of-day rise. Overall cultprit: inflation. [<a href="https://www.marketwatch.com/story/dow-futures-drop-250-points-and-tech-stocks-slump-anew-ahead-of-fed-minutes-11621423385?mod=home-page">Reference via. @marketwatch</a>] </li>
+                    <li>Opportunity for SPY to close below opening, leaving questions that this down trend may continue.</li>
+                    <li>Possibly more "fits and starts" of a return to back to growth. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-19-2021-221605666.html">Reference via. yahooFinance</a>]</li>
+                  </ul>
+                  May 18th, 2021.
+                  <ul>
+                    <li>Volitility with company earnings and general market draw-down. <span class="badge bg-danger">Reversal</span> [<a href="https://www.marketwatch.com/story/dow-futures-rise-as-home-depot-reports-unprecedented-quarterly-demand-11621337117?mod=home-page">Reference via. @marketwatch</a>] </li>
+                    <li>Tech making comebacks. Does this get worse before it gets better?</li>
+                  </ul>
                   May 17th, 2021.
                   <ul>
                     <li>Morning draw-down with afternoon rise. [<a href="https://www.marketwatch.com/story/dow-poised-to-start-week-under-pressure-11621251248?mod=home-page">Reference via. @marketwatch</a>] </li>
@@ -142,7 +147,12 @@
    <div class="container mt-4 mb-4" v-if="tabs[1].isActive">
      <div class="row">
        <div class="col-md-12 bg-white py-3">
-         May 26th, 2021. 
+          May 28th, 2021. 
+          <ul>
+            <li>Paper-trading might not fully mimic real-time trade fills. [<a href="https://www.reddit.com/r/options/comments/apux73/negotiating_with_td_ameritrade/">Reference via. @Reddit</a>]</li>
+            <li>How live fills can compare to paper-trading fills. Answer: much slower. [<a href="https://www.reddit.com/r/Daytrading/comments/c0l4w1/how_do_fills_compare_live_vs_paper_trading/er5oui3/">Reference via. @Reddit</a>] </li>
+          </ul>
+          May 26th, 2021. 
           <ul>
             <li>More serious investigations into using current strategy IRL. Tradings hundreds of thousands of options prices back and forth may not particularly be practical in a real world setting.</li>
           </ul>

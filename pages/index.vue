@@ -35,6 +35,13 @@
                   Feed<br>
                   <hr class="my-1">
                     
+                  May 28th, '21. Gain day. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset x2</span>
+                  <ul class="mt-2">
+                    <li>Took advantage of ending options to double up in a brief trading session. Ended day early.</li>
+                    <li>Reset to 1k, 500 account size.</li>
+                    <li>Day's summary:  72.6 => 157k. 12m => 14.6m (yikes, AMC... again!).</li>
+                    <li>Trade time: ~1.5hrs.</li>
+                  </ul>
                   May 27th, '21. Slow day, but was able to catch some good dips. <span class="badge bg-success">Gain</span> [<a href="https://tradespy.tumblr.com/post/652356585986916352/30k-72k-10m-10m-no-change-trade-time">Reference</a>]
                   <ul class="mt-2">
                     <li>Overall slow day, but was still able to catch some falls (2x) that put me over the top. Finished the day early.</li>
@@ -43,18 +50,19 @@
                     <li>Approximate # of day-trades (round trips): <20 </li>
                     <li>Trade time: ~2hrs.</li>
                   </ul>
-                  May 26th, '21. Probably a million trades, but overall, full gains. <span class="badge bg-success">Gain</span> [<a href="https://tradespy.tumblr.com/post/652307358174887936/15k-30k-10m-10m-no-change-min-optimal">Reference</a>]
-                  <ul class="mt-2">
-                    <li>SPY ended up barely moving, but with this, was still able to accomplish doubling (2x) today's start. This, through many, many trades...</li>
-                    <li>Currently, trying to figure out how to adjust to seriously trading less. Also, more serious investigations into transitions into live trading.</li>
-                    <li>Would like to somehow continue to be transparent once the shift is made, but keep <i>light and playfullness</i>, as seen currently.</li>
-                    <li>Contemplating working with a new goal, to count # amount of trades/day, and hand tallying each one.</li>
-                    <li>Day's summary:  15k => 30k. 10m => 10m.</li>
-                    <li>Trade time: ~4hrs.</li>
-                  </ul>
+
 
                   <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
                     
+                    May 26th, '21. Probably a million trades, but overall, full gains. <span class="badge bg-success">Gain</span> [<a href="https://tradespy.tumblr.com/post/652307358174887936/15k-30k-10m-10m-no-change-min-optimal">Reference</a>]
+                    <ul class="mt-2">
+                      <li>SPY ended up barely moving, but with this, was still able to accomplish doubling (2x) today's start. This, through many, many trades...</li>
+                      <li>Currently, trying to figure out how to adjust to seriously trading less. Also, more serious investigations into transitions into live trading.</li>
+                      <li>Would like to somehow continue to be transparent once the shift is made, but keep <i>light and playfullness</i>, as seen currently.</li>
+                      <li>Contemplating working with a new goal, to count # amount of trades/day, and hand tallying each one.</li>
+                      <li>Day's summary:  15k => 30k. 10m => 10m.</li>
+                      <li>Trade time: ~4hrs.</li>
+                    </ul>
                     May 25th, '21. Strategy still working well. Overall substantial gain, with reset of smaller account to 15k. <span class="badge bg-success">Gain</span> <span class="badge bg-warning">Reset</span>
                     <ul class="mt-2">
                       <li>Early downward movement today along with larger bid sizes allowed me considerable gains in larger account.</li>
@@ -193,24 +201,26 @@
                   </ul>
                   Goals<br>
                   <hr class="my-1">
-                  <ul>
+                  <ul> 
+                    <li>Where abled, enhance and perfect descriptions and details of current strategy.</li>
+                    <li>Transitions to a SPY/day-trading/options-trading research and experimentation site. </li>
+                    <li><del>Be accountable, and consciously aware of fees/commissions, and relative tax burdens.</del></li>
+                    <li><del>Carefully, and methodically, prove a successful transition to live-trading.</del></li>
+                    <li><del>Process: Trade => Reset => Refine.</del></li>
                     <li><del>With strategic effort, aggressively beat the average yearly returns for SPY of +13.25%/year – on a consistent basis.</del></li>
                     <li><del>With strategic effort, double (2x) or more the original value of one account.</del></li>
                     <li><del>Prove discipline and consistency with positive winning days/week.</del></li>
                     <li><del>Record pecentages of weekly returns. After time, review and assess.</del></li>
-                    <li>Where abled, enhance and perfect descriptions and details of current strategy.</li>
-                    <li>Be accountable, and consciously aware of fees/commissions, and relative tax burdens.</li>
-                    <li>Carefully, and methodically, prove a successful transition to live-trading.</li>
                     <li><del>Eventually transition strategy into live trading, without rush. Possibly months (even years?) down the line.</del></li>
-                    <li>Process: Trade => Reset => Refine.</li>
                   </ul>
                   Notes<br>
                   <hr class="my-1">
                   <ul>
-                    <li>This is the aggressive, free range account, of which I could plan to eventually "master" at any conceivable level. <del>What I can hope to do here is leverage the different capabilities open to me and use them as an advantage for when the market can move as anyone could expect.</del> The main instrument being options.</li>
-                    <li>2x Think or Swim paper trading account, starting with $100,000 each.</li>
-                    <li>Would eventually like to experiment with different starting balances – 10k, 50k, 250k, 500k, 1m and etc.</li>
-                    <li>Would like to continue building/optimizing/refining platform in months and years on. Somehow would like to keep it <mark><i>light and playful</i></mark>.</li>
+                    <li>2x ThinkorSwim paper-trading accounts. Reset regulary via. personal discretion. </li>
+                    <li><del>This is the aggressive, free range account, of which I could plan to eventually "master" at any conceivable level. What I can hope to do here is leverage the different capabilities open to me and use them as an advantage for when the market can move as anyone could expect. The main instrument being options.</del></li>
+                    <li><del>2x Think or Swim paper trading account, starting with $100,000 each.</del></li>
+                    <li><del>Would eventually like to experiment with different starting balances – 10k, 50k, 250k, 500k, 1m and etc.</del></li>
+                    <li><del>Would like to continue building/optimizing/refining platform in months and years on. Somehow would like to keep it <mark><i>light and playful</i></mark></del>.</li>
                     <!-- <li>Would like to continue paper-trading months and years on – or until completely comfortable with identical, successful plays in live-trading.</li> -->
                     <li><del>To-do: normalize a SPY strategy for consistent upside.</del></li>
                     <li><del>Also, and currently: How many times can I blow an account?</del></li>
