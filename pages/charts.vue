@@ -3,12 +3,12 @@
     <div class="container mt-4 mb-4">
      <div class="row">
        <div class="col-md-12">
-        Relevant data viz. <br><br>
+        <!-- Relevant data viz. <br><br> -->
         <ul class="nav nav-tabs">
           <li class="nav-item">
             <a class="nav-link" :class="{ active: tabs[0].isActive }" aria-current="page" href="#" @click="navigate('main')">SPY Daily</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" :class="{ active: tabs[1].isActive }" href="#" @click="navigate('totalResets')">Total Resets</a>
           </li>
           <li class="nav-item">
@@ -16,7 +16,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" :class="{ active: tabs[3].isActive }" href="#" @click="navigate('goodResets')">Good Resets</a>
-          </li>
+          </li> -->
         </ul>
        </div>
      </div>

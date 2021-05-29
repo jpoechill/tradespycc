@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="container mt-4 mb-4">
+    <div class="container mt-4 mb-0">
      <div class="row">
        <div class="col-md-12">
-        Portfolio action and balances. <br><br>
-        <ul class="nav nav-tabs">
+        Portfolio action and balances. 
+        <!-- <ul class="nav nav-tabs">
           <li class="nav-item">
             <a class="nav-link" :class="{ active: tabs[0].isActive }" aria-current="page" href="#" @click="navigate('aggro')">Aggressive</a>
           </li>
@@ -14,22 +14,24 @@
           <li class="nav-item">
             <a class="nav-link" :class="{ active: tabs[2].isActive }" href="#" @click="navigate('safe')">Safe</a>
           </li>
-        </ul>
+        </ul> -->
        </div>
      </div>
    </div>
 
-   <div class="container mt-4 mb-3" v-show="tabs[0].isActive">
+   <div class="container mt-2 mb-3" v-show="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
+
+         
          <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                ACCOUNT 1 – AGGRO 1, THINK OR SWIM (Starting: $200,000)
+                ACCOUNT 1 – AGGRO 1, THINK OR SWIM
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
                 Hyper Volatile. Options only. No limit on # of trades.<br><br>
                   Feed<br>
@@ -229,22 +231,15 @@
             </div>
           </div>
           
-        </div>
-       </div>
-     </div>
-   </div>
 
-   <div class="container mt-4 mb-3" v-show="tabs[1].isActive">
-     <div class="row">
-       <div class="col-md-12">
-        <div class="accordion" id="accordionExample">
+          <div class="accordion mt-2" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 ACCOUNT 2 – MODERATE 1 (${{ numberWithCommas(((spyCurr * 238) + 221.82).toFixed(2), ) }}/$100,000, 0 RESETS)
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
               <div class="accordion-body">
                 Full stocks, along with 3x leverage ETFs where inclined. 3-5 trades/month.<br><br>
                 Feed<br>
@@ -267,15 +262,8 @@
                   <li>Buy 180 shares SPY at $418.60.</li>
                 </ul>
                 
-              </div>
-            </div>
 
-            
-          </div>
-
-<div class="col-md-12 mt-4 py-3 bg-white rounded">
-
-          Holdings: <br>
+                Holdings: <br>
                 <ul>
                   <li>AVG: 238 Shares @ $419.24.</li>
                   <li>58 Shares @ $421.21 ($24,430.18). </li>
@@ -300,24 +288,24 @@
                   <li>I am hoping to take advantage of market momentum, in case by being in the market when its hot, and being out of it when its not.</li>
                   <li>Access to SPY leverage (3x inverse/bull) where I can feel necessary.</li>
                 </ul>
-</div>
-        </div>
-       </div>
-     </div>
-   </div>
+                
+              </div>
+            </div>
 
 
-   <div class="container mt-4 mb-3" v-show="tabs[2].isActive">
-     <div class="row">
-       <div class="col-md-12">
-        <div class="accordion" id="accordionExample">
+
+            
+          </div>
+
+
+<div class="accordion mt-2" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapse show" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 ACCOUNT 3 – SAFE 1 (${{ numberWithCommas(((spyCurr * 238) + 373.20).toFixed(2)) }}/$100,000)
               </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
               <div class="accordion-body">
                 Full stocks. Hyper conservative. Control group. Avg. trades: 3-5/year, max.<br><br>
                 Feed<br>
@@ -351,10 +339,13 @@
             </div>
           </div>
         </div>
+        </div>
+
+        </div>
        </div>
      </div>
    </div>
-   
+
   </div>
 </template>
 

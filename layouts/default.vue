@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div style="position: fixed; z-index: 2; left: 10px; top: 15px;">
-      <img src="/art.png" width="50px" alt="">
+    <div style="position: fixed; z-index: 2; left: 10px; top: 13px;">
+      <img src="/art.png" width="38px" alt="">
     </div>
 
-    <div style="z-index: 999; position: fixed; left: 0px; bottom: 6px;">
+    <!-- <div style="z-index: 999; position: fixed; left: 0px; bottom: 6px;">
       <img src="/kitten_trans.gif" width="110px" alt="">
     </div>
 
@@ -27,9 +27,9 @@
 
     <div style="z-index: 999; position: fixed; right: 14px; bottom: 14px;">
       <img src="/heart!.svg" width="30px" alt="">
-    </div>
+    </div> -->
 
-    <div class="pb-4" style="background-color: rgb(222 222 255);">
+    <div class="pb-1" style="background-color: rgb(222 222 255);">
 
       <div class="container pt-0">
         <div class="row pt-0">
@@ -58,7 +58,14 @@
 
       <div style="background-color: #f9f9f9; position: fixed; width: 100%; z-index: 1;" class="border-top">
         <div class="container py-2">
-          <div class="row">
+          <div class="col-md-12 mt-3 mb-0 ms-0 ps-0">
+          <small>
+          <nuxt-link to="/feed" style="font-size: 14px; color: #111;" class="me-2"><strong>$TRADESPY.cc</strong> </nuxt-link>
+          <!-- <nuxt-link to="/" style="color: #111;"><img src="/logo.svg" width="175px" class="mb-1" alt="tradeSPY.cc Logo"></nuxt-link> -->
+          
+          </small>
+          </div>
+          <!-- <div class="row">
             <div class="col-md-12 text-center" style="word-spacing: 0px;">
               <ul class="nav nav-fill justify-content-center">
                 <li class="nav-item" style="z-index: 1;" v-for="(tab, index) in tabs" :key="index">
@@ -66,7 +73,7 @@
                 </li>
               </ul>  
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -83,47 +90,36 @@
         </div>
       </div> -->
 
-      <div style="margin-top: 90px;">
+      <div style="margin-top: 74px;">
         <Nuxt/>
       </div>
 
     </div>
 
     <!-- <div class="container bg-dark"> -->
-      <div class="row px-0 mx-0" style="background-color: #f9f9f9;">
+      <!-- <div class="row px-0 mx-0" style="background-color: #f9f9f9;">
         <img src="wave.svg"  class="pt-4 pb-3 mx-0 px-0 w-100" alt="">
-      </div>
+      </div> -->
     <!-- </div> -->
 
     <div class="container mt-2">
       <div class="row">
-        <div class="col-md-12 text-center mt-3 mb-0">
-          <!-- <nuxt-link to="/" style="color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link> -->
-          <nuxt-link to="/" style="color: #111;"><img src="/logo.svg" width="175px" class="mb-1" alt="tradeSPY.cc Logo"></nuxt-link>
+        <div class="col-md-12 mt-0 mb-0">
+          <!-- <nuxt-link to="/" style="font-size: 14px; color: #111;"><strong>$TRADESPY.cc</strong> </nuxt-link> -->
+          <!-- <nuxt-link to="/" style="color: #111;"><img src="/logo.svg" width="175px" class="mb-1" alt="tradeSPY.cc Logo"></nuxt-link> -->
         </div>
         <small>
-        <div class="col-md-12 text-center pt-2">
+        <div class="col-md-12 ms-0 text-left ps-1 pt-1">
           <nuxt-link to="/about">ABOUT</nuxt-link> | <nuxt-link to="/feed">FEED</nuxt-link> | <nuxt-link to="/">PORTFOLIO</nuxt-link> |  <nuxt-link to="/charts">CHARTS</nuxt-link> | <nuxt-link to="/strategies">STRATEGIES</nuxt-link> | <nuxt-link to="/resources">RESOURCES</nuxt-link>
         </div>
         </small>
-        <div class="col-md-12 text-center mt-0 mb-1">
-          <hr>
-          Papertrading Days/Week: 5/5 | SPY: ${{ spyCurr }} | <a href="https://finance.yahoo.com/chart/SPY#eyJpbnRlcnZhbCI6MSwicGVyaW9kaWNpdHkiOjEsInRpbWVVbml0IjoibWludXRlIiwiY2FuZGxlV2lkdGgiOjE2LjgxMTU5NDIwMjg5ODU1LCJmbGlwcGVkIjpmYWxzZSwidm9sdW1lVW5kZXJsYXkiOnRydWUsImFkaiI6dHJ1ZSwiY3Jvc3NoYWlyIjp0cnVlLCJjaGFydFR5cGUiOiJjYW5kbGUiLCJleHRlbmRlZCI6ZmFsc2UsIm1hcmtldFNlc3Npb25zIjp7fSwiYWdncmVnYXRpb25UeXBlIjoib2hsYyIsImNoYXJ0U2NhbGUiOiJsaW5lYXIiLCJwYW5lbHMiOnsiY2hhcnQiOnsicGVyY2VudCI6MSwiZGlzcGxheSI6IlNQWSIsImNoYXJ0TmFtZSI6ImNoYXJ0IiwiaW5kZXgiOjAsInlBeGlzIjp7Im5hbWUiOiJjaGFydCIsInBvc2l0aW9uIjpudWxsfSwieWF4aXNMSFMiOltdLCJ5YXhpc1JIUyI6WyJjaGFydCIsIuKAjHZvbCB1bmRy4oCMIl19fSwibGluZVdpZHRoIjoyLCJzdHJpcGVkQmFja2dyb3VuZCI6dHJ1ZSwiZXZlbnRzIjp0cnVlLCJjb2xvciI6IiMwMDgxZjIiLCJzdHJpcGVkQmFja2dyb3VkIjp0cnVlLCJldmVudE1hcCI6eyJjb3Jwb3JhdGUiOltdLCJzaWdEZXYiOnt9fSwic3ltYm9scyI6W3sic3ltYm9sIjoiU1BZIiwic3ltYm9sT2JqZWN0Ijp7InN5bWJvbCI6IlNQWSIsInF1b3RlVHlwZSI6IkVURiIsImV4Y2hhbmdlVGltZVpvbmUiOiJBbWVyaWNhL05ld19Zb3JrIn0sInBlcmlvZGljaXR5IjoxLCJpbnRlcnZhbCI6MSwidGltZVVuaXQiOiJtaW51dGUiLCJzZXRTcGFuIjpudWxsfV0sImN1c3RvbVJhbmdlIjpudWxsLCJzdHVkaWVzIjp7IuKAjHZvbCB1bmRy4oCMIjp7InR5cGUiOiJ2b2wgdW5kciIsImlucHV0cyI6eyJpZCI6IuKAjHZvbCB1bmRy4oCMIiwiZGlzcGxheSI6IuKAjHZvbCB1bmRy4oCMIn0sIm91dHB1dHMiOnsiVXAgVm9sdW1lIjoiIzAwYjA2MSIsIkRvd24gVm9sdW1lIjoiI2ZmMzMzYSJ9LCJwYW5lbCI6ImNoYXJ0IiwicGFyYW1ldGVycyI6eyJ3aWR0aEZhY3RvciI6MC40NSwiY2hhcnROYW1lIjoiY2hhcnQiLCJwYW5lbE5hbWUiOiJjaGFydCJ9fSwi4oCMbWHigIwgKDUwLEMsbWEsMCkiOnsidHlwZSI6Im1hIiwiaW5wdXRzIjp7IlBlcmlvZCI6NTAsIkZpZWxkIjoiQ2xvc2UiLCJUeXBlIjoic2ltcGxlIiwiT2Zmc2V0IjowLCJpZCI6IuKAjG1h4oCMICg1MCxDLG1hLDApIiwiZGlzcGxheSI6IuKAjG1h4oCMICg1MCxDLG1hLDApIn0sIm91dHB1dHMiOnsiTUEiOiIjYWQ2ZWZmIn0sInBhbmVsIjoiY2hhcnQiLCJwYXJhbWV0ZXJzIjp7ImNoYXJ0TmFtZSI6ImNoYXJ0IiwicGFuZWxOYW1lIjoiY2hhcnQifX0sIuKAjG1h4oCMICgyMDAsQyxtYSwwKSI6eyJ0eXBlIjoibWEiLCJpbnB1dHMiOnsiUGVyaW9kIjoiMjAwIiwiRmllbGQiOiJDbG9zZSIsIlR5cGUiOiJzaW1wbGUiLCJPZmZzZXQiOiIwIiwiaWQiOiLigIxtYeKAjCAoMjAwLEMsbWEsMCkiLCJkaXNwbGF5Ijoi4oCMbWHigIwgKDIwMCxDLG1hLDApIn0sIm91dHB1dHMiOnsiTUEiOiIjZmYzMzNhIn0sInBhbmVsIjoiY2hhcnQiLCJwYXJhbWV0ZXJzIjp7ImNoYXJ0TmFtZSI6ImNoYXJ0IiwicGFuZWxOYW1lIjoiY2hhcnQifX19LCJzZXRTcGFuIjpudWxsLCJyYW5nZSI6bnVsbH0-">SPY Daily Chart</a> | Unique View Count: {{ counter }}<br>
-        </div>
-      </div>
-    </div>
-
-    <div style="background-color: #ECFEFF;">
-      <div class="container">
-        <div class="row">
-        </div>
-      </div>
-    </div>
-
-    <div class="container mb-5">
-      <div class="row">
-        <div class="col-md-12 text-center mt-1 mb-5">
-          This is a SPY research and development PAPER TRADING website, built solely and strictly for review and educational purposes. © 2021
+        <div class="col-md-12 mt-2 mb-5">
+          <!-- <hr> -->
+          <!-- <small> -->
+            <!-- <nuxt-link to="/about">About</nuxt-link> | Feed | <nuxt-link to="/charts">Charts</nuxt-link> | <nuxt-link to="/strategies">Strategies</nuxt-link> | <nuxt-link to="/resources">Resources</nuxt-link> | <nuxt-link to="/resources">Updates</nuxt-link><br> -->
+            Research days/week: 3/5 | PT days/week: 2/5 | SPY: <a href="https://finance.yahoo.com/chart/SPY#eyJpbnRlcnZhbCI6MSwicGVyaW9kaWNpdHkiOjEsInRpbWVVbml0IjoibWludXRlIiwiY2FuZGxlV2lkdGgiOjE2LjgxMTU5NDIwMjg5ODU1LCJmbGlwcGVkIjpmYWxzZSwidm9sdW1lVW5kZXJsYXkiOnRydWUsImFkaiI6dHJ1ZSwiY3Jvc3NoYWlyIjp0cnVlLCJjaGFydFR5cGUiOiJjYW5kbGUiLCJleHRlbmRlZCI6ZmFsc2UsIm1hcmtldFNlc3Npb25zIjp7fSwiYWdncmVnYXRpb25UeXBlIjoib2hsYyIsImNoYXJ0U2NhbGUiOiJsaW5lYXIiLCJwYW5lbHMiOnsiY2hhcnQiOnsicGVyY2VudCI6MSwiZGlzcGxheSI6IlNQWSIsImNoYXJ0TmFtZSI6ImNoYXJ0IiwiaW5kZXgiOjAsInlBeGlzIjp7Im5hbWUiOiJjaGFydCIsInBvc2l0aW9uIjpudWxsfSwieWF4aXNMSFMiOltdLCJ5YXhpc1JIUyI6WyJjaGFydCIsIuKAjHZvbCB1bmRy4oCMIl19fSwibGluZVdpZHRoIjoyLCJzdHJpcGVkQmFja2dyb3VuZCI6dHJ1ZSwiZXZlbnRzIjp0cnVlLCJjb2xvciI6IiMwMDgxZjIiLCJzdHJpcGVkQmFja2dyb3VkIjp0cnVlLCJldmVudE1hcCI6eyJjb3Jwb3JhdGUiOltdLCJzaWdEZXYiOnt9fSwic3ltYm9scyI6W3sic3ltYm9sIjoiU1BZIiwic3ltYm9sT2JqZWN0Ijp7InN5bWJvbCI6IlNQWSIsInF1b3RlVHlwZSI6IkVURiIsImV4Y2hhbmdlVGltZVpvbmUiOiJBbWVyaWNhL05ld19Zb3JrIn0sInBlcmlvZGljaXR5IjoxLCJpbnRlcnZhbCI6MSwidGltZVVuaXQiOiJtaW51dGUiLCJzZXRTcGFuIjpudWxsfV0sImN1c3RvbVJhbmdlIjpudWxsLCJzdHVkaWVzIjp7IuKAjHZvbCB1bmRy4oCMIjp7InR5cGUiOiJ2b2wgdW5kciIsImlucHV0cyI6eyJpZCI6IuKAjHZvbCB1bmRy4oCMIiwiZGlzcGxheSI6IuKAjHZvbCB1bmRy4oCMIn0sIm91dHB1dHMiOnsiVXAgVm9sdW1lIjoiIzAwYjA2MSIsIkRvd24gVm9sdW1lIjoiI2ZmMzMzYSJ9LCJwYW5lbCI6ImNoYXJ0IiwicGFyYW1ldGVycyI6eyJ3aWR0aEZhY3RvciI6MC40NSwiY2hhcnROYW1lIjoiY2hhcnQiLCJwYW5lbE5hbWUiOiJjaGFydCJ9fSwi4oCMbWHigIwgKDUwLEMsbWEsMCkiOnsidHlwZSI6Im1hIiwiaW5wdXRzIjp7IlBlcmlvZCI6NTAsIkZpZWxkIjoiQ2xvc2UiLCJUeXBlIjoic2ltcGxlIiwiT2Zmc2V0IjowLCJpZCI6IuKAjG1h4oCMICg1MCxDLG1hLDApIiwiZGlzcGxheSI6IuKAjG1h4oCMICg1MCxDLG1hLDApIn0sIm91dHB1dHMiOnsiTUEiOiIjYWQ2ZWZmIn0sInBhbmVsIjoiY2hhcnQiLCJwYXJhbWV0ZXJzIjp7ImNoYXJ0TmFtZSI6ImNoYXJ0IiwicGFuZWxOYW1lIjoiY2hhcnQifX0sIuKAjG1h4oCMICgyMDAsQyxtYSwwKSI6eyJ0eXBlIjoibWEiLCJpbnB1dHMiOnsiUGVyaW9kIjoiMjAwIiwiRmllbGQiOiJDbG9zZSIsIlR5cGUiOiJzaW1wbGUiLCJPZmZzZXQiOiIwIiwiaWQiOiLigIxtYeKAjCAoMjAwLEMsbWEsMCkiLCJkaXNwbGF5Ijoi4oCMbWHigIwgKDIwMCxDLG1hLDApIn0sIm91dHB1dHMiOnsiTUEiOiIjZmYzMzNhIn0sInBhbmVsIjoiY2hhcnQiLCJwYXJhbWV0ZXJzIjp7ImNoYXJ0TmFtZSI6ImNoYXJ0IiwicGFuZWxOYW1lIjoiY2hhcnQifX19LCJzZXRTcGFuIjpudWxsLCJyYW5nZSI6bnVsbH0-">${{ spyCurr }} </a><br>
+            A SPY research and development <del>PAPER TRADING</del> website. Built for educational purposes. © 2021
+          <!-- </small> -->
         </div>
       </div>
     </div>
@@ -156,23 +152,23 @@ export default {
           toolTip: 'Website updates, blog/vlogs, stock purchases, etc.',
           isActive: false
         },
-        {
-          title: '→ Portfolio',
-          path: '/',
-          toolTip: 'Portfolio action and balances.',
-          isActive: false
-        },
+        // {
+        //   // title: '→ Portfolio',
+        //   // path: '/',
+        //   // toolTip: 'Portfolio action and balances.',
+        //   // isActive: false
+        // },
         // {
         //   title: 'Strategies',
         //   path: '/strategies',
         //   isActive: false
         // },
-        {
-          title: '→ Charts',
-          path: '/charts',
-          toolTip: 'Relevant data viz.',
-          isActive: false
-        },
+        // {
+        //   title: '→ Charts',
+        //   path: '/charts',
+        //   toolTip: 'Relevant data viz.',
+        //   isActive: false
+        // },
         // {
         //   title: 'Articles',
         //   path: '/articles',
@@ -352,7 +348,7 @@ export default {
 <style>
 html {
   scroll-behavior: smooth;
-  /* font-size: 16px; */
+  font-size: 14px;
 }
 
 body {

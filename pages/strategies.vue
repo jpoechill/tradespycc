@@ -3,7 +3,7 @@
     <div class="container mt-4 mb-4">
      <div class="row">
        <div class="col-md-12">
-        Collected SPY strategies gathered from different sources, along with my own (in due time). <br><br>
+        <!-- Collected SPY strategies gathered from different sources, along with my own (in due time). <br><br> -->
         <ul class="nav nav-tabs">
           <li class="nav-item">
             <a class="nav-link" :class="{ active: tabs[0].isActive }" aria-current="page" href="#" @click="navigate('myStrats')">My Strategies</a>
