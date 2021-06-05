@@ -1,175 +1,29 @@
 <template>
   <div>
-
-   <div class="container mt-4 mb-2">
+    <div class="container mt-4 mb-0">
      <div class="row">
        <div class="col-md-12">
-        <!-- Market observations, news, and website updates. <br><br> -->
-        <ul class="nav nav-tabs">
+        Portfolio action and balances. 
+        <!-- <ul class="nav nav-tabs">
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[0].isActive }" aria-current="page" href="#" @click="navigate('marketObs')">Market Observations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[1].isActive }" href="#" @click="navigate('resourceUps')">Account Balances</a>
+            <a class="nav-link" :class="{ active: tabs[0].isActive }" aria-current="page" href="#" @click="navigate('aggro')">Aggressive</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[2].isActive }" aria-current="page" href="#" @click="navigate('marketObs')">Charts</a>
+            <a class="nav-link" :class="{ active: tabs[1].isActive }" href="#" @click="navigate('moderate')">Moderate</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[3].isActive }" href="#" @click="navigate('resourceUps')">Strategies</a>
+            <a class="nav-link" :class="{ active: tabs[2].isActive }" href="#" @click="navigate('safe')">Safe</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[3].isActive }" href="#" @click="navigate('resourceUps')">Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[3].isActive }" href="#" @click="navigate('resourceUps')">Updates</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[3].isActive }" href="#" @click="navigate('resourceUps')">About</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[1].isActive }" href="#" @click="navigate('resourceUps')">Resources Updates</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[2].isActive }" href="#" @click="navigate('tradeUps')">Platform Updates</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" :class="{ active: tabs[3].isActive }" href="#" @click="navigate('websiteUps')">Website Updates</a> -->
-          </li>
-        </ul>
+        </ul> -->
        </div>
      </div>
    </div>
 
-   <div class="container mt-0 mb-2" v-if="tabs[0].isActive">
+   <div class="container mt-2 mb-3" v-show="tabs[0].isActive">
      <div class="row">
        <div class="col-md-12">
 
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                MARKET OBSERVATIONS 1 – MONTH OF MAY 2021
-              </button>
-            </h2>
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="accordion-body">
-                Month's summary: <br>
-                SPY and other equities tooks a hit earlier in the month due to concerns about inflation, but was able to bounce back. Currently the lines have been holding long enough that there is expected to be a near-soon strong GAP upwards, or downwards. Short interest has also been especially building.<br><br>
-                May 28th, 2021.
-                <ul>
-                  <li>SPY rocky, but breaking even.</li>
-                  <li>Long weekend ahead.</li>
-                </ul>
-                May 27th, 2021.
-                <ul>
-                  <li>SPY still inching along.</li>
-                  <li>Ready a break out, or even a dip. Soemthings brewing, though. [<a href="https://www.marketwatch.com/story/as-the-s-p-500-approaches-its-all-time-high-brace-for-a-violent-move-01622125439?mod=home-page">Reference via. @marketwatch</a>]</li>
-                </ul>
-                May 26th, 2021.
-                <ul>
-                  <li>SPY inches along. Personally looking for the day it corrects to go <i>hard</i> on puts... Yikes.</li>
-                  <li>SPY short interest, higher than ever its been YTD. [<a href="https://www.bloomberg.com/news/articles/2021-05-25/bets-against-357-billion-s-p-500-etf-jump-to-highest-this-year">Reference via. @bloomberg</a>] </li>
-                </ul>
 
-                <div class="container-view-more d-block overflow-hidden" ref="showMoreContainer" :style="{ height: showMoreHeightDynammic + 'px' }" v-show="showViewMore">
-                
-                  May 25th, 2021.
-                  <ul>
-                    <li>Some continued downard momentum. Do we hold here, or no?</li>
-                  </ul>
-                  May 24th, 2021.
-                  <ul>
-                    <li>Early rise; afternoon high to closing draw down. <span class="badge bg-success">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-24-2021-112518586.html">Reference via. @yahooFinance</a>, <a href="https://www.bloomberg.com/news/articles/2021-05-24/asian-stocks-set-to-climb-as-dollar-yields-drop-markets-wrap">Reference via. @bloomberg</a>] </li>
-                    <li>Positive day. Things might be looking bright this week?</li>
-                  </ul>
-                  May 21st, 2021.
-                  <ul>
-                    <li>Shaky downward day. Concerns re: inflation. <span class="badge bg-danger">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-21-2021-221344440.html">Reference via. @yahooFinance</a>] </li>
-                    <li>More sharp declines than rises. Where do we go from here?</li>
-                  </ul>
-                  May 20th, 2021.
-                  <ul>
-                    <li>Equities opening higher due to peak low jobless claims. <span class="badge bg-success">Reversal</span> [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-20-2021-221318405.html">Reference via. @yahooFinance</a>] </li>
-                    <li>SPY still trading below ATH; overall positive sentiments.</li>
-                    <li>Tech continuing to make gains.</li>
-                  </ul>
-                  May 19th, 2021.
-                  <ul>
-                    <li>Opened down, with a shaky end-of-day rise. Overall cultprit: inflation. [<a href="https://www.marketwatch.com/story/dow-futures-drop-250-points-and-tech-stocks-slump-anew-ahead-of-fed-minutes-11621423385?mod=home-page">Reference via. @marketwatch</a>] </li>
-                    <li>Opportunity for SPY to close below opening, leaving questions that this down trend may continue.</li>
-                    <li>Possibly more "fits and starts" of a return to back to growth. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-19-2021-221605666.html">Reference via. yahooFinance</a>]</li>
-                  </ul>
-                  May 18th, 2021.
-                  <ul>
-                    <li>Volitility with company earnings and general market draw-down. <span class="badge bg-danger">Reversal</span> [<a href="https://www.marketwatch.com/story/dow-futures-rise-as-home-depot-reports-unprecedented-quarterly-demand-11621337117?mod=home-page">Reference via. @marketwatch</a>] </li>
-                    <li>Tech making comebacks. Does this get worse before it gets better?</li>
-                  </ul>
-                  May 17th, 2021.
-                  <ul>
-                    <li>Morning draw-down with afternoon rise. [<a href="https://www.marketwatch.com/story/dow-poised-to-start-week-under-pressure-11621251248?mod=home-page">Reference via. @marketwatch</a>] </li>
-                    <li>Tricky place to be in seeing that current level is perfectly in between recent lows and highs.</li>
-                  </ul>
-                  May 14th, 2021.
-                  <ul>
-                    <li>Continued SPY gains. [<a href="https://seekingalpha.com/news/3696789-sp-500s-weekly-market-breakdown-and-sector-performance">Reference via. @seekingalpha</a>] </li>
-                    <li>Questions: Have growth stocks been primed for a return? Or is it still too early?</li>
-                  </ul>
-                  May 13th, 2021.
-                  <ul>
-                    <li>Comeback. <span class="badge bg-success">Reversal</span></li>
-                  </ul>
-                  May 12th, 2021.
-                  <ul>
-                    <li>Continued down trend. All stocks and equities. Cause: fear of inflation. [<a href="https://finance.yahoo.com/news/stock-market-news-live-updates-may-12-2021-221905341.html">Reference via. @yahoo.com</a>]</li>
-                    <li>The fall is here. To re-iterate from earlier: how long does this last, and how far will it go? Questions. </li>
-                  </ul>
-                  May 11th, 2021. 
-                  <ul>
-                    <li>SPY takes another hit. The question now: how long does this last, and how far will it go? <span class="badge bg-danger">Reversal</span></li>
-                  </ul>
-                  May 10th, 2021. 
-                  <ul>
-                    <li>SPY momentum slowing down. QQQ (tech, growth) taking a hit. Crypto flaky. [<a href="https://www.investing.com/analysis/trading-the-sp-500s-latest-wobble-what-the-faang-stocks-are-telling-us-200579135">Reference via. investing.com</a>]</li>
-                  </ul>
-                  May 7th, 2021. 
-                  <ul>
-                    <li>SPY breaking new highs. Really stumped; surprised. Just wow.</li>
-                    <li>Further dip sentiment, with traders taking long on SPY puts. [<a href="https://www.benzinga.com/etfs/broad-u-s-equity-etfs/21/05/21017410/options-trader-makes-3-78m-bet-the-top-is-nearby-for-spy">Reference via. @benzinga</a>]</li>
-                  </ul>
-                  May 5th, 2021. 
-                  <ul>
-                    <li>Crypto taking off, QQQ and tech taking more dips. SPY holding... for now.</li>
-                  </ul>
-                  May 4th, 2021. 
-                  <ul>
-                    <li>Nice hit on SPY and QQQ today. Market keeps hitting new highs, but how long will it last? [<a href="https://www.fool.com/investing/2021/05/04/why-zoom-video-fastly-and-square-stocks-all-fell-s/">Commentary via. @fool</a>]</li>
-                  </ul>
-                  May 2nd, 2021. 
-                  <ul>
-                    <li>Are we at the top..?</li>
-                  </ul>
-                </div>
-
-                <div class="position-relative">
-                  <img src="wht_fade.svg" class="w-100 position-absolute wht-fade" alt="" style="bottom: 0;" :style="{ opacity: showViewMore ? 100 : 0 }">
-                </div>
-                <button type="button" @click="toggleViewMore()" class="btn btn-primary btn-lg btn-block">View more...</button>
-            
-              </div>
-            </div>
-          </div>
-        </div>
-       </div>
-     </div>
-   </div>
-
-
-
-   <div class="container mt-2 mb-4" v-if="tabs[1].isActive">
-     <div class="row">
-       <div class="col-md-12 ">
-          
          <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -376,8 +230,7 @@
               </div>
             </div>
           </div>
-         </div>
-
+          
 
           <div class="accordion mt-2" id="accordionExample">
           <div class="accordion-item">
@@ -438,10 +291,9 @@
               </div>
             </div>
           </div>
-          </div>
 
 
-        <div class="accordion mt-2" id="accordionExample">
+<div class="accordion mt-2" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapse show" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -482,146 +334,21 @@
             </div>
           </div>
         </div>
+        </div>
 
-
+        </div>
        </div>
      </div>
    </div>
 
-   <div class="container mt-4 mb-4" v-if="tabs[2].isActive">
-     <div class="row">
-       <div class="col-md-12 bg-white py-3">
-        May 24th, 2021.
-        <ul>    
-          <li>Start refining, updating strategies section.</li>        
-        </ul>
-        May 22nd, 2021.
-        <ul>    
-          <li>Consider updating site to focus solely on options trading; removing moderate/safe sections in portfolios.</li>        
-          <li>Consider addition or transition of website to live-trading. Would like to keep the "playfulness" of paper trading, but some how, would like to pose contents (?) for serious readers.</li>
-          <li>Possibly, in the future, may be able to trade such accounts on a limited number of days in the week, rather than currently, every single day. Market updates, and chart analysis should continue to be exactly the same.</li>
-        </ul>
-        May 21st, 2021.
-        <ul>    
-          <li>Remove targeted, value account goals.</li>        
-          <li>Update goals, moreover, to fight for overall consistency, growth and mental health.</li>
-        </ul>
-        May 20th, 2021.
-        <ul>            
-          <li>Experimented with TOS on desktop – got it to work, but still overall clunky. Settling with yahoo's daily chart and TOS tablet app.</li>
-          <li>Updated tablet settings/ui-preferences to streamline only core functionalities.</li>
-          <li>Hoping to find some time to detail current strategy, and do some research on more TA.</li>
-          <li>Updates to main strategy.</li>
-        </ul>
-        May 19th, 2021.
-        <ul>            
-          <li>Worked with TOS support to enabled real-time data in paper-trading account.</li>
-        </ul>
-        May 18th, 2021.
-        <ul>            
-          <li>Consolidate sections.</li>
-        </ul>
-        May 15th, 2021.
-        <ul>            
-          <li>Add strategies description.</li>
-        </ul>
-        May 12th, 2021.
-        <ul>            
-          <li>Remove stocks from Aggro 1 account, and update to options only.</li>
-        </ul>
-        May 10th, 2021.
-        <ul>            
-          <li>Considering whether I should continue planning on trying to utiltize leveraged ETFs, or giving it up and just sticking to options. Such ETFs seem to only add another layer of complexity to things already happening.</li>
-          <li>Possibly: One idea could be to dedicate and build an entire to platform for such strategy?</li>
-        </ul>
-        May 7th, 2021. 
-        <ul>
-          <li>Realizing there are only so many trades of SPY you can make in a day. Considering opening an account with focus, but not limited to SPY.</li>
-        </ul>
-        April 27th, 2021. 
-        <ul>
-          <li>Was trying to find a good platform that would allow me to make multiple paper trading accounts under one platform. Tried a bunch of different things but none ended up working as well as I wished. So now, currently, I'm hoping to continue messing with TD's Think or Swim app, and go forward with looking how to put together my own little game, via. this website somehow.</li>
-        </ul>
-       </div>
-     </div>
-   </div>
-
-   <div class="container mt-4 mb-4" v-if="tabs[3].isActive">
-     <div class="row">
-       <div class="col-md-12 bg-white py-3">
-        May 21st, 2021. 
-        <ul>
-          <li>Add some tackiness.</li>
-        </ul>
-        May 10th, 2021. 
-        <ul>
-          <li>Layout update.</li>
-        </ul>
-        May 7th, 2021. 
-        <ul>
-          <li>Update layout, design.</li>
-        </ul>
-        May 5th, 2021. 
-        <ul>
-          <li>Add arrow keys for navigation. Add content, and fix up styles/formatting.</li>
-        </ul>
-        April 30th, 2021. 
-        <ul>
-          <li>Added charts section (empty), and updated portfolios page with real time SPY price (API). Started reading "Around the World...".</li>
-        </ul>
-        April 29th, 2021. 
-        <ul>
-          <li>Refine content, push to web. </li>
-        </ul>
-        April 28th, 2021. 
-        <ul>
-          <li>Add content to websites section and other links. </li>
-        </ul>
-        April 27th, 2021. 
-        <ul>
-          <li>Mock website layout and begin filling general content. </li>
-        </ul>
-        April 24th, 2021. 
-        <ul>
-          <li>Purchase domain name.</li>
-        </ul>
-       </div>
-     </div>
-   </div>
   </div>
 </template>
 
+
 <script>
+import axios from 'axios'
+
 export default {
-  mounted () {
-    this.showMoreHeightStatic = this.$refs.showMoreContainer.clientHeight
-    this.showMoreHeightDynammic = 0
-  },
-  data () {
-    return {
-      showMoreHeightStatic: 0,
-      showMoreHeightDynammic: null,
-      showViewMore: true, 
-      tabs: [
-        {
-          name: 'marketObs',
-          isActive: true
-        },
-        {
-          name: 'resourceUps',
-          isActive: false
-        },
-        {
-          name: 'tradeUps',
-          isActive: false
-        },
-        {
-          name: 'websiteUps',
-          isActive: false
-        }
-      ]
-    }
-  },
   methods: {
     setShowMoreHeight: function () {
       this.showMoreHeightStatic = this.$refs.showMoreContainer.clientHeight
@@ -648,9 +375,67 @@ export default {
         }
       } 
     }
+  },
+  data () {
+    return {
+      showMoreHeightStatic: 0,
+      showMoreHeightDynammic: null,
+      showViewMore: true, 
+      tabs: [
+        {
+          name: 'aggro',
+          isActive: true
+        },
+        {
+          name: 'moderate',
+          isActive: false
+        },
+        {
+          name: 'safe',
+          isActive: false
+        }
+      ],
+      spyCurr: 0,
+      accounts: [
+        {
+          name: 'account 1',
+
+        }
+      ]
+    }
+  },
+  mounted () {
+    let self = this
+    
+    this.showMoreHeightStatic = this.$refs.showMoreContainer.clientHeight
+    this.showMoreHeightDynammic = 0
+
+
+    axios.get('https://cloud.iexapis.com/stable/stock/' + 'SPY' + '/quote?token=pk_d8826aae332a4b1287b1d4399e2f860b')
+        .then(function (response) { 
+            self.spyCurr = response.data.latestPrice
+          })
+        .catch(function (error) {
+          console.log(error);
+        })
   }
 }
 </script>
 
 <style>
+.view-more:hover {
+  cursor: pointer;
+}
+
+.container-view-more, .wht-fade  {
+  transition: all .5s ease-in-out;
+}
+
+img {
+  pointer-events: none
+}
+
+mark {
+  margin-left: -4px;
+}
 </style>

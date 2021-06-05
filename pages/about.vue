@@ -27,7 +27,7 @@
         </del>
         About the creator: <br>
         Po Rith (<a href="https://github.com/jpoechill">@jpoechill</a>) is a designer and web developer from Oakland, CA. 
-        </div>
+      </div>
      </div>
    </div>
   </div>
