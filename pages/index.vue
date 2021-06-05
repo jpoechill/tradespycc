@@ -618,12 +618,12 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                STRAT 2
+                Trade SPY options on a somewhat frequent, sporadic basis.
               </button>
             </h2>
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
-                Content
+                Park everything in SPY stocks. When the market turns, consider selling parts and trading SPY options – following the direction of the market.
                </div>
             </div>
           </div>
